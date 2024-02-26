@@ -9,7 +9,7 @@ interface IBlogContainerProps {
 
 const BlogContainer = ({ className, children }: IBlogContainerProps) => {
     return (
-        <div className={cn(className)}>{children}</div>
+        <main className={cn(className)}>{children}</main>
     )
 }
 

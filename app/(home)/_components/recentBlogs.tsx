@@ -90,9 +90,9 @@ const RecentBlog = () => {
                         </Link>
                     </motion.div>
                     <motion.div initial={{ y: -100, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }} className="group md:flex block rounded-lg gap-x-4 border-gray-500 border hover:bg-slate-100 hover:text-black cursor-pointer">
+                        animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }} className="group md:flex block rounded-lg gap-x-4  hover:bg-slate-100 hover:text-black cursor-pointer">
 
-                        <Link href={'/history-of-chocolate'} className="md:flex block gap-x-4">
+                        <Link href={'/best-chocolate'} className="md:flex block gap-x-4">
                             <div className="overflow-hidden">
                                 <Image
                                     src={featureBlog3}

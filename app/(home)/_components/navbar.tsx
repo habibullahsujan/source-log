@@ -7,6 +7,8 @@ import Link from 'next/link';
 import logo from '@/public/assets/logo.png'
 import { Noto_Serif_Bengali } from 'next/font/google';
 import { cn } from '@/lib/utils';
+import { useState } from 'react';
+import { DropdownMenuRadioGroupDemo } from '@/app/(components)/dropdownMenu';
 const roboto = Noto_Serif_Bengali({
     subsets: ['latin'],
     weight: ['400']
@@ -21,7 +23,7 @@ const Navbar = () => {
                     <span className=''>Blog Source</span>
                 </Link>
                 <ul className="space-x-4 hidden md:block">
-                    <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/blog"}>Blog</Link>
+                    <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/blogs"}>Blog</Link>
 
                     <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/about"}>About</Link>
 
@@ -33,12 +35,14 @@ const Navbar = () => {
                     </Link> */}
 
                 </ul>
-
+                <div className="block md:hidden">
+                    <DropdownMenuRadioGroupDemo>
+                    <Button><Menu className="h-8 w-8" /></Button>
+                    </DropdownMenuRadioGroupDemo>
+                </div>
 
             </nav>
-            <div className="block md:hidden">
-                <Menu className="h-8 w-8" />
-            </div>
+
         </motion.header>
 
     );

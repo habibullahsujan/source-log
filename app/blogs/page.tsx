@@ -1,23 +1,20 @@
-
 'use client'
-
+import React from 'react'
+import CategoryButton from '../(components)/categoryButton';
 import blog5 from "@/public/assets/riyadh-img.jpg";
 import blog6 from "@/public/assets/blog-6.jpeg";
 import blog7 from "@/public/assets/blog-7.jpeg";
 import blog8 from "@/public/assets/blog-8.jpeg";
 import blog9 from "@/public/assets/blog-9.jpeg";
 import blog10 from "@/public/assets/blog-10.jpeg";
+import { motion } from 'framer-motion'
+import BlogCard from '../(home)/_components/blogCard';
+import useScrollGrow from '@/hooks/useScrollGrow';
 
-import { motion } from "framer-motion";
-import useScrollGrow from "@/hooks/useScrollGrow";
+const Blogs = () => {
 
-import { Button } from "@/components/ui/button";
-import CategoryButton from "../../(components)/categoryButton";
-import BlogCard from "./blogCard";
-
-
-const AllBlogs = () => {
     const { style, componentRef } = useScrollGrow();
+
     const blogData = [
         {
             image: blog5,
@@ -117,9 +114,8 @@ const AllBlogs = () => {
         },
     ];
     return (
-
         <div>
-            <h2 className="text-2xl font-bold pt-10 pb-6">All blog posts</h2>
+            <h2 className="text-2xl font-bold pt-32 pb-6">All blog posts</h2>
             <motion.div style={style}
                 ref={componentRef} className="grid grid-cols-12 gap-5">
                 {blogData.map((blog, index) => (
@@ -133,10 +129,9 @@ const AllBlogs = () => {
                     />
                 ))}
             </motion.div>
-            
+
         </div>
+    )
+}
 
-    );
-};
-
-export default AllBlogs;
+export default Blogs

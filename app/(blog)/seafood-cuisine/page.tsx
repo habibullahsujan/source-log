@@ -5,7 +5,13 @@ import Link from 'next/link'
 import React from 'react'
 import image1 from '@/public/assets/feature-blog-1.jpeg'
 import BlogContainer from '../blogContainer'
+import { Metadata } from 'next'
 
+
+export const metadata: Metadata = {
+    title: "انغمس في اللذة: استكشاف أفضل مطابخ المأكولات البحرية في العالم",
+    description: "تقدم سخاء المحيط كنزًا من المأكولات الشهية، وقد طورت الثقافات حول العالم طرقًا فريدة ولذيذة لعرض",
+};
 const SeafoodCuisine = () => {
 
     const tableContents = [

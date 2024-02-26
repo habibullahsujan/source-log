@@ -1,30 +1,31 @@
-import ContentTable from '@/app/(components)/contentTable'
-import { Home } from 'lucide-react'
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
-import image1 from '@/public/assets/hershey-chocolate.jpg'
 import BlogContainer from '../blogContainer'
-import { Metadata } from 'next'
+import { Metadata } from 'next';
+import { Home } from 'lucide-react';
+import Link from 'next/link';
+import ContentTable from '@/app/(components)/contentTable';
+import Image from 'next/image';
+import image1 from '@/public/assets/history-of-chocolate.jpeg'
+
+
 
 export const metadata: Metadata = {
-  title: "الكشف عن الأسرار الحلوة لشوكولاتة هيرشي: رحلة عبر عقود من البهجة",
-  description: "اكتشف التاريخ الغني والعلوم الآسرة والإرث الدائم لشوكولاتة هيرشي. استكشف المنتجات المميزة والنكهات الفريدة والتأثير الثقافي للعلامة التجارية. تعرف على الرحلة من حبة الفول إلى القطعة ومستقبل إنتاج الشوكولاتة المستدام.",
-};
-const HersheyChocolate = () => {
+    title: "فك رموز اللذة: دليل شامل لعالم الشوكولاتة",
+    description: "اكتشف التاريخ الغني والعلوم الآسرة والإرث الدائم لشوكولاتة هيرشي. استكشف المنتجات المميزة والنكهات الفريدة والتأثير الثقافي للعلامة التجارية. تعرف على الرحلة من حبة الفول إلى القطعة ومستقبل إنتاج الشوكولاتة المستدام.",
+  };
+const HistoryOfChocolate = () => {
 
-  const tableContents = [
-    { title: 'إرث متجذر في الابتكار' },
-    { title: 'ما وراء الكلاسيكيات: عالم من مسرات هيرشي' },
-    { title: 'اختيار بطلك: الاعتبارات الأساسية' },
-    { title: 'الجاذبية الدائمة لشوكولاتة هيرشي' },
-
-  ]
-  return (
- 
-      <BlogContainer className='text-right mx-16 pt-32'>
+    const tableContents = [
+        { title: 'إرث متجذر في الابتكار' },
+        { title: 'ما وراء الكلاسيكيات: عالم من مسرات هيرشي' },
+        { title: 'اختيار بطلك: الاعتبارات الأساسية' },
+        { title: 'الجاذبية الدائمة لشوكولاتة هيرشي' },
+    
+      ]
+    return (
+        <BlogContainer className='text-right mx-16 pt-32'>
       <div className='flex items-center gap-x-4 py-7'>
-        <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/hershey-chocolate'}>Hershey&apos;s Chocolate</Link>
+        <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-chocolate'}>Best Chocolate</Link>
       </div>
       <div className='grid grid-cols-12 gap-x-5'>
         <div className="col-span-12  lg:col-span-4">
@@ -129,8 +130,7 @@ const HersheyChocolate = () => {
         </div>
       </div>
       </BlogContainer>
- 
-  )
+    )
 }
 
-export default HersheyChocolate
+export default HistoryOfChocolate
