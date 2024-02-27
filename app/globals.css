@@ -54,3 +54,12 @@ html,body{
 
 ul{direction:rtl;}
 li{direction:rtl; margin-right:20px;}
+
+.glass-effect{
+background: rgba(149, 232, 167, 0.58);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.9px);
+-webkit-backdrop-filter: blur(2.9px);
+border: 1px solid rgba(149, 232, 167, 0.3);
+}
