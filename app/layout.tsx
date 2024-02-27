@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Noto_Serif_Georgian, Manrope } from 'next/font/google'
+import { Noto_Naskh_Arabic } from 'next/font/google'
 import clsx from "clsx";
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleAnalytics } from '@next/third-parties/google'
@@ -9,11 +9,9 @@ export const metadata: Metadata = {
   description: "Arabic Lifestyles, their calture and their favorite food.",
 };
 
-const notoSerifGeorgian = Noto_Serif_Georgian({
-  subsets: ['latin'], display: 'swap', variable: '--font-notoSerif'
-})
-const manrope = Manrope({
-  subsets: ['latin'], display: 'swap', variable: '--font-manrope'
+const notNaskhArabic = Noto_Naskh_Arabic({
+  weight: ['400'],
+  subsets: ['arabic']
 })
 
 export default function RootLayout({
@@ -23,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx('font-mr bg-light dark:bg-dark', notoSerifGeorgian.variable, manrope.variable)}>{children}   <Toaster /></body>
+      <body className={clsx('', notNaskhArabic.className)}>{children}<Toaster /></body>
       <GoogleAnalytics gaId="G-EEQ48444N2" />
     </html>
   );

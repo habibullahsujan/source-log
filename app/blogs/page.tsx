@@ -115,7 +115,7 @@ const Blogs = () => {
     ];
     return (
         <div>
-            <h2 className="text-2xl font-bold pt-32 pb-6">All blog posts</h2>
+            <h1 className="text-2xl font-bold pt-32 pb-6">All blog posts</h1>
             <motion.div style={style}
                 ref={componentRef} className="grid grid-cols-12 gap-5">
                 {blogData.map((blog, index) => (

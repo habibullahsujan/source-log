@@ -5,14 +5,12 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-
-
-        <footer className="bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100">
+        <footer className="bg-[#00563B] text-white">
             <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-                <div className=" flex flex-col lg:flex-row items-center">
+                <div className="flex flex-col lg:flex-row gap-6">
                     <div className='col-span-6'>
                         <Image src={logo} height={100} width={100} className="" alt="logo" />
-                        <p className="max-w-xs mt-4 text-sm text-gray-600">
+                        <p className="max-w-xs mt-4 text-sm">
                             We want to spread the Arabic lifestyle and food culture worldwide.
                         </p>
                         {/* <div className="flex mt-8 space-x-6 text-gray-600">
@@ -48,12 +46,12 @@ const Footer = () => {
                             </a>
                         </div> */}
                     </div>
-                    <div className="col-span-6">
+                    <div className="">
                         <div>
                             <p className="font-medium">
                                 Legal
                             </p>
-                            <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                            <nav className="flex flex-col mt-4 space-y-2 text-sm">
                                 <a className="hover:opacity-75" href=""> Privacy Policy </a>
                                 <a className="hover:opacity-75" href=""> Terms &amp; Conditions </a>
 
@@ -62,11 +60,12 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className="mt-8 text-xs text-gray-800">
+                <p className="mt-8 text-xs">
                     © 2022 The Blog Source
                 </p>
+                <Link className='hover:underline' href={'https://www.theblogsouce.com/sitemap.xml'}>Sitemap</Link>
             </div>
-            <Link className='hover:underline' href={'https://www.theblogsouce.com/sitemap.xml'}>Sitemap</Link>
+
         </footer>
     )
 }

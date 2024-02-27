@@ -23,11 +23,11 @@ const KitchenHoods = () => {
   ]
   return (
 
-    <BlogContainer className='text-right mx-16 pt-32'>
- <div className='flex items-center gap-x-4 py-7'>
+    <BlogContainer className='text-right mx-2 md:mx-16 py-32'>
+      <div className='flex items-center gap-x-4 py-7'>
         <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/kitchen-hoods'}>Kitchen Hoods</Link>
       </div>
-      <div className='grid grid-cols-12 gap-x-5'>
+      <div className='grid grid-cols-12 gap-5'>
         <div className="col-span-12  lg:col-span-4">
           <details
             className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-16 max-h-[80vh] overflow-hidden overflow-y-auto"
@@ -46,7 +46,7 @@ const KitchenHoods = () => {
           </details>
         </div>
         <div className='col-span-12 lg:col-span-8'>
-          <h1 className='font-bold text-2xl'>غزو المطبخ بالوضوح: دليلك الشامل لأغطية المحركات</h1>
+          <h1 className='font-bold text-2xl text-[#00563B]'>غزو المطبخ بالوضوح: دليلك الشامل لأغطية المحركات</h1>
           <div className=' my-10' >
             <div className='flex justify-end'>
               <Image className='' src={'https://images.pexels.com/photos/15119073/pexels-photo-15119073/free-photo-of-exhaust-hood-over-cooker.jpeg?auto=compress&cs=tinysrgb&w=600'} alt='kitchen hoods' width={500} height={200} />
@@ -60,13 +60,13 @@ const KitchenHoods = () => {
               شفاطات المطبخ هي الأبطال المجهولون في معارك الطهي. هؤلاء الحراس الصامتون، الذين يحومون فوق موقدك، يتعاملون مع الدخان والشحوم والروائح المنبعثة أثناء الطهي، مما يحافظ على مطبخك طازجًا وصحة رئتيك. ولكن مع وجود عدد كبير من الخيارات المتاحة، فإن اختيار غطاء المحرك المناسب يمكن أن يبدو وكأنه التنقل في متاهة. لا تخافوا يا عشاق الطعام! سيزودك هذا الدليل الشامل بالمعرفة اللازمة لاختيار شفاط المطبخ المثالي، وتحويل مساحة الطهي الخاصة بك إلى ملاذ للإبداع في الطهي.
             </p>
             <div id='الكشف عن السبب: الدور الحيوي لشفاطات المطبخ'>
-              <h2 className='text-xl font-bold pt-14 pb-2'>الكشف عن السبب: الدور الحيوي لشفاطات المطبخ</h2>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>الكشف عن السبب: الدور الحيوي لشفاطات المطبخ</h2>
               <p className='text-lg'>
                 تخيل أنك تقوم بتحمير شرائح اللحم، أو تحضير الكاري العطري، أو الانغماس في وليمة من القلي العميق. في حين أنها شهية، فإن مغامرات الطهي هذه تطلق العنان لسيل من الأعداء المحمولين بالهواء - الدخان والشحوم والبخار، وحتى الملوثات الضارة. يمكن أن يؤدي استنشاقها إلى تهيج عينيك ورئتيك، وإثارة الحساسية، وحتى إتلاف الأجزاء الداخلية من منزلك. أدخل غطاء المطبخ، مدافعك الشجاع ضد هؤلاء الضيوف غير المرغوب فيهم.
               </p>
             </div>
             <div id='إزالة الغموض عن الخيارات: مجموعة متنوعة من شفاطات المطبخ'>
-              <h2 className='text-xl font-bold pt-14 pb-2'>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>
                 إزالة الغموض عن الخيارات: مجموعة متنوعة من شفاطات المطبخ
               </h2>
               <p className='text-lg py-3 font-semibold'>
@@ -85,7 +85,7 @@ const KitchenHoods = () => {
               </ul>
             </div>
             <div id='اختيار بطلك: الاعتبارات الأساسية'>
-              <h2 className='text-xl font-bold pt-14 pb-2'>اختيار بطلك: الاعتبارات الأساسية</h2>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>اختيار بطلك: الاعتبارات الأساسية</h2>
               <p className='text-lg py-3 font-semibold'>الآن بعد أن قابلت المتنافسين، حان الوقت لاختيار بطلك! فيما يلي العوامل الرئيسية التي يجب التفكير فيها:</p>
               <ul className='list-disc'>
                 <li><span className='font-bold px-2'>مقاس:</span>تأكد من أن غطاء محرك السيارة الخاص بك يغطي سطح الطهي بالكامل لالتقاط الملوثات المحمولة جواً بشكل فعال.</li>
@@ -97,8 +97,8 @@ const KitchenHoods = () => {
               </ul>
             </div>
             <div id='ما وراء الأساسيات: ميزات متقدمة للارتقاء بمطبخك' >
-              <h2 className='text-xl font-bold pt-14 pb-2'>ما وراء الأساسيات: ميزات متقدمة للارتقاء بمطبخك</h2>
-              <h3 className='font-semibold'>توفر الشفاطات الحديثة مجموعة من الميزات لتعزيز تجربة الطهي الخاصة بك:</h3>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>ما وراء الأساسيات: ميزات متقدمة للارتقاء بمطبخك</h2>
+              <h3 className='font-semibold text-[#00563B]'>توفر الشفاطات الحديثة مجموعة من الميزات لتعزيز تجربة الطهي الخاصة بك:</h3>
               <ul className='list-disc'>
                 <li><span className='font-bold px-2'>التحكم في السرعة المتغيرة:</span>اضبط قوة الشفط لتتناسب مع كثافة الطبخ لديك.</li>
                 <li><span className='font-bold px-2'>مصابيح الحرارة:</span>حافظ على أطباقك دافئة أثناء الانتهاء من طهي العناصر الأخرى.</li>
@@ -108,15 +108,15 @@ const KitchenHoods = () => {
               </ul>
             </div>
             <div id='رؤى التثبيت: ضمان الأداء الأمثل'>
-              <h2 className='text-xl font-bold pt-14 pb-2'>رؤى التثبيت: ضمان الأداء الأمثل</h2>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>رؤى التثبيت: ضمان الأداء الأمثل</h2>
               <p>للحصول على الأداء الأمثل والسلامة، يعد التثبيت المناسب أمرًا بالغ الأهمية. استشر أحد المتخصصين المؤهلين للتأكد من تهوية غطاء محرك السيارة بشكل صحيح واستيفاءه لجميع قوانين البناء المحلية.</p>
             </div>
             <div>
-              <h2 className='text-xl font-bold pt-14 pb-2'>الحفاظ على بطلك: الحفاظ على غطاء محرك السيارة في أفضل حالاته</h2>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>الحفاظ على بطلك: الحفاظ على غطاء محرك السيارة في أفضل حالاته</h2>
               <p>يعد التنظيف والصيانة المنتظمة أمرًا ضروريًا لضمان عمل غطاء المحرك بشكل فعال. قم بتنظيف المرشحات بانتظام، باتباع إرشادات الشركة المصنعة. امسح الجزء الخارجي للغطاء بقطعة قماش مبللة ومنظف معتدل. تذكر أن غطاء المحرك الذي يتم صيانته جيدًا هو غطاء سعيد وفعال!</p>
             </div>
             <div>
-              <h2 className='text-xl font-bold pt-14 pb-2'>المخفقة النهائية: اختيار شفاط المطبخ المناسب لك</h2>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>المخفقة النهائية: اختيار شفاط المطبخ المناسب لك</h2>
               <p>مع هذا الدليل الشامل الموجود في ترسانتك، أنت مجهز للتغلب على معضلة شفاط المطبخ. تذكر أن الشفاط &quot;الأفضل&quot; هو الذي يتوافق تمامًا مع احتياجاتك وتفضيلاتك وميزانيتك. لذلك، ارتدي عباءة الطهي الخاصة بك، واحتضن الشيف بداخلك، ودع شفاط المطبخ الخاص بك يكون رفيقك الموثوق به في مغامراتك اللذيذة!</p>
             </div>
             <div>

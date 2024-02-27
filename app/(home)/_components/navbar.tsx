@@ -16,10 +16,10 @@ const roboto = Noto_Serif_Bengali({
 
 const Navbar = () => {
     return (
-        <motion.header initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 1, delay: 0.9 } }} className="py-6 fixed w-full mx-auto px-12 z-50 bg-white/80 backdrop-blur-sm ">
+        <motion.header initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 1, delay: 0.9 } }} className=" py-4 fixed w-full mx-auto px-2 md:px-12 z-50 bg-[#00563B] text-white ">
             <nav className='flex justify-between items-center'>
-                <Link href={'/'} className={cn("font-semibold md:text-3xl text-lg flex", roboto.className)}>
-                    <Image src={logo} alt='logo' height={40} width={40} />
+                <Link href={'/'} className={cn("font-semibold md:text-3xl text-lg flex")}>
+                    <Image src={logo} alt='logo' height={40} width={40} className='' />
                     <span className=''>Blog Source</span>
                 </Link>
                 <ul className="space-x-4 hidden md:block">
@@ -37,7 +37,7 @@ const Navbar = () => {
                 </ul>
                 <div className="block md:hidden">
                     <DropdownMenuRadioGroupDemo>
-                    <Button><Menu className="h-8 w-8" /></Button>
+                        <Button><Menu className="h-8 w-8" /></Button>
                     </DropdownMenuRadioGroupDemo>
                 </div>
 
