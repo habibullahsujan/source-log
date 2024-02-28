@@ -58,19 +58,19 @@ const RecentBlog = () => {
                         </div>
                     </Link>
                 </motion.div>
-                <div className="px-10 col-span-12 md:col-span-6 flex flex-col gap-4 rounded-lg">
+                <div className="px-2 md:px-10 col-span-12 md:col-span-6 flex flex-col gap-4 rounded-lg ">
                     <motion.div initial={{ y: -100, opacity: 0 }}
                         animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }}
-                        className="group hover:bg-slate-100 hover:text-black cursor-pointer rounded-lg c">
-                        <Link href={'/hershey-chocolate'} className="md:flex block gap-x-4">
+                        className=" group  cursor-pointer rounded-lg border-card">
+                        <Link href={'/hershey-chocolate'} className="flex flex-col p-2 gap-4">
                             <div className="overflow-hidden w-full h-full">
                                 <Image
                                     src={featureBlog2}
                                     alt=""
-                                    className="my-auto rounded-lg h-[220px] w-[280px] group-hover:scale-105 transition-all ease duration-300"
+                                    className="my-auto rounded-lg h-[220px] w-full group-hover:scale-105 transition-all ease duration-300"
                                 />
                             </div>
-                            <div>
+                            <div className="text-black">
                                 <span className="font-bold flex gap-x-1">Author: <BlogTime>Kobir Ali • 8 Jan 2023</BlogTime></span>
 
                                 <h3 className="blog-title font-bold text-xl py-3">
@@ -90,18 +90,18 @@ const RecentBlog = () => {
                         </Link>
                     </motion.div>
                     <motion.div initial={{ y: -100, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }} className="group md:flex block rounded-lg gap-x-4  hover:bg-slate-100 hover:text-black cursor-pointer">
+                        animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }} className="group md:flex block rounded-lg border-card gap-x-4  hover:bg-slate-100 hover:text-black cursor-pointer">
 
-                        <Link href={'/best-chocolate'} className="md:flex block gap-x-4">
+                        <Link href={'/best-chocolate'} className="flex flex-col gap-4 p-2">
                             <div className="overflow-hidden">
                                 <Image
                                     src={featureBlog3}
                                     alt=""
-                                    className="rounded-lg h-[220px] w-[280px] group-hover:scale-105 transition-all ease duration-300 "
+                                    className="rounded-lg h-[220px] w-full group-hover:scale-105 transition-all ease duration-300 "
                                 />
                             </div>
-                            <div>
-                                <span className="font-bold flex items-center">Author: <BlogTime>Abu Ahsan • 1 Jan 2023</BlogTime></span>
+                            <div className="text-black">
+                                <span className="font-bold flex items-center">Author:  <BlogTime> Abu Ahsan • 1 Jan 2023</BlogTime></span>
 
                                 <h3 className="blog-title font-bold text-xl py-3">
                                     فك رموز اللذة: دليل شامل لعالم الشوكولاتة
