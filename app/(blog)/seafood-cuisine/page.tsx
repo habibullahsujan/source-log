@@ -4,12 +4,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import image1 from '@/public/assets/feature-blog-1.jpeg'
+import japaneseCuisine from '@/public/assets/japanese-cuisine.jpeg';
+import mediterraneanCuisine from '@/public/assets/mediterranean-cuisine.jpeg'
+import southEastAsianCuisine from '@/public/assets/south-east-asian-cuisine.jpeg';
+import peruSeafoodCuisine from '@/public/assets/peru-sea-food-cuisine.jpeg';
+import italySeafoodCuisine from '@/public/assets/italy-seafood-cuisine.jpeg'
 import BlogContainer from '../blogContainer'
 import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-    title: "انغمس في اللذة: استكشاف أفضل مطابخ المأكولات البحرية في العالم",
+    title: "كيفية تحضير أفضل المأكولات البحرية في العالم.",
     description: "تقدم سخاء المحيط كنزًا من المأكولات الشهية، وقد طورت الثقافات حول العالم طرقًا فريدة ولذيذة لعرض",
 };
 const SeafoodCuisine = () => {
@@ -48,7 +53,7 @@ const SeafoodCuisine = () => {
                     </details>
                 </div>
                 <div className='col-span-12 lg:col-span-8'>
-                    <h1 className='font-bold text-2xl text-[#00563B]'>انغمس في اللذة: استكشاف أفضل مطابخ المأكولات البحرية في العالم</h1>
+                    <h1 className='font-bold text-2xl text-[#00563B]'>كيفية تحضير أفضل المأكولات البحرية في العالم.</h1>
                     <div className=' my-10' >
                         <div className='flex justify-end'>
                             <Image className='w-full h-[400px] object-fill' src={image1} alt='seafood-cuisine' />
@@ -65,9 +70,13 @@ const SeafoodCuisine = () => {
                                 والكشف عن خصائصها الفريدة وأطباقها المميزة والقصص الرائعة التي تقف وراءها. لذا، استعد للشروع في رحلة لذيذة حول العالم!
                             </p>
                         </div>
-                        <div id='اليابان: سيمفونية النضارة'>
+                        <div id='اليابان: سيمفونية النضارة' className='py-4'>
+
                             <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>1. اليابان: سيمفونية النضارة</h2>
-                            <p className='text-lg'>
+                            <div className='flex justify-end'>
+                                <Image className='w-full h-[400px] object-fill' src={japaneseCuisine} alt='seafood-cuisine' />
+                            </div>
+                            <p className='text-lg py-6'>
                                 يشتهر المطبخ الياباني بتركيزه على النضارة والموسمية والعرض الدقيق. تلعب المأكولات البحرية دورًا مركزيًا، حيث تعرض أطباق مثل السوشي والساشيمي النكهة المتأصلة وجمال خيرات المحيط. شرائح السمك النيئة بدقة، مع الأرز بالخل والطبقة الأخرى، تخلق سيمفونية من القوام والأذواق في كل قضمة.
                             </p>
                             <h3 className='text-lg font-semibold py-2 text-[#00563B]'>الأطباق المميزة:</h3>
@@ -83,7 +92,10 @@ const SeafoodCuisine = () => {
                         </div>
                         <div id='البحر الأبيض المتوسط: مزيج من النكهات'>
                             <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>2. البحر الأبيض المتوسط: مزيج من النكهات</h2>
-                            <p className='text-lg'>لقد ولدت الثقافات النابضة بالحياة في منطقة البحر الأبيض المتوسط نسيجًا طهيًا غنيًا بالنكهات النابضة بالحياة والمكونات الطازجة. <span className='font-bold'>مأكولات بحرية </span>هو عنصر أساسي، ويظهر بشكل بارز في الأطباق التي تجمع بين بعضها البعض  <span className='font-bold'>
+                            <div className='flex justify-end'>
+                                <Image className='w-full h-[400px] object-cover' src={mediterraneanCuisine} alt='mediterranean-cuisine' />
+                            </div>
+                            <p className='text-lg py-4'>لقد ولدت الثقافات النابضة بالحياة في منطقة البحر الأبيض المتوسط نسيجًا طهيًا غنيًا بالنكهات النابضة بالحياة والمكونات الطازجة. <span className='font-bold'>مأكولات بحرية </span>هو عنصر أساسي، ويظهر بشكل بارز في الأطباق التي تجمع بين بعضها البعض  <span className='font-bold'>
                                 الأعشاب العطرية والفواكه الحمضية والتوابل القوية </span>من أطباق المأكولات البحرية في اليونان إلى الباييلا في إسبانيا، يقدم البحر الأبيض المتوسط مشهدًا من أحاسيس التذوق لمحبي المأكولات البحرية.</p>
                             <h3 className="text-lg font-semibold py-2 text-[#00563B]">
                                 الأطباق المميزة:
@@ -106,9 +118,12 @@ const SeafoodCuisine = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div id="جنوب شرق آسيا: انفجار التوابل">
+                        <div id="جنوب شرق آسيا: انفجار التوابل" className='py-12'>
                             <h2 className='font-bold text-lg py-8 text-[#00563B]'>3. جنوب شرق آسيا: انفجار التوابل</h2>
-                            <p className='text-xl'>ال<span className='font-bold'>نكهات جريئة ونابضة بالحياة </span>من مطبخ جنوب شرق آسيا هي وليمة للحواس. <span className='font-bold'>مأكولات بحرية </span>
+                            <div className='flex justify-end'>
+                                <Image className='w-full h-[400px] object-fill' src={southEastAsianCuisine} alt='south-east-asian-cuisine' />
+                            </div>
+                            <p className='text-lg py-4'>ال<span className='font-bold'>نكهات جريئة ونابضة بالحياة </span>من مطبخ جنوب شرق آسيا هي وليمة للحواس. <span className='font-bold'>مأكولات بحرية </span>
                                 يأخذ مركز الصدارة، وغالبًا ما يتم طهيه
                                 <span className='font-bold' >الكاري العطري، المقلي مع الصلصات اللاذعة، أو  المشوي على الفحم. </span>من الكاري العطري في تايلاند إلى البطاطس المقلية الحارة في فيتنام، تقدم تقاليد الطهي في جنوب شرق آسيا سيمفونية فريدة ولذيذة لعشاق المأكولات البحرية. </p>
                             <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>الأطباق المميزة:</h3>
@@ -128,8 +143,11 @@ const SeafoodCuisine = () => {
                             </ul>
                         </div>
                         <div id="بيرو: مزيج من التقاليد والابتكار">
-                            <h2 className='font-bold text-lg py-8'>4. بيرو: مزيج من التقاليد والابتكار</h2>
-                            <p className='text-xl'>برز المطبخ البيروفي كنجم عالمي في عالم الطهي، حيث اشتهر بطعمه الرائع<span className='font-bold'>أطباق مبتكرة ولذيذة. مأكولات بحرية</span>يلعب دورًا مركزيًا، مستوحى من التقاليد القديمة ويدمج التقنيات الحديثة. يستخدم الطهاة البيروفيون مكونات فريدة مثل <span className='font-bold'>آجي أماريلو الفلفل الحار، وفاكهة لوكوما، والكينوا،</span>إنشاء أطباق مألوفة وغير متوقعة.</p>
+                            <h2 className='font-bold text-lg py-8 text-[#00563B]'>4. بيرو: مزيج من التقاليد والابتكار</h2>
+                            <div className='flex justify-end'>
+                                <Image className='w-full h-[400px] object-fill' src={peruSeafoodCuisine} alt='peru-seafood-cuisine' />
+                            </div>
+                            <p className='pt-4'>برز المطبخ البيروفي كنجم عالمي في عالم الطهي، حيث اشتهر بطعمه الرائع<span className='font-bold'>أطباق مبتكرة ولذيذة. مأكولات بحرية</span>يلعب دورًا مركزيًا، مستوحى من التقاليد القديمة ويدمج التقنيات الحديثة. يستخدم الطهاة البيروفيون مكونات فريدة مثل <span className='font-bold'>آجي أماريلو الفلفل الحار، وفاكهة لوكوما، والكينوا،</span>إنشاء أطباق مألوفة وغير متوقعة.</p>
                             <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>الأطباق المميزة:</h3>
                             <ul className='list-disc'>
                                 <li className="px-2">
@@ -147,8 +165,11 @@ const SeafoodCuisine = () => {
                             </ul>
                         </div>
                         <div id="إيطاليا: احتفال بالبساطة">
-                            <h2 className='font-bold text-lg py-8 text-[#00563B]'>5. إيطاليا: احتفال بالبساطة</h2>
-                            <p className='text-xl'>المطبخ الإيطالي معروف بتركيزه على<span className='font-bold'>مكونات طازجة وعالية الجودة</span>و<span className='font-bold'>تحضيرات بسيطة ولكنها لذيذة. مأكولات بحرية </span>يتميز بشكل بارز في المناطق الساحلية، وغالبًا ما يتم طهيه مع الثوم وزيت الزيتون والليمون والأعشاب الطازجة. تعرض أطباق مثل فروتي دي ماري ومعكرونة ألي فونجول النكهات المتأصلة للبحر، وتسلط الضوء على الفلسفة الإيطالية المتمثلة في &quot;الأقل هو الأكثر&quot;.</p>
+                            <h2 className='font-bold text-xl py-8 text-[#00563B]'>5. إيطاليا: احتفال بالبساطة</h2>
+                            <div className='flex justify-end'>
+                                <Image className='w-full h-[400px] object-cover' src={italySeafoodCuisine} alt='mediterranean-cuisine' />
+                            </div>
+                            <p className='pt-4' >المطبخ الإيطالي معروف بتركيزه على<span className='font-bold'>مكونات طازجة وعالية الجودة</span>و<span className='font-bold'>تحضيرات بسيطة ولكنها لذيذة. مأكولات بحرية </span>يتميز بشكل بارز في المناطق الساحلية، وغالبًا ما يتم طهيه مع الثوم وزيت الزيتون والليمون والأعشاب الطازجة. تعرض أطباق مثل فروتي دي ماري ومعكرونة ألي فونجول النكهات المتأصلة للبحر، وتسلط الضوء على الفلسفة الإيطالية المتمثلة في &quot;الأقل هو الأكثر&quot;.</p>
                             <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>الأطباق المميزة:</h3>
                             <ul className='list-disc'>
                                 <li className="px-2">

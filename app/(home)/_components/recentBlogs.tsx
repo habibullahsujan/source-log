@@ -1,5 +1,6 @@
 
 'use client'
+
 import featureBlog1 from "@/public/assets/feature-blog-1.jpeg";
 import featureBlog2 from "@/public/assets/feature-blog-2.jpg";
 import featureBlog3 from "@/public/assets/history-of-chocolate.jpeg";
@@ -31,11 +32,11 @@ const RecentBlog = () => {
                             />
                         </div>
                         <div className="mt-10 p-2">
-                            <span className="flex text-black font-semibold">Author: <BlogTime>Abu Al Hasan • 1 January 2022</BlogTime></span>
+                            <span className="flex text-black font-semibold items-center gap-x-2">Author: <BlogTime>Abu Al Hasan • 1 January 2022</BlogTime></span>
 
                             <div className="flex items-center justify-between">
                                 <h1 className="font-bold text-xl py-3 text-black blog-title">
-                                    انغمس في اللذة: استكشاف أفضل مطابخ المأكولات البحرية في العالم
+                                كيفية تحضير أفضل المأكولات البحرية في العالم.
                                 </h1>
                                 <button>
                                     <ArrowRightCircle className="h-10 w-8 text-black" />{" "}
@@ -67,11 +68,11 @@ const RecentBlog = () => {
                                 <Image
                                     src={featureBlog2}
                                     alt=""
-                                    className="my-auto rounded-lg h-[220px] w-full group-hover:scale-105 transition-all ease duration-300"
+                                    className="my-auto rounded-lg h-[220px] w-full group-hover:scale-105 transition-all ease duration-300 object-cover"
                                 />
                             </div>
                             <div className="text-black">
-                                <span className="font-bold flex gap-x-1">Author: <BlogTime>Kobir Ali • 8 Jan 2023</BlogTime></span>
+                                <span className="font-bold flex gap-x-1 items-center">Author: <BlogTime> Kobir Ali • 8 Jan 2023</BlogTime></span>
 
                                 <h3 className="blog-title font-bold text-xl py-3">
                                     الكشف عن الأسرار الحلوة لشوكولاتة هيرشي: رحلة عبر عقود من البهجة
@@ -91,7 +92,6 @@ const RecentBlog = () => {
                     </motion.div>
                     <motion.div initial={{ y: -100, opacity: 0 }}
                         animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }} className="group md:flex block rounded-lg border-card gap-x-4  hover:bg-slate-100 hover:text-black cursor-pointer">
-
                         <Link href={'/best-chocolate'} className="flex flex-col gap-4 p-2">
                             <div className="overflow-hidden">
                                 <Image
@@ -101,7 +101,7 @@ const RecentBlog = () => {
                                 />
                             </div>
                             <div className="text-black">
-                                <span className="font-bold flex items-center">Author:  <BlogTime> Abu Ahsan • 1 Jan 2023</BlogTime></span>
+                                <span className="font-bold flex gap-x-2 items-center">Author:  <BlogTime> Abu Ahsan • 1 Jan 2023</BlogTime></span>
 
                                 <h3 className="blog-title font-bold text-xl py-3">
                                     فك رموز اللذة: دليل شامل لعالم الشوكولاتة
