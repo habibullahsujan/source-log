@@ -10,7 +10,7 @@ import image1 from '@/public/assets/history-of-chocolate.jpeg'
 
 
 export const metadata: Metadata = {
-  title: "أفضل شوكولاتة في العالم: دليل شامل",
+  title: "جنة الشوكولاتة: كشف النقاب عن الشوكولاتة من جميع أنحاء العالم | Blog Source",
   description: "",
 };
 const HistoryOfChocolate = () => {

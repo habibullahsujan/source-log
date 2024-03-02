@@ -5,14 +5,9 @@ import { Menu } from "lucide-react";
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from '@/public/assets/logo.png'
-import { Noto_Serif_Bengali } from 'next/font/google';
 import { cn } from '@/lib/utils';
-import { useState } from 'react';
 import { DropdownMenuRadioGroupDemo } from '@/app/(components)/dropdownMenu';
-const roboto = Noto_Serif_Bengali({
-    subsets: ['latin'],
-    weight: ['400']
-})
+
 
 const Navbar = () => {
     return (

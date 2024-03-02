@@ -5,8 +5,8 @@ import clsx from "clsx";
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleAnalytics } from '@next/third-parties/google'
 export const metadata: Metadata = {
-  title: "Blog Source",
-  description: "Arabic Lifestyles, their calture and their favorite food.",
+  title: "Arabic Culture, Lifestyle, and Historical Wonders | Blog Source",
+  description: "Experience the magic of Arabic culture, daily life, and historical wonders through our engaging blog. Stay informed with the latest news, delve into unique lifestyles, and uncover timeless treasures of Arab history. Welcome to your ultimate Arabic adventure.",
 };
 
 const notNaskhArabic = Noto_Naskh_Arabic({

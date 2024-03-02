@@ -36,7 +36,7 @@ const RecentBlog = () => {
 
                             <div className="flex items-center justify-between">
                                 <h1 className="font-bold text-xl py-3 text-black blog-title">
-                                كيفية تحضير أفضل المأكولات البحرية في العالم.
+                                    كيفية تحضير أفضل المأكولات البحرية في العالم.
                                 </h1>
                                 <button>
                                     <ArrowRightCircle className="h-10 w-8 text-black" />{" "}
@@ -67,7 +67,7 @@ const RecentBlog = () => {
                             <div className="overflow-hidden w-full h-full">
                                 <Image
                                     src={featureBlog2}
-                                    alt=""
+                                    alt="hershey's chocolate"
                                     className="my-auto rounded-lg h-[220px] w-full group-hover:scale-105 transition-all ease duration-300 object-cover"
                                 />
                             </div>
@@ -96,7 +96,7 @@ const RecentBlog = () => {
                             <div className="overflow-hidden">
                                 <Image
                                     src={featureBlog3}
-                                    alt=""
+                                    alt="best chocolate"
                                     className="rounded-lg h-[220px] w-full group-hover:scale-105 transition-all ease duration-300 "
                                 />
                             </div>
