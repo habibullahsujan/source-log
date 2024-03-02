@@ -18,7 +18,7 @@ const Navbar = () => {
                     <span className=''>Blog Source</span>
                 </Link>
                 <ul className="space-x-4 hidden md:block">
-                    <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/blogs"}>Blog</Link>
+                    <Link rel='canonical'  className='hover-2 text-lg font-bold px-2 py-1' href={"/blogs"}>Blog</Link>
 
                     <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/about"}>About</Link>
 

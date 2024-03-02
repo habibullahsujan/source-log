@@ -35,9 +35,9 @@ const RecentBlog = () => {
                             <span className="flex text-black font-semibold items-center gap-x-2">Author: <BlogTime>Abu Al Hasan • 1 January 2022</BlogTime></span>
 
                             <div className="flex items-center justify-between">
-                                <h1 className="font-bold text-xl py-3 text-black blog-title">
+                                <h2 className="font-bold text-xl py-3 text-black blog-title">
                                     كيفية تحضير أفضل المأكولات البحرية في العالم.
-                                </h1>
+                                </h2>
                                 <button>
                                     <ArrowRightCircle className="h-10 w-8 text-black" />{" "}
                                 </button>
