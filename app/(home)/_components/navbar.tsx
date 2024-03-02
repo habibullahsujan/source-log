@@ -16,9 +16,9 @@ const roboto = Noto_Serif_Bengali({
 
 const Navbar = () => {
     return (
-        <motion.header initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 1, delay: 0.9 } }} className="py-6 fixed w-full mx-auto px-2 md:px-12 z-50 bg-[#00563B] text-white opacity-70">
+        <motion.header initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 1, delay: 0.9 } }} className="py-4 fixed w-full mx-auto z-50 bg-[#00563B] text-white opacity-70 px-4">
             <nav className='flex justify-between items-center'>
-                <Link href={'/'} className={cn("font-semibold md:text-3xl text-lg flex")}>
+                <Link href={'/'} className={cn("font-semibold md:text-3xl text-lg flex gap-x-2 items-center")}>
                     <Image src={logo} alt='logo' height={40} width={40} className='' />
                     <span className=''>Blog Source</span>
                 </Link>

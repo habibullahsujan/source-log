@@ -8,7 +8,7 @@ import BlogWriting from "../(components)/blogWriting";
 
 export default function Home() {
   return (
-    <div className="py-24">
+    <div className="py-24 mx-6">
       <Header />
       <RecentBlog />
       <AllBlogs />

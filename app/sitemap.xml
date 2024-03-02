@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://www.theblogsouce.com/blogs</loc> </url>
  
+  <url>
+    <loc>https://www.theblogsouce.com</loc> </url>
+  <url>
+   <url>
+    <loc>https://www.theblogsouce.com/blogs</loc> </url>
   <url>
     <loc>https://www.theblogsouce.com/about</loc>
   </url>
