@@ -6,8 +6,8 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-    title: "All Blogs: Dive into Arabic Culture, Lifestyle, News & History | Blog Source",
-    description: "Explore a treasure trove of articles on Arabic culture, lifestyle, top news, and historical wonders on our All Blogs page. Delve into insightful narratives, stay updated with the latest news, and embark on virtual journeys through the heart of Arabia. Find inspiration, knowledge, and discovery in every blog post.",
+    title: 'اكتشف رؤى عربية: وجهات نظر متنوعة في انتظارك',
+description:"انغمس في مجموعتنا من المدونات التي تستكشف الثقافة العربية وأسلوب الحياة والأخبار. اكتشف الثراء والتنوع.",
 };
 
 interface ILayoutProps {

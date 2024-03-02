@@ -5,8 +5,8 @@ import { ReactNode } from "react"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "About Us: Exploring Arabic Culture, Lifestyle, News & History | Blog Source",
-    description: "Learn more about our passion for unraveling the mysteries of Arabic culture, lifestyle, and history on our About page. Discover our commitment to sharing top news, daily life insights, and historical wonders with you. Join us as we delve deeper into the vibrant tapestry of the Arab world.",
+    title: "التعريف بنا: معلومات عنا ورؤيتنا",
+    description: "تعرّف على موقعنا ومهمّتنا في تقديم المحتوى المفيد والإلهام لجمهورنا العربي. استكشف معنا!",
 };
 
 

@@ -5,8 +5,8 @@ import clsx from "clsx";
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleAnalytics } from '@next/third-parties/google'
 export const metadata: Metadata = {
-  title: "Arabic Culture, Lifestyle, and Historical Wonders | Blog Source",
-  description: "Experience the magic of Arabic culture, daily life, and historical wonders through our engaging blog. Stay informed with the latest news, delve into unique lifestyles, and uncover timeless treasures of Arab history. Welcome to your ultimate Arabic adventure.",
+  title: "اكتشف المسرات العربية: بوابتك إلى الثقافة الغنية",
+  description: "استكشف العالم النابض بالحياة للثقافة والمطبخ وأسلوب الحياة العربي. انغمس في التقاليد والإلهام.",
 };
 
 const notNaskhArabic = Noto_Naskh_Arabic({
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ar">
       <body className={clsx('', notNaskhArabic.className)}>{children}<Toaster /></body>
       <GoogleAnalytics gaId="G-EEQ48444N2" />
     </html>
