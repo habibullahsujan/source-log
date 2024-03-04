@@ -4,7 +4,7 @@ import AllBlogs from "./_components/allBlogs";
 import RecentBlog from "./_components/recentBlogs";
 import Pagination from "./_components/pagination";
 import ContactForm from "./_components/contactForm";
-import BlogWriting from "../(components)/blogWriting";
+
 
 export default function Home() {
   return (
@@ -14,7 +14,6 @@ export default function Home() {
       <AllBlogs />
       {/* <Pagination /> */}
       <ContactForm />
-      {/* <BlogWriting/> */}
     </div>
   );
 }

@@ -7,6 +7,7 @@ import Link from 'next/link';
 import logo from '@/public/assets/logo.png'
 import { cn } from '@/lib/utils';
 import { DropdownMenuRadioGroupDemo } from '@/app/(components)/dropdownMenu';
+import DialogComponent from '@/app/(components)/dialogComponent';
 
 
 const Navbar = () => {
@@ -18,16 +19,16 @@ const Navbar = () => {
                     <span className=''>Blog Source</span>
                 </Link>
                 <ul className="space-x-4 hidden md:block">
-                    <Link rel='canonical'  className='hover-2 text-lg font-bold px-2 py-1' href={"/blogs"}>Blog</Link>
+                    <Link rel='canonical' className='hover-2 text-lg font-bold px-2 py-1' href={"/blogs"}>Blog</Link>
 
                     <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/about"}>About</Link>
 
                     {/* <Link className='hover-2 text-lg font-bold px-2 py-1' href={'/login'}>
                         <Button variant={'outline'}>Login</Button>
                     </Link> */}
-                    {/* <Link className='hover-2 text-lg font-bold px-2 py-1' href={'/login'}>
-                        <Button variant={'outline'}>Write Blog</Button>
-                    </Link> */}
+                    <DialogComponent>
+                        <Button className='hover-2 text-lg font-bold px-2 py-1'>Write</Button>
+                    </DialogComponent>
 
                 </ul>
                 <div className="block md:hidden">
