@@ -51,10 +51,10 @@ const AllBlogs = () => {
                 "لقد تم الاعتزاز به لعدة قرون، وتم الاحتفال به لدفئه المريح، ورائحته المهدئة، وعدد لا يحصى من الفوائد الصحية. من حفل الماتشا الياباني الأنيق إلى النكهات القوية للشاي الهندي، تنتشر ثقافة الشاي في جميع أنحاء العالم، وتأسر القلوب والعقول مع كل رشفة.",
             tags: [
                 <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                    Leadership
+                    Lifestyle
                 </CategoryButton>,
                 <CategoryButton key={4} className="bg-[#EEF4FF] text-[#3538CD]">
-                    Management
+                    Food
                 </CategoryButton>,
             ],
         },
