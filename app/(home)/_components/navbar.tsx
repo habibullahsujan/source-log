@@ -19,16 +19,16 @@ const Navbar = () => {
                     <span className=''>Blog Source</span>
                 </Link>
                 <ul className="space-x-4 hidden md:block">
-                    <Link rel='canonical' className='hover-2 text-lg font-bold px-2 py-1' href={"/blogs"}>Blog</Link>
+                   
 
                     <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/about"}>About</Link>
 
                     {/* <Link className='hover-2 text-lg font-bold px-2 py-1' href={'/login'}>
                         <Button variant={'outline'}>Login</Button>
                     </Link> */}
-                    <DialogComponent>
+                    {/* <DialogComponent>
                         <Button className='hover-2 text-lg font-bold px-2 py-1'>Write</Button>
-                    </DialogComponent>
+                    </DialogComponent> */}
 
                 </ul>
                 <div className="block md:hidden">

@@ -5,6 +5,8 @@ import Image, { StaticImageData } from "next/image";
 import BlogTime from "./blogTime";
 import { ArrowRightCircle } from "lucide-react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
 
 type TBlogCardProps = {
     image: StaticImageData;

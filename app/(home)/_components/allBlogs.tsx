@@ -13,7 +13,11 @@ import useScrollGrow from "@/hooks/useScrollGrow";
 
 import { Button } from "@/components/ui/button";
 import CategoryButton from "../../(components)/categoryButton";
-import BlogCard from "./blogCard";
+import dynamic from "next/dynamic";
+
+const BlogCard = dynamic(() => import( "./blogCard"), {
+  ssr: false,
+});
 
 
 const AllBlogs = () => {
