@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
- 
   <url>
-    <loc>https://www.theblogsouce.com</loc> </url>
-  <url>
-   <url>
-    <loc>https://www.theblogsouce.com/blogs</loc> </url>
-  <url>
-    <loc>https://www.theblogsouce.com/about</loc>
-  </url>
-  <url>
-    <loc>https://www.theblogsouce.com/kitchen-hoods</loc>
-  </url>
-  <url>
-    <loc>https://www.theblogsouce.com/seafood-cuisine</loc>
-  </url>
-  <url>
-    <loc>https://www.theblogsouce.com/hershey-chocolate</loc>
+    <loc>https://www.theblogsouce.com/</loc>
+    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
+    <priority>1.0</priority>
   </url>
 
-</urlset>
+  <url>
+    <loc>https://www.theblogsouce.com/about</loc>
+    <lastmod>2023-11-15T12:30:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.theblogsouce.com/kitchen-hoods</loc>
+    <lastmod>2023-11-15T12:30:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.theblogsouce.com/seafood-cuisine</loc>
+    <lastmod>2024-02-20T10:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.theblogsouce.com/hershey-chocolate</loc>
+    <lastmod>2024-02-20T10:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.theblogsouce.com/best-chocolate</loc>
+    <lastmod>2024-02-20T10:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+
+
+  <url>
+    <loc>https://www.theblogsouce.com/perfect-tea</loc>
+    <lastmod>2024-02-20T10:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://www.theblogsouce.com/tourist-place-riyadh</loc>
+    <lastmod>2024-02-20T10:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  </urlset>
