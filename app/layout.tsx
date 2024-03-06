@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar">
+    <html lang="en">
       <body className={clsx('', notNaskhArabic.className)}>{children}<Toaster /></body>
       <GoogleAnalytics gaId="G-EEQ48444N2" />
     </html>
