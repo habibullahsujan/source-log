@@ -8,33 +8,33 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'شفاطات المطبخ: تنفس بسهولة واستمتع بالطهي',
-  description: "اعثر على شفاطات المطبخ المثالية لاحتياجاتك! استكشف الأنواع والميزات ونصائح التثبيت لمطبخ نظيف وجديد."
+  title: 'Best Kitchen hoods: breathe easy and enjoy cooking',
+  description: "Find the perfect range hoods for your needs! Explore types, features and installation tips for a clean, new kitchen."
 };
 const KitchenHoods = () => {
   const tableContents = [
-    { title: 'الكشف عن السبب: الدور الحيوي لشفاطات المطبخ' },
-    { title: 'إزالة الغموض عن الخيارات: مجموعة متنوعة من شفاطات المطبخ ' },
-    { title: 'اختيار بطلك: الاعتبارات الأساسية' },
-    { title: 'ما وراء الأساسيات: ميزات متقدمة للارتقاء بمطبخك' },
-    { title: 'رؤى التثبيت: ضمان الأداء الأمثل' },
-    { title: 'الحفاظ على بطلك: الحفاظ على غطاء محرك السيارة في أفضل حالاته' },
-    { title: 'المخفقة النهائية: اختيار شفاط المطبخ المناسب لك' },
+    { title: 'Uncovering the cause: The vital role of kitchen hoods' },
+    { title: 'Demystifying the choices: A variety of range hoods' },
+    { title: 'Choosing your hero: essential considerations' },
+    { title: 'Beyond the basics: advanced features to elevate your kitchen' },
+    { title: 'Installation Insights: Ensuring Optimal Performance' },
+    { title: 'Maintain your hero: keeping your hood looking its best' },
+    { title: 'The ultimate blender: Choosing the right kitchen hood for you' },
   ]
   return (
 
-    <BlogContainer className='text-right mx-2 md:mx-16 py-32'>
+    <BlogContainer className='mx-2 md:mx-16 py-32'>
       <div className='flex items-center gap-x-4 py-7'>
         <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/kitchen-hoods'}>Kitchen Hoods</Link>
       </div>
       <div className='grid grid-cols-12 gap-5'>
-        <div className="col-span-12  lg:col-span-4">
+        <div className="col-span-12  lg:col-span-4 lg:mr-6 mr-0">
           <details
             className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-16 max-h-[80vh] overflow-hidden overflow-y-auto"
             open
           >
             <summary className="text-lg font-semibold capitalize cursor-pointer">
-              قائمة المحتويات
+              Table of Contents
             </summary>
             <ul className="mt-4 font-in text-base">
               {
@@ -46,9 +46,9 @@ const KitchenHoods = () => {
           </details>
         </div>
         <div className='col-span-12 lg:col-span-8'>
-          <h1 className='font-bold text-2xl text-[#00563B]'>غزو المطبخ بالوضوح: دليلك الشامل لأغطية المحركات</h1>
+          <h1 className='font-bold text-2xl text-[#00563B]'>Conquering the Kitchen with Clarity: Your Comprehensive Guide to Hoods</h1>
           <div className=' my-10' >
-            <div className='flex justify-end'>
+            <div className='flex'>
               <Image className='' src={'https://images.pexels.com/photos/15119073/pexels-photo-15119073/free-photo-of-exhaust-hood-over-cooker.jpeg?auto=compress&cs=tinysrgb&w=600'} alt='kitchen hoods' width={500} height={200} />
 
 
@@ -57,72 +57,72 @@ const KitchenHoods = () => {
           </div>
           <article>
             <p className='text-lg'>
-              شفاطات المطبخ هي الأبطال المجهولون في معارك الطهي. هؤلاء الحراس الصامتون، الذين يحومون فوق موقدك، يتعاملون مع الدخان والشحوم والروائح المنبعثة أثناء الطهي، مما يحافظ على مطبخك طازجًا وصحة رئتيك. ولكن مع وجود عدد كبير من الخيارات المتاحة، فإن اختيار غطاء المحرك المناسب يمكن أن يبدو وكأنه التنقل في متاهة. لا تخافوا يا عشاق الطعام! سيزودك هذا الدليل الشامل بالمعرفة اللازمة لاختيار شفاط المطبخ المثالي، وتحويل مساحة الطهي الخاصة بك إلى ملاذ للإبداع في الطهي.
+              Kitchen hoods are the unsung heroes of culinary battles. Hovering over your stove, these silent sentinels take care of the smoke, grease and odors released during cooking, keeping your kitchen fresh and your lungs healthy. But with so many options available, choosing the right hood can feel like navigating a maze. Fear not, foodies! This comprehensive guide will provide you with the knowledge to choose the perfect range hood, and transform your cooking space into a haven of culinary creativity.
             </p>
-            <div id='الكشف عن السبب: الدور الحيوي لشفاطات المطبخ'>
-              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>الكشف عن السبب: الدور الحيوي لشفاطات المطبخ</h2>
+            <div id='Uncovering the cause: The vital role of kitchen hoods'>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>Uncovering the reason: the vital role of kitchen hoods</h2>
               <p className='text-lg'>
-                تخيل أنك تقوم بتحمير شرائح اللحم، أو تحضير الكاري العطري، أو الانغماس في وليمة من القلي العميق. في حين أنها شهية، فإن مغامرات الطهي هذه تطلق العنان لسيل من الأعداء المحمولين بالهواء - الدخان والشحوم والبخار، وحتى الملوثات الضارة. يمكن أن يؤدي استنشاقها إلى تهيج عينيك ورئتيك، وإثارة الحساسية، وحتى إتلاف الأجزاء الداخلية من منزلك. أدخل غطاء المطبخ، مدافعك الشجاع ضد هؤلاء الضيوف غير المرغوب فيهم.
+                Imagine searing steaks, preparing an aromatic curry, or indulging in a deep-frying feast. While delicious, these culinary adventures unleash a torrent of airborne enemies—smoke, grease, steam, and even harmful pollutants. Inhaling them can irritate your eyes and lungs, trigger allergies, and even damage the interior of your home. Enter the kitchen hood, your stout defender against these unwanted guests.
               </p>
             </div>
-            <div id='إزالة الغموض عن الخيارات: مجموعة متنوعة من شفاطات المطبخ'>
+            <div id='Demystifying the choices: A variety of range hoods'>
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>
-                إزالة الغموض عن الخيارات: مجموعة متنوعة من شفاطات المطبخ
+                Demystifying the options: A variety of range hoods
               </h2>
               <p className='text-lg py-3 font-semibold'>
-                عالم شفاطات المطبخ متنوع مثل أذواقك في الطهي. وفيما يلي تفصيل للأنواع الرئيسية:
+                The world of range hoods is as diverse as your culinary tastes. Below is a breakdown of the main types:
               </p>
 
               <ul className='list-disc'>
-                <li className='arabic-li'><span className='font-bold px-2'>اغطية تحت الخزانة:</span>تعتبر أدوات توفير المساحة هذه التي يتم وضعها بشكل خفي أسفل الخزانات مثالية للمطابخ الصغيرة.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>الشفاطات المثبتة على الحائط:</span>الخيار الكلاسيكي، يوفر تهوية قوية ويأتي في أنماط مختلفة لتناسب ديكورك.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>أغطية الجزيرة:</span>مثالية للمطابخ المفتوحة أو الجزر، هذه الوحدات الأنيقة تتدلى من السقف، مما يدلي ببيان أثناء تنقية الهواء.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>اغطية Downdraft:</span>تم دمج هذه الخيارات الأنيقة في الموقد المسطح الخاص بك، وتختفي عند عدم استخدامها، مما يزيد من مساحة المنضدة.</li>
-                <li className='arabic-li'>
-                  <span className='font-bold px-2'>إعادة تدوير القلنسوات:</span>
-                  مثالية للشقق أو المساحات التي لا تحتوي على تهوية خارجية، حيث تقوم بتصفية الهواء وإعادة تدويره داخل مطبخك.
+                <li className=''><span className='font-bold'>Under Cabinet Hoods: </span>These space savers that are discreetly placed under cabinets are ideal for small kitchens.</li >
+                <li className=''><span className='font-bold '>Wall-mounted hoods: </span>The classic option, provides powerful ventilation and comes in different styles to suit your decor.</li>
+                <li className=''><span className='font-bold '>Island Hoods: </span>Perfect for open kitchens or islands, these stylish units hang from the ceiling, making a statement while purifying the air. </li>
+                <li className=''><span className='font-bold '>Downdraft Hoods: </span>These stylish options are built into your stovetop, and disappear when not in use, maximizing space The desk.</li>
+                <li className=''>
+                  <span className='font-bold '>Cap recycling: </span>
+                  Ideal for apartments or spaces without external ventilation, it filters and recirculates the air inside your kitchen.
                 </li>
               </ul>
             </div>
-            <div id='اختيار بطلك: الاعتبارات الأساسية'>
-              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>اختيار بطلك: الاعتبارات الأساسية</h2>
-              <p className='text-lg py-3 font-semibold'>الآن بعد أن قابلت المتنافسين، حان الوقت لاختيار بطلك! فيما يلي العوامل الرئيسية التي يجب التفكير فيها:</p>
+            <div id='Choosing Your Hero: Key Considerations'>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>Choosing Your Hero: Key Considerations</h2>
+              <p className='text-lg py-3 font-semibold'>Now that you&apos;ve met the contenders, it&apos;s time to choose your champion! Here are the main factors to think about:</p>
               <ul className='list-disc'>
-                <li className='arabic-li'><span className='font-bold px-2'>مقاس:</span>تأكد من أن غطاء محرك السيارة الخاص بك يغطي سطح الطهي بالكامل لالتقاط الملوثات المحمولة جواً بشكل فعال.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>قوة التهوية:</span>عند قياسه بالقدم المكعب في الدقيقة (CFM)، يشير ارتفاع CFM إلى قوة الشفط. قم بمطابقة CFM مع أسلوب الطبخ الخاص بك وحجم المطبخ.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>مستوى الضوضاء:</span>اختر شفاطًا ذو تصنيف ديسيبل يناسب مستوى راحتك، خاصة إذا كنت تطبخ بشكل متكرر.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>المرشحات:</span>اختر المرشحات التي يسهل تنظيفها واستبدالها. فكر في استخدام مرشحات الفحم لإعادة تدوير الأغطية.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>إضاءة:</span>تضيء مصابيح LED المدمجة سطح الطبخ الخاص بك، مما يعزز الرؤية ويضيف لمسة من الأناقة.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>جماليات:</span>اختر الشفاط الذي يكمل تصميم مطبخك وتفضيلاتك الشخصية.</li>
+                <li className=''><span className='font-bold '>Size: </span>Make sure your hood covers the entire cooking surface to effectively capture airborne contaminants.</li>
+                <li className=''><span className='font-bold '>Ventilation power: </span>When measured in cubic feet per minute (CFM), a higher CFM indicates suction power. Match the CFM to your cooking style and kitchen size.</li>
+                <li className=''><span className='font-bold '>Noise level: </span>Choose a range hood with a decibel rating that suits your comfort level, especially if you cook frequently.</li>
+                <li className=''><span className='font-bold '>Filters: </span>Choose filters that are easy to clean and replace. Consider using charcoal filters to recycle lids.</li>
+                <li className=''><span className='font-bold '>Lighting: </span>Built-in LED lights illuminate your cooking surface, enhancing visibility and adding a touch of elegance.</li>
+                <li className=''><span className='font-bold '>Aesthetics: </span>Choose a hood that complements your kitchen design and personal preferences.</li>
               </ul>
             </div>
-            <div id='ما وراء الأساسيات: ميزات متقدمة للارتقاء بمطبخك' >
-              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>ما وراء الأساسيات: ميزات متقدمة للارتقاء بمطبخك</h2>
-              <h3 className='font-semibold text-[#00563B]'>توفر الشفاطات الحديثة مجموعة من الميزات لتعزيز تجربة الطهي الخاصة بك:</h3>
+            <div id='Beyond the basics: advanced features to elevate your kitchen' >
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>Beyond the basics: advanced features to elevate your kitchen</h2>
+              <h3 className='font-semibold text-[#00563B]'>Modern hoods offer a range of features to enhance your cooking experience:</h3>
               <ul className='list-disc'>
-                <li className='arabic-li'><span className='font-bold px-2'>التحكم في السرعة المتغيرة:</span>اضبط قوة الشفط لتتناسب مع كثافة الطبخ لديك.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>مصابيح الحرارة:</span>حافظ على أطباقك دافئة أثناء الانتهاء من طهي العناصر الأخرى.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>جهاز التحكم:</span>قم بتشغيل غطاء محرك السيارة الخاص بك وأنت مستريح على كرسيك.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>الاغلاق التلقائي:</span>يضمن إيقاف تشغيل غطاء المحرك بعد فترة زمنية محددة، مما يوفر الطاقة.</li>
-                <li className='arabic-li'><span className='font-bold px-2'>الاتصال الذكي:</span>تحكم في غطاء محرك السيارة الخاص بك وراقب أدائه من خلال هاتفك الذكي.</li>
+                <li className=''><span className='font-bold '>Variable speed control: </span>Adjust suction power to match your cooking intensity.</li>
+                <li className=''><span className='font-bold '>Heat lamps: </span>Keep your dishes warm while you finish cooking other items.</li>
+                <li className=''><span className='font-bold '>Control: </span>Operate your hood from the comfort of your chair.</li>
+                <li className=''><span className='font-bold '>Automatic shut-off: </span>Ensures that the hood turns off after a specified period of time, saving energy.</li>
+                <li className=''><span className='font-bold '>Smart Connectivity: </span>Control your car hood and monitor its performance through your smartphone.</li>
               </ul>
             </div>
-            <div id='رؤى التثبيت: ضمان الأداء الأمثل'>
-              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>رؤى التثبيت: ضمان الأداء الأمثل</h2>
-              <p>للحصول على الأداء الأمثل والسلامة، يعد التثبيت المناسب أمرًا بالغ الأهمية. استشر أحد المتخصصين المؤهلين للتأكد من تهوية غطاء محرك السيارة بشكل صحيح واستيفاءه لجميع قوانين البناء المحلية.</p>
+            <div id='Installation Insights: Ensuring Optimal Performance'>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>Installation Insights: Ensuring Optimal Performance</h2>
+              <p>For optimal performance and safety, proper installation is critical. Consult a qualified professional to ensure your hood is properly ventilated and meets all local building codes.</p>
             </div>
             <div>
-              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>الحفاظ على بطلك: الحفاظ على غطاء محرك السيارة في أفضل حالاته</h2>
-              <p>يعد التنظيف والصيانة المنتظمة أمرًا ضروريًا لضمان عمل غطاء المحرك بشكل فعال. قم بتنظيف المرشحات بانتظام، باتباع إرشادات الشركة المصنعة. امسح الجزء الخارجي للغطاء بقطعة قماش مبللة ومنظف معتدل. تذكر أن غطاء المحرك الذي يتم صيانته جيدًا هو غطاء سعيد وفعال!</p>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>Maintaining your hero: keeping your hood looking its best</h2>
+              <p>Regular cleaning and maintenance is essential to ensure your hood is working effectively. Clean filters regularly, following the manufacturer&apos;s instructions. Wipe the outside of the cover with a damp cloth and mild detergent. Remember, a well-maintained hood is a happy and efficient hood!</p>
             </div>
             <div>
-              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>المخفقة النهائية: اختيار شفاط المطبخ المناسب لك</h2>
-              <p>مع هذا الدليل الشامل الموجود في ترسانتك، أنت مجهز للتغلب على معضلة شفاط المطبخ. تذكر أن الشفاط &quot;الأفضل&quot; هو الذي يتوافق تمامًا مع احتياجاتك وتفضيلاتك وميزانيتك. لذلك، ارتدي عباءة الطهي الخاصة بك، واحتضن الشيف بداخلك، ودع شفاط المطبخ الخاص بك يكون رفيقك الموثوق به في مغامراتك اللذيذة!</p>
+              <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>The ultimate whisk: choosing the right kitchen hood for you</h2>
+              <p>With this comprehensive guide in your arsenal, you&apos;re equipped to overcome your kitchen hood dilemma. Remember that the &quot;best&quot; The one that perfectly matches your needs, preferences and budget. So, put on your culinary mantle, embrace your inner chef, and let your range hood be your trusted companion on your delicious adventures!</p>
             </div>
             <div>
-              <p><span className='font-bold px-2'>نصيحة إضافية:</span>ضع في اعتبارك تصميم مطبخك وعادات الطهي والميزانية عند اتخاذ قرارك. لا تتردد في استشارة المتخصصين للحصول على توصيات مخصصة.</p>
+              <p><span className='font-bold '>Bonus tip:</span>Consider your kitchen layout, cooking habits, and budget when making your decision. Feel free to consult specialists for personalized recommendations.</p>
             </div>
-            <p className='font-bold py-6'>طبخ سعيد!</p>
+            <p className='font-bold py-6'>Happy cooking!</p>
           </article>
         </div>
       </div>

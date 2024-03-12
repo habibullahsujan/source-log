@@ -14,34 +14,34 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-    title:"انغمس في مطبخ المأكولات البحرية: مغامرة النكهة العالمية",
-    description:"اكتشف المأكولات البحرية اللذيذة في العالم! اكتشف الأطباق المميزة والتخصصات الإقليمية ونصائح للطهي في المنزل."
+    title: "Safood cuisine: a global flavor adventure",
+    description: "Discover the world's delicious seafood! Discover signature dishes, regional specialties and tips for cooking at home."
 };
 const SeafoodCuisine = () => {
 
     const tableContents = [
-        { title: 'اليابان: سيمفونية النضارة' },
-        { title: 'البحر الأبيض المتوسط: مزيج من النكهات' },
-        { title: 'جنوب شرق آسيا: انفجار التوابل' },
-        { title: 'بيرو: مزيج من التقاليد والابتكار' },
-        { title: 'إيطاليا: احتفال بالبساطة' },
-        { title: 'ما وراء الطبق: الأهمية الثقافية لمطبخ المأكولات البحرية' },
-        { title: 'انطلق في رحلة الطهي الخاصة بك' },
+        { title: 'Japan: Symphony of Freshness' },
+        { title: 'Mediterranean: a mixture of flavours' },
+        { title: 'Southeast Asia: The Spice Explosion' },
+        { title: 'Peru: a blend of tradition and innovation' },
+        { title: 'Italy: A celebration of simplicity' },
+        { title: 'Beyond the dish: the cultural significance of seafood cuisine' },
+        { title: 'Embark on your culinary journey' },
     ]
     return (
 
-        <BlogContainer className='text-right mx-2 md:mx-16 py-32'>
+        <BlogContainer className='mx-2 md:mx-16 py-32'>
             <div className='flex items-center gap-x-4 py-7'>
                 <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/seafood-cuisine'}>Seafood Cuisine</Link>
             </div>
             <div className='grid grid-cols-12 gap-x-5'>
-                <div className="col-span-12  lg:col-span-4">
+                <div className="col-span-12  lg:col-span-4 lg:mr-6 mr-0">
                     <details
                         className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-16 max-h-[80vh] overflow-hidden overflow-y-auto"
                         open
                     >
                         <summary className="text-lg font-semibold capitalize cursor-pointer">
-                            قائمة المحتويات
+                            Table of Contents
                         </summary>
                         <ul className="mt-4 font-in text-base">
                             {
@@ -53,7 +53,7 @@ const SeafoodCuisine = () => {
                     </details>
                 </div>
                 <div className='col-span-12 lg:col-span-8'>
-                    <h1 className='font-bold text-2xl text-[#00563B]'>كيفية تحضير أفضل المأكولات البحرية في العالم.</h1>
+                    <h1 className='font-bold text-4xl text-[#00563B]'>How to prepare the best seafood in the world.</h1>
                     <div className=' my-10' >
                         <div className='flex justify-end'>
                             <Image className='w-full h-[400px] object-fill' src={image1} alt='seafood-cuisine' />
@@ -63,140 +63,139 @@ const SeafoodCuisine = () => {
                     <article>
                         <div>
                             <p className='text-lg'>
-                                تقدم سخاء المحيط كنزًا من المأكولات الشهية، وقد طورت الثقافات حول العالم طرقًا فريدة ولذيذة لعرض  <span className='font-bold'>أفضل المأكولات البحرية</span>. من المهارة الفنية الدقيقة للسوشي الياباني إلى التوابل الجريئة للطواجن المغربية، تحتل المأكولات البحرية مركز الصدارة في عدد لا يحصى من تقاليد الطهي، مما يثير حاسة التذوق ويثري التجارب الثقافية.
+                                The ocean&apos;s bounty offers a treasure trove of delicacies, and cultures around the world have developed unique and delicious ways to showcase <span className='font-bold'>the best seafood </span>. From the delicate artistry of Japanese sushi to the bold spices of Moroccan tagines, seafood takes center stage in countless culinary traditions, exciting the sense of taste and enriching cultural experiences.
                             </p>
                             <p className='text-lg'>
-                                يتعمق هذا الدليل الشامل في أعماق العالم <span className='font-bold'>أفضل المأكولات البحرية</span>
-                                والكشف عن خصائصها الفريدة وأطباقها المميزة والقصص الرائعة التي تقف وراءها. لذا، استعد للشروع في رحلة لذيذة حول العالم!
+                                This comprehensive guide delves deep into the world&apos;s best seafood And reveal its unique characteristics, distinctive dishes, and the wonderful stories behind them. So, get ready to embark on a delicious journey around the world!
                             </p>
                         </div>
-                        <div id='اليابان: سيمفونية النضارة' className='py-4'>
+                        <div id='Japan: Symphony of Freshness' className='py-4'>
 
-                            <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>1. اليابان: سيمفونية النضارة</h2>
+                            <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>1. Japan: Symphony of Freshness</h2>
                             <div className='flex justify-end'>
                                 <Image className='w-full h-[400px] object-fill' src={japaneseCuisine} alt='seafood-cuisine' />
                             </div>
                             <p className='text-lg py-6'>
-                                يشتهر المطبخ الياباني بتركيزه على النضارة والموسمية والعرض الدقيق. تلعب المأكولات البحرية دورًا مركزيًا، حيث تعرض أطباق مثل السوشي والساشيمي النكهة المتأصلة وجمال خيرات المحيط. شرائح السمك النيئة بدقة، مع الأرز بالخل والطبقة الأخرى، تخلق سيمفونية من القوام والأذواق في كل قضمة.
+                                Japanese cuisine is known for its emphasis on freshness, seasonality, and careful presentation. Seafood plays a central role, with dishes like sushi and sashimi showcasing the inherent flavor and beauty of the ocean&apos;s bounty. Delicately sliced raw fish, with vinegared rice and other toppings, create a symphony of textures and tastes in every bite.
                             </p>
-                            <h3 className='text-lg font-semibold py-2 text-[#00563B]'>الأطباق المميزة:</h3>
+                            <h3 className='text-lg font-semibold py-2 text-[#00563B]'>Featured dishes: </h3>
                             <ul className='list-disc'>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>سوشي: </span>
-                                    شرائح رقيقة من السمك النيئ تقدم على أرز بالخل، ومزينة بطبقة مختلفة مثل الأعشاب البحرية والوسابي والزنجبيل المخلل.
+                                <li className="">
+                                    <span className='font-bold'>Sushi: </span>
+                                    Thin slices of raw fish served over vinegared rice, garnished with different toppings such as seaweed, wasabi and pickled ginger.
                                 </li>
-                                <li className='arabic-li'><span className='font-bold'>ساشيمي:</span>يتم تقديم شرائح الأسماك النيئة الرقيقة غالبًا مع صلصة الصويا والوسابي، مما يسلط الضوء على الحلاوة الطبيعية والملمس للمأكولات البحرية.</li>
-                                <li className='arabic-li'><span className='font-bold'>تمبورا:</span>المأكولات البحرية والخضروات المقلية والمقلية، تقدم تباينًا مبهجًا في القوام.</li>
-                                <li className='arabic-li'><span className='font-bold'>حساء ميسو:</span>مرق مريح بنكهة معجون الميسو، وغالبًا ما يحتوي على المأكولات البحرية مثل التوفو أو المحار.</li>
+                                <li className=''><span className='font-bold'>Sashimi: </span>Thin slices of raw fish are often served with soy sauce and wasabi, highlighting the natural sweetness and texture of the seafood.</li>
+                                <li className=''><span className='font-bold'>Tempura: </span>Seafood and vegetables, stir-fried and deep-fried, offer a delightful contrast in texture.</li>
+                                <li className=''><span className='font-bold'>Miso Soup: </span>A comforting broth flavored with miso paste, often containing seafood such as tofu or clams.</li>
                             </ul>
                         </div>
-                        <div id='البحر الأبيض المتوسط: مزيج من النكهات'>
-                            <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>2. البحر الأبيض المتوسط: مزيج من النكهات</h2>
+                        <div id='Mediterranean: a mixture of flavours'>
+                            <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>2. Mediterranean: a mixture of flavours</h2>
                             <div className='flex justify-end'>
                                 <Image className='w-full h-[400px] object-cover' src={mediterraneanCuisine} alt='mediterranean-cuisine' />
                             </div>
-                            <p className='text-lg py-4'>لقد ولدت الثقافات النابضة بالحياة في منطقة البحر الأبيض المتوسط نسيجًا طهيًا غنيًا بالنكهات النابضة بالحياة والمكونات الطازجة. <span className='font-bold'>مأكولات بحرية </span>هو عنصر أساسي، ويظهر بشكل بارز في الأطباق التي تجمع بين بعضها البعض  <span className='font-bold'>
-                                الأعشاب العطرية والفواكه الحمضية والتوابل القوية </span>من أطباق المأكولات البحرية في اليونان إلى الباييلا في إسبانيا، يقدم البحر الأبيض المتوسط مشهدًا من أحاسيس التذوق لمحبي المأكولات البحرية.</p>
+                            <p className='text-lg py-4'>The vibrant cultures of the Mediterranean have generated a culinary tapestry rich with vibrant flavors and fresh ingredients. <span className='font-bold'>Seafood </span> is a staple, and appears prominently in dishes that combine <span className='font-bold'>
+                                Aromatic herbs, citrus fruits and intense spices </span>From seafood dishes in Greece to paella in Spain, the Mediterranean offers a kaleidoscope of taste sensations for seafood lovers.</p>
                             <h3 className="text-lg font-semibold py-2 text-[#00563B]">
-                                الأطباق المميزة:
+                                Featured dishes:
                             </h3>
-                            <ul className='list-disc text-lg'>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>الباييلا:</span>طبق أرز إسباني يضم المأكولات البحرية مثل الجمبري وبلح البحر والكاليماري، مع نكهة الزعفران والبابريكا والتوابل الأخرى.
+                            <ul className='list-disc'>
+                                <li className="py-1">
+                                    <span className='font-bold'>Paella: </span>A Spanish rice dish featuring seafood such as shrimp, mussels and calamari, flavored with saffron, paprika and other spices.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>حساء:</span>
-                                    يخنة سمك فرنسية مصدرها بروفانس، مليئة بمجموعة متنوعة من المأكولات البحرية ومطهوة في مرق لذيذ.
+                                <li className="py-1">
+                                    <span className='font-bold'>Soup: </span>
+                                    A French fish stew originating from Provence, filled with a variety of seafood and cooked in a flavorful broth.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>أكوا بيتزا:</span>
-                                    يخنة سمك إيطالي مع مرق خفيف من الطماطم متبل بالأعشاب والثوم، يسلط الضوء على النكهات اللذيذة للمأكولات البحرية.
+                                <li className="py-1">
+                                    <span className='font-bold'>Aqua Pizza: </span>
+                                    An Italian fish stew with a light tomato broth seasoned with herbs and garlic, highlighting the delicious flavors of seafood.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>سيوبينو:</span>
-                                    طبق خاص من سان فرانسيسكو مستوحى من يخنة السمك الإيطالية، ويتميز بوفرة من المأكولات البحرية في مرق غني بالطماطم.
+                                <li className="py-1">
+                                    <span className='font-bold'>Cioppino: </span>
+                                    A San Francisco specialty inspired by Italian fish stew, it features an abundance of seafood in a rich, tomato-based broth.
                                 </li>
                             </ul>
                         </div>
-                        <div id="جنوب شرق آسيا: انفجار التوابل" className='py-12'>
-                            <h2 className='font-bold text-lg py-8 text-[#00563B]'>3. جنوب شرق آسيا: انفجار التوابل</h2>
+                        <div id="Southeast Asia: The Spice Explosion" className='py-12'>
+                            <h2 className='font-bold text-lg py-8 text-[#00563B]'>3. Southeast Asia: The Spice Explosion</h2>
                             <div className='flex justify-end'>
                                 <Image className='w-full h-[400px] object-fill' src={southEastAsianCuisine} alt='south-east-asian-cuisine' />
                             </div>
-                            <p className='text-lg py-4'>ال<span className='font-bold'>نكهات جريئة ونابضة بالحياة </span>من مطبخ جنوب شرق آسيا هي وليمة للحواس. <span className='font-bold'>مأكولات بحرية </span>
-                                يأخذ مركز الصدارة، وغالبًا ما يتم طهيه
-                                <span className='font-bold' >الكاري العطري، المقلي مع الصلصات اللاذعة، أو  المشوي على الفحم. </span>من الكاري العطري في تايلاند إلى البطاطس المقلية الحارة في فيتنام، تقدم تقاليد الطهي في جنوب شرق آسيا سيمفونية فريدة ولذيذة لعشاق المأكولات البحرية. </p>
-                            <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>الأطباق المميزة:</h3>
+                            <p className='text-lg py-4'>The<span className='font-bold'>Bold, vibrant flavors </span>of Southeast Asian cuisine are a feast for the senses. <span className='font-bold'>Seafood</span>
+                                It takes center stage, and is often cooked
+                                <span className='font-bold' > Aromatic curries, stir-fried with tangy sauces, or grilled over charcoal. </span>From the aromatic curries of Thailand to the spicy stir-fries of Vietnam, Southeast Asia&apos;s culinary traditions offer a unique and delicious symphony for seafood lovers. </p>
+                            <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>Featured dishes:</h3>
                             <ul className='list-disc'>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>توم يم غونغ: </span>
-                                    حساء تايلاندي عطري وحار مع الروبيان وعشب الليمون وأوراق الليمون الكافير والخولنجان، يقدم تفاعلًا معقدًا من النكهات والقوام.
+                                <li className="py-1 ">
+                                    <span className='font-bold'>Tom Yum Gong: </span>
+                                    An aromatic and spicy Thai soup with shrimp, lemongrass, kaffir lime leaves and galangal, offering a complex interplay of flavors and textures.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>سيفيتشي: </span>
-                                    طبق نشأ في بيرو، ويضم الأسماك النيئة المتبلة في عصائر الحمضيات ومتبلة بالفلفل الحار والبصل والكزبرة، مما يخلق تجربة منعشة ولذيذة.
+                                <li className="py-1 ">
+                                    <span className='font-bold'>Ceviche: </span>
+                                    A dish that originated in Peru, it features raw fish marinated in citrus juices and seasoned with chili peppers, onions and coriander, creating a refreshing and delicious experience.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>الوسادة التايلاندية: </span>
-                                    طبق تايلاندي شهير يضم نودلز الأرز والخضروات والبيض، وغالبًا، المأكولات البحرية مثل الجمبري أو الحبار، متبلة بصلصة التمر الهندي الفريدة.
+                                <li className="py-1">
+                                    <span className='font-bold'>Thai Pillow: </span>
+                                    A popular Thai dish featuring rice noodles, vegetables, eggs, and often, seafood such as shrimp or squid, marinated in a unique tamarind sauce.
                                 </li>
                             </ul>
                         </div>
-                        <div id="بيرو: مزيج من التقاليد والابتكار">
-                            <h2 className='font-bold text-lg py-8 text-[#00563B]'>4. بيرو: مزيج من التقاليد والابتكار</h2>
+                        <div id="Peru: a blend of tradition and innovation">
+                            <h2 className='font-bold text-lg py-8 text-[#00563B]'>4. Peru: a mix of tradition and innovation</h2>
                             <div className='flex justify-end'>
                                 <Image className='w-full h-[400px] object-fill' src={peruSeafoodCuisine} alt='peru-seafood-cuisine' />
                             </div>
-                            <p className='pt-4'>برز المطبخ البيروفي كنجم عالمي في عالم الطهي، حيث اشتهر بطعمه الرائع<span className='font-bold'>أطباق مبتكرة ولذيذة. مأكولات بحرية</span>يلعب دورًا مركزيًا، مستوحى من التقاليد القديمة ويدمج التقنيات الحديثة. يستخدم الطهاة البيروفيون مكونات فريدة مثل <span className='font-bold'>آجي أماريلو الفلفل الحار، وفاكهة لوكوما، والكينوا،</span>إنشاء أطباق مألوفة وغير متوقعة.</p>
-                            <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>الأطباق المميزة:</h3>
+                            <p className='pt-4'>Peruvian cuisine has emerged as a global culinary star, famous for its exquisite <span className='font-bold'>innovative and delicious dishes. Seafood </span>plays a central role, inspired by ancient traditions and incorporating modern technologies. Peruvian chefs use unique ingredients such as <span className='font-bold'>aji amarillo chili peppers, lucuma fruit, and quinoa </span>to create dishes that are both familiar and unexpected.</p>
+                            <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>Featured dishes:</h3>
                             <ul className='list-disc'>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>سيفيتشي:</span>
-                                    طبق وطني في بيرو، يتميز بالأسماك النيئة المتبلة في عصائر الحمضيات، وفلفل آجي أماريلو الحار، والعديد من المكونات الأخرى، مما يؤدي إلى تجربة نابضة بالحياة ولذيذة.
+                                <li className="py-1">
+                                    <span className='font-bold'>Ceviche: </span>
+                                    A national dish of Peru, it features raw fish marinated in citrus juices, aji amarillo chiles, and many other ingredients, resulting in a vibrant and delicious experience.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>لومو سالتادو: </span>
-                                    طبق لحم بقري مقلي مع الخضار والمأكولات البحرية في كثير من الأحيان مثل الجمبري، متبل بصلصة الصويا والخل والتوابل، مما يعكس مزيجًا من التأثيرات البيروفية والصينية.
+                                <li className="py-1">
+                                    <span className='font-bold'>Lomo Saltado: </span>
+                                    A stir-fried beef dish with vegetables and often seafood such as shrimp, marinated in soy sauce, vinegar and spices, reflecting a mixture of Peruvian and Chinese influences.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>آجي دي جالينا:</span>
-                                    يخنة دجاج كريمية بنكهة فلفل أجي أماريلو الحار، وأحيانًا تتميز بالمأكولات البحرية مثل الإسكالوب أو بلح البحر، مما يعرض تنوع المطبخ البيروفي.
+                                <li className="py-1">
+                                    <span className='font-bold'>Agi di Gallina: </span>
+                                    A creamy chicken stew flavored with aj amarillo chiles, and sometimes featuring seafood such as scallops or mussels, showcasing the diversity of Peruvian cuisine.
                                 </li>
                             </ul>
                         </div>
-                        <div id="إيطاليا: احتفال بالبساطة">
-                            <h2 className='font-bold text-xl py-8 text-[#00563B]'>5. إيطاليا: احتفال بالبساطة</h2>
+                        <div id="Italy: A celebration of simplicity">
+                            <h2 className='font-bold text-xl py-8 text-[#00563B]'>5. Italy: A celebration of simplicity</h2>
                             <div className='flex justify-end'>
                                 <Image className='w-full h-[400px] object-cover' src={italySeafoodCuisine} alt='mediterranean-cuisine' />
                             </div>
-                            <p className='pt-4' >المطبخ الإيطالي معروف بتركيزه على<span className='font-bold'>مكونات طازجة وعالية الجودة</span>و<span className='font-bold'>تحضيرات بسيطة ولكنها لذيذة. مأكولات بحرية </span>يتميز بشكل بارز في المناطق الساحلية، وغالبًا ما يتم طهيه مع الثوم وزيت الزيتون والليمون والأعشاب الطازجة. تعرض أطباق مثل فروتي دي ماري ومعكرونة ألي فونجول النكهات المتأصلة للبحر، وتسلط الضوء على الفلسفة الإيطالية المتمثلة في &quot;الأقل هو الأكثر&quot;.</p>
-                            <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>الأطباق المميزة:</h3>
+                            <p className='pt-4' >Italian cuisine is known for its emphasis on <span className='font-bold'>fresh, high-quality ingredients </span>and<span className='font-bold'>simple but delicious preparations. Seafood </span>It features prominently in coastal areas, and is often cooked with garlic, olive oil, lemon, and fresh herbs. Dishes like frutti di mare and pasta alle vongole showcase the inherent flavors of the sea, highlighting the Italian philosophy of &quot;less is more&quot;.</p>
+                            <h3 className='text-lg font-semibold pt-4 text-[#00563B]'>Featured dishes:</h3>
                             <ul className='list-disc'>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>فروتي دي ماري:</span>
-                                    طبق من المأكولات البحرية يضم أنواعًا مختلفة من المحار، غالبًا ما يتم طهيه في صلصة طماطم خفيفة أو مشوي ببساطة مع الثوم والأعشاب.
+                                <li className="py-1">
+                                    <span className='font-bold'>Frutti di Mare: </span>
+                                    A seafood dish featuring different types of shellfish, often cooked in a light tomato sauce or simply grilled with garlic and herbs.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>معكرونة alle فونجولي:</span>
-                                    معكرونة مع المحار، مطبوخة في صلصة بسيطة من زيت الزيتون والثوم والنبيذ الأبيض والبقدونس الطازج، مما يسمح للنكهات الطبيعية للمحار بالتألق.
+                                <li className="py-1">
+                                    <span className='font-bold'>Spaghetti alle Vongole: </span>
+                                    Pasta with clams, cooked in a simple sauce of olive oil, garlic, white wine and fresh parsley, allowing the natural flavors of the clams to shine.
                                 </li>
-                                <li className="px-2 arabic-li">
-                                    <span className='font-bold'>أكوا بازا (النسخة الإيطالية):</span>
-                                    على غرار نسخة البحر الأبيض المتوسط، يتميز هذا الطبق بسمك أبيض مطهو في مرق خفيف من الطماطم مع الثوم والأعشاب وأحيانًا الزيتون، مما يوفر تجربة مريحة ولذيذة.
+                                <li className="py-1">
+                                    <span className='font-bold'>Aqua Pazza (Italian version): </span>
+                                    Similar to the Mediterranean version, this dish features white fish cooked in a light tomato broth with garlic, herbs and sometimes olives, providing a comforting and delicious experience.
                                 </li>
                             </ul>
                         </div>
-                        <div id='ما وراء الطبق: الأهمية الثقافية لمطبخ المأكولات البحرية'>
-                            <h2 className='text-lg font-bold text-[#00563B]'>ما وراء الطبق: الأهمية الثقافية لمطبخ المأكولات البحرية</h2>
-                            <p><span className='font-bold'>المأكولات البحرية</span>يتجاوز مجرد المسرات الطهي؛ فهو منسوج في النسيج الثقافي لعدد لا يحصى من المجتمعات حول العالم. من ممارسات الصيد التقليدية للمجتمعات الساحلية إلى الأعياد الاحتفالية التي تتميز بالمأكولات البحرية، تعكس تقاليد الطهي هذه ارتباطًا عميقًا بالبحر وخيراته.</p>
+                        <div id='Beyond the dish: the cultural significance of seafood cuisine'>
+                            <h2 className='text-lg font-bold text-[#00563B]'>Beyond the dish: the cultural significance of seafood cuisine</h2>
+                            <p><span className='font-bold'>Seafood </span>Goes beyond just culinary delights; It is woven into the cultural fabric of countless societies around the world. From the traditional fishing practices of coastal communities to celebratory feasts featuring seafood, these culinary traditions reflect a deep connection to the sea and its bounties.</p>
                         </div>
                         <div className='py-6'>
-                            <h2 className='text-lg font-bold text-[#00563B]' >الممارسات المستدامة: ضمان مستقبل المأكولات البحرية</h2>
-                            <p>بينما نحتفل بال <span className='font-bold'>افضل المأكولات البحرية,</span>ومن الأهمية بمكان الاعتراف بأهمية <span className='font-bold'>ممارسات الصيد المستدامة</span>ويشكل الصيد الجائر والتدهور البيئي تهديدات كبيرة للنظم الإيكولوجية البحرية. ومن خلال اتخاذ خيارات واعية بشأن المأكولات البحرية التي نستهلكها ودعم ممارسات الصيد المستدامة، يمكننا ضمان قدرة الأجيال القادمة على الاستمرار في الاستمتاع بخيرات المحيط لسنوات قادمة.</p>
+                            <h2 className='text-lg font-bold text-[#00563B]' >Sustainable practices: ensuring the future of seafood</h2>
+                            <p>As we celebrate <span className='font-bold'>the best seafood, </span>it is crucial to acknowledge the importance of <span className='font-bold'>sustainable fishing practices </span>and constitutes overfishing and degradation. Environmental threats to marine ecosystems. By making conscious choices about the seafood we consume and supporting sustainable fishing practices, we can ensure that future generations can continue to enjoy the ocean&apos;s bounty for years to come.</p>
                         </div>
-                        <div id='انطلق في رحلة الطهي الخاصة بك' className='py-6'>
-                            <h2 className='text-lg font-bold text-[#00563B]'>انطلق في رحلة الطهي الخاصة بك:</h2>
-                            <p>هذا الاستكشاف للعالم <span className='font-bold'>أفضل المأكولات البحرية</span>هي مجرد نقطة انطلاق. تقدم كل منطقة عددًا كبيرًا من الأطباق الفريدة وتجارب الطهي التي تنتظر من يكتشفها. لذلك، استمتع بالمغامرة، واستكشف أسواق المأكولات البحرية المحلية، وجرب وصفات جديدة، واصنع ذكرياتك اللذيذة مع خيرات البحر!</p>
+                        <div id='Embark on your culinary journey' className='py-6'>
+                            <h2 className='text-lg font-bold text-[#00563B]'>Embark on your own culinary journey:</h2>
+                            <p>This exploration of the world <span className='font-bold'>Best Seafood </span>is just a starting point. Each region offers a plethora of unique dishes and culinary experiences waiting to be discovered. So, enjoy the adventure, explore local seafood markets, try new recipes, and create delicious memories with the bounty of the sea!</p>
                         </div>
                     </article>
                 </div>

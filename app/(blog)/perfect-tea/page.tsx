@@ -8,19 +8,16 @@ import { Metadata } from 'next';
 import blogFeature from '@/public/assets/tea-blog-feature.jpeg'
 
 export const metadata: Metadata = {
-    title: "اصنع كوبًا مثاليًا من الشاي. دليل شامل",
-    description: "اكتشف أسرار تحضير كوب الشاي المثالي من خلال دليلنا المتعمق. تعلم التقنيات والنصائح والحيل لرفع مهاراتك في صنع الشاي إلى آفاق جديدة."
+    title: "How to make a perfect cup of tea. A comprehensive guide",
+    description: "Discover the secrets to brewing the perfect cup of tea with our in-depth guide. Learn techniques, tips and tricks to take your tea-making skills to new heights."
 };
 
 const TeaComponent = () => {
     const tableContents = [
-
-        { title: 'أهمية جودة المكونات' },
-        { title: 'فن التخمير' },
-        { title: "تعزيز تجربة الشاي الخاص بك" },
-        {
-            title: 'احتضان طقوس الشاي'
-        }
+        { title: 'The Importance of Ingredient Quality' },
+        { title: 'The Art of Fermentation' },
+        { title: 'Enhance your tea experience' },
+        { title: 'Embrace the tea ritual' }
 
     ]
     return (
@@ -36,7 +33,7 @@ const TeaComponent = () => {
                             open
                         >
                             <summary className="text-lg font-semibold capitalize cursor-pointer">
-                                قائمة المحتويات
+                                Table of contents
                             </summary>
                             <ul className="mt-4 font-in text-base">
                                 {
@@ -48,40 +45,37 @@ const TeaComponent = () => {
                         </details>
                     </div>
                     <div className='col-span-12 lg:col-span-8'>
-                        <h1 className='font-bold text-2xl text-[#00563B]'>اصنع كوبًا مثاليًا من الشاي. دليل شامل</h1>
-                        <div className='my-10' id='أفضل شوكولاتة في العالم: دليل شامل'>
+                        <h1 className='font-bold text-4xl text-[#00563B]'>How to make a perfect cup of tea. Comprehensive guide</h1>
+                        <div className='my-10'>
                             <div className='flex justify-end'>
                                 <Image className='w-full h-[400px] object-fill' src={blogFeature} alt='cocoa bean' />
                             </div>
                             <span className='cursor-pointer text-sky-400'>source: <Link href={'https://pexels.com/'} >pexels.com</Link></span>
                         </div>
                         <article>
-                            <p className=''>لقد تم تقدير الشاي لعدة قرون، ويتم الاحتفال به لدفئه المريح، ورائحته المهدئة، وعدد لا يحصى من الفوائد الصحية. من حفل الماتشا الياباني الأنيق إلى النكهات القوية للشاي الهندي، تنتشر ثقافة الشاي في جميع أنحاء العالم، وتأسر القلوب والعقول مع كل رشفة.</p>
-                            <p className='py-4'>في هذا الدليل الشامل، نتعمق في فن تحضير كوب الشاي المثالي، ونستكشف التقنيات والنصائح والحيل لرفع مهاراتك في صنع الشاي إلى آفاق جديدة. سواء كنت من عشاق الشاي المخضرمين أو بدأت رحلتك للتو في عالم الشاي، انضم إلينا ونحن نكشف أسرار هذا المشروب المحبوب.</p>
+                            <p className=''>Tea has been appreciated for centuries, celebrated for its comforting warmth, soothing aroma, and countless health benefits. From the elegant Japanese matcha ceremony to the intense flavors of Indian tea, tea culture spreads across the world, capturing hearts and minds with every sip.</p>
+                            <p className='py-4'>In this comprehensive guide, we delve into the art of brewing the perfect cup of tea, exploring techniques, tips and tricks to take your tea-making skills to new heights. Whether you&apos;re a seasoned tea lover or just starting your journey into the world of tea, join us as we reveal the secrets of this beloved beverage.</p>
 
                             <div className='py-4' id='أهمية جودة المكونات'>
-                                <h2 className='text-xl font-bold pb-2 pt-4 text-[#00563B]'>أهمية جودة المكونات</h2>
+                                <h2 className='text-xl font-bold pb-2 pt-4 text-[#00563B]'>The importance of component quality</h2>
 
                                 <p className='text-lg py-4'>
-                                    أساس أي كوب شاي رائع يكمن في جودة مكوناته. ابدأ بأوراق الشاي الطازجة عالية الجودة، والتي يتم الحصول عليها من موردين ذوي سمعة طيبة ومعروفين بالتزامهم بالتميز. سواء كنت تفضل النكهات الرقيقة للشاي الأخضر، أو النكهات الجريئة للشاي الأسود، أو التعقيدات الدقيقة للشاي الصيني الاسود، فاختر أنواع الشاي التي تتناسب مع ذوقك وتفضيلاتك.
+                                    The foundation of any great cup of tea lies in the quality of its ingredients. Start with fresh, high-quality tea leaves, sourced from reputable suppliers known for their commitment to excellence. Whether you prefer the subtle flavors of green tea, the bold flavors of black tea, or the subtle complexities of oolong tea, choose teas that match your taste and preferences.
                                 </p>
                             </div>
 
-                            <div className='py-4' id='فهم أصناف الشاي'>
-                                <h2 className='font-bold  text-[#00563B] text-lg'>فهم أصناف الشاي</h2>
-                                {/* <div className='flex justify-end'>
-                <Image className='w-full h-[400px] object-fill' src={cocoaBean} alt='cocoa bean' />
-              </div> */}
-                                <p className='py-4'>يأتي الشاي في مجموعة مبهرة من الأصناف، كل منها يقدم خصائصه الفريدة ونكهته المميزة. تعرف على أنواع الشاي المختلفة، بما في ذلك الشاي الأسود والأخضر والأبيض والشاي الصيني الاسود والشاي العشبي. استكشف الفروق الدقيقة في كل صنف، بدءًا من الروائح الزهرية لشاي الياسمين الأخضر وحتى الثراء الترابي لنبات Pu-erh.</p>
+                            <div className='py-4' id='Understanding Tea Varieties'>
+                                <h2 className='font-bold text-[#00563B] text-lg'>Understanding Tea Varieties</h2>
+                                <p className='py-4'>Tea comes in a dazzling array of varieties, each offering its own unique characteristics and flavour. Learn about the different types of tea, including black, green, white, oolong, and herbal tea. Explore the nuances of each variety, from the floral notes of Jasmine Green Tea to the earthy richness of Pu-erh.</p>
 
 
                             </div>
 
-                            <div className='py-4' id='فن التخمير'>
-                                <h2 className='font-bold text-[#00563B] text-lg' >فن التخمير</h2>
-                                <p className='py-4'>إن تحقيق المشروب المثالي يتطلب الدقة والصبر واندفاعة من الحدس. ابدأ باختيار الوعاء المناسب لشايك، سواء كان إبريق شاي كلاسيكي، أو غيوان أنيق، أو سلة مصفاة مريحة. قم بقياس أوراق الشاي بعناية، مع اتباع إرشادات التخمير الموصى بها لضمان استخلاص النكهة الأمثل.</p>
+                            <div className='py-4' id='The Art of Fermentation'>
+                                <h2 className='font-bold text-[#00563B] text-lg' >The Art of Fermentation</h2>
+                                <p className='py-4'>Achieving the perfect drink requires precision, patience, and a dash of intuition. Start by choosing the right vessel for your tea, whether it&apos;s a classic teapot, an elegant teapot, or a convenient infuser basket. Measure tea leaves carefully, following recommended brewing instructions to ensure optimal flavor extraction.</p>
                                 <p className='py-4'>
-                                    انتبه إلى درجة حرارة الماء وأوقات النقع، لأن هذه العوامل يمكن أن تؤثر بشكل كبير على طعم ورائحة الشاي. قم بتجربة طرق ومعلمات تخمير مختلفة، واضبط المتغيرات لتناسب تفضيلاتك الشخصية.
+                                    Pay attention to water temperature and steeping times, as these factors can greatly affect the taste and aroma of the tea. Experiment with different brewing methods and parameters, and adjust the variables to suit your personal preferences.
                                 </p>
 
 
@@ -89,21 +83,21 @@ const TeaComponent = () => {
 
 
 
-                            <div className='py-4' id='تعزيز تجربة الشاي الخاص بك'>
-                                <h2 className='font-bold text-[#00563B] text-lg'>تعزيز تجربة الشاي الخاص بك</h2>
+                            <div className='py-4' id='Enhance your tea experience'>
+                                <h2 className='font-bold text-[#00563B] text-lg'>Enhance your tea experience</h2>
 
-                                <p className='py-4'>تمتد الرحلة إلى كوب الشاي المثالي إلى ما هو أبعد من عملية التخمير. ضع في اعتبارك الأجواء والمناطق المحيطة التي تستمتع فيها بالشاي، سواء كان ذلك ركنًا مريحًا في منزلك، أو بيئة حديقة هادئة، أو مقهى صاخبًا مليئًا بالضحك والمحادثة.
+                                <p className='py-4'>The journey to the perfect cup of tea extends beyond the brewing process. Consider the atmosphere and surroundings in which you are enjoying tea, whether that is a cozy corner of your home, a quiet garden environment, or a bustling café full of laughter and conversation.
 
-                                    قم بتجربة أزواج الشاي، واستكشف النكهات والقوام التكميلي الذي يعزز التجربة الحسية الشاملة. انغمس في الحلويات مثل المعجنات الرقيقة، أو كعكات الزبدة، أو الشوكولاتة اللذيذة، مما يخلق مجموعات نكهات متناغمة تُبهج الذوق.</p>
+                                    Experiment with tea pairings, discover complementary flavors and textures that enhance the overall sensory experience. Indulge in desserts such as delicate pastries, butter cakes, or delicious chocolates, creating harmonious flavor combinations that delight the palate.</p>
 
                             </div>
 
-                            <div className='font-lg py-4' id='احتضان طقوس الشاي'>
-                                <h2 className='font-bold text-lg'>احتضان طقوس الشاي</h2>
+                            <div className='font-lg py-4' id='Embracing the Tea Ritual'>
+                                <h2 className='font-bold text-lg'>Embracing the tea ritual</h2>
 
-                                <p className='py-4'>الشاي هو أكثر من مجرد مشروب - إنه طقوس ولحظة من الوعي التام والتواصل في عالم سريع الخطى. استمتع بطقوس الشاي من جميع أنحاء العالم، بدءًا من الهدوء التأملي لحفل الشاي الياباني وحتى التجمعات المبهجة لشاي بعد الظهر الإنجليزي.
+                                <p className='py-4'>Tea is more than just a drink - it is a ritual, a moment of mindfulness and connection in a fast-paced world. Enjoy tea rituals from around the world, from the meditative serenity of the Japanese tea ceremony to the joyful gatherings of English afternoon tea.
 
-قم بإنشاء طقوس الشاي الخاصة بك، وغرس كل كوب بالنية والامتنان والتقدير لمتعة الحياة البسيطة. سواء كنت تتذوق الشاي بمفردك أو تشاركه مع أحبائك، دع كل رشفة تكون تذكيرًا لك بالتباطؤ والتنفس بعمق وتذوق اللحظة.</p>
+                                    Create your own tea ritual, infusing each cup with intention, gratitude, and appreciation for life&apos;s simple pleasures. Whether you&apos;re savoring tea alone or sharing it with loved ones, let every sip be a reminder to slow down, breathe deeply, and savor the moment.</p>
                             </div>
 
                         </article>

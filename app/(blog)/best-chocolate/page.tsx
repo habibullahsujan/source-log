@@ -12,26 +12,26 @@ import cocoaBean from '@/public/assets/cocoa-bean.jpeg'
 
 
 export const metadata: Metadata = {
-  title: "أفضل الشوكولاتة: رحلة لذيذة لاكتشافها",
-  description: "اكتشف أفضل أنواع الشوكولاتة في العالم! استكشف ملفات تعريف النكهات وأفضل العلامات التجارية ونصائح للعثور على علاجك المثالي.",
+  title: "Best Chocolate: A Delicious Journey to Discover It",
+  description: "Discover the best chocolate in the world! Explore flavor profiles, best brands and tips to find your perfect treat.",
 };
 const HistoryOfChocolate = () => {
 
   const tableContents = [
-    { title: 'أفضل شوكولاتة في العالم: دليل شامل' },
-    { title: "رحلة عبر الزمن: التاريخ الساحر للشوكولاتة" },
-    { title: "فن صياغة الشوكولاتة: من الفول إلى البار" },
-    { title: "عالم من الاختيارات: استكشاف المناظر الطبيعية المتنوعة لشركات الشوكولاتة" },
-    { title: "إزالة الغموض عن المكونات: الكشف عن الأسرار الكامنة وراء جاذبية الشوكولاتة" },
-    { title: "التنقل في ممر الشوكولاتة: دليل لفئات مختلفة" },
-    { title: "ما وراء الانغماس: التأثير الشامل للشوكولاتة" },
-    { title: "الخلاصة: احتفال بالشوكولاتة بجميع أشكالها" }
+    { title: 'The best chocolate in the world: a comprehensive guide' },
+    { title: "A Journey Through Time: The Enchanting History of Chocolate" },
+    { title: "The Art of Chocolate Crafting: From Bean to Bar" },
+    { title: "A World of Choices: Exploring the Diverse Landscape of Chocolate Companies" },
+    { title: "Demystifying Ingredients: Revealing the Secrets Behind Chocolate's Allure" },
+    { title: "Navigating the Chocolate Aisle: A Guide to Different Categories" },
+    { title: "Beyond Indulgence: The Holistic Effect of Chocolate" },
+    { title: "Bottom line: A celebration of chocolate in all its forms" }
 
 
   ]
   return (
     <>
-      <BlogContainer className='text-right mx-2 md:mx-16 py-32'>
+      <BlogContainer className=' mx-2 md:mx-16 py-32'>
         <div className='flex items-center gap-x-4 py-7 text-lg'>
           <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-chocolate'}>Best Chocolate</Link>
         </div>
@@ -42,7 +42,7 @@ const HistoryOfChocolate = () => {
               open
             >
               <summary className="text-lg font-semibold capitalize cursor-pointer">
-                قائمة المحتويات
+                Table of contents
               </summary>
               <ul className="mt-4 font-in text-base">
                 {
@@ -54,90 +54,89 @@ const HistoryOfChocolate = () => {
             </details>
           </div>
           <div className='col-span-12 lg:col-span-8'>
-            <h1 className='font-bold text-2xl text-[#00563B]'>أفضل شوكولاتة في العالم: دليل شامل</h1>
-            <div className='my-10' id='أفضل شوكولاتة في العالم: دليل شامل'>
+            <h1 className='font-bold text-4xl text-[#00563B]'>The best chocolate in the world: a comprehensive guide</h1>
+            <div className='my-10' id='The Best Chocolate in the World: A Comprehensive Guide'>
               <div className='flex justify-end'>
                 <Image className='w-full h-[400px] object-fill' src={image1} alt='cocoa bean' />
               </div>
               <span className='cursor-pointer text-sky-400'>source: <Link href={'https://unsplash.com/'} >unsplash.com</Link></span>
             </div>
             <article>
-              <p className='text-lg'>الشوكولاتة، الكلمة نفسها تثير سلسلة من الأحاسيس المبهجة - قوام كريمي، وروائح غنية، ووعد بالانغماس الخالص. لكن هذه المعالجة المنتشرة في كل مكان تفتخر بتاريخ غني ومعقد مثل نكهتها. من أصولها القديمة إلى الأصناف المتنوعة التي تزين أرفف المتاجر اليوم، أسرت الشوكولاتة الثقافات في جميع أنحاء العالم لآلاف السنين. يتعمق هذا الدليل الشامل في عالم الشوكولاتة الرائع، ويستكشف تاريخها، وفن صناعة قالب الشوكولاتة المثالي، والمناظر الطبيعية المتنوعة لشركات الشوكولاتة، والمكونات الرئيسية التي تجعل هذه الحلوى المحبوبة تنبض بالحياة.</p>
+              <p className='text-lg'>Chocolate, the word itself evokes a series of delightful sensations - creamy textures, rich aromas, and the promise of pure indulgence. But this ubiquitous treat boasts a history as rich and complex as its flavor. From its ancient origins to the diverse varieties that grace store shelves today, chocolate has captivated cultures around the world for thousands of years. This comprehensive guide delves into the wonderful world of chocolate, exploring its history, the art of crafting the perfect bar, the diverse landscape of chocolate companies, and the key ingredients that make this beloved dessert come to life.</p>
 
-              <div className='py-4' id='رحلة عبر الزمن: التاريخ الساحر للشوكولاتة'>
-                <h2 className='text-xl font-bold pb-2 pt-4 text-[#00563B]'>رحلة عبر الزمن: التاريخ الساحر للشوكولاتة</h2>
-                <p className='text-lg py-4'>تتكشف قصة الشوكولاتة في أمريكا الوسطى، حيث نشأت <Link href={'https://en.wikipedia.org/wiki/Cocoa_bean'} className='font-bold hover:underline'>حبوب الكاكاو</Link>، أساس الشوكولاتة. ويعتقد أن حضارة الأولمك (1800-400 قبل الميلاد) هي أول من استهلك الشوكولاتة، واستخدمها في المشروبات الاحتفالية المملوءة بالماء والفلفل الحار. قام المايا (2000 قبل الميلاد - 900 م) بتحسين استخدام <Link href={'https://en.wikipedia.org/wiki/Cocoa_bean'}>حبوب الكاكاو، </Link> وطحنها إلى عجينة ودمجها في المشروبات والعروض الطقسية.</p>
-                <p className='text-lg py-2'>لننتقل سريعًا إلى الأزتيك (1300-1521 م)، الذين كانوا يقدسون الشوكولاتة باعتبارها طعامًا للآلهة. لقد تناولوا مشروبًا مريرًا ورغويًا يسمى &quot;xocolatl&quot;، مصنوع من حبوب الكاكاو المطحونة ودقيق الذرة والفلفل الحار والتوابل. يُعتقد أن هذا المشروب القوي يمتلك خصائص منشطة وكان مخصصًا للنبلاء والمحاربين.</p>
-                <p className='text-lg py-2'>كان وصول الغزاة الإسبان في القرن السادس عشر بمثابة نقطة تحول في تاريخ الشوكولاتة. لقد اعتمدوا مشروب الأزتك، مضيفين السكر وغيروا الوصفة لتناسب أذواقهم. اكتسبت هذه النسخة الأكثر حلاوة من الشوكولاتة شعبية في أوروبا، وتطورت في النهاية إلى ألواح الشوكولاتة الصلبة التي نعرفها ونحبها اليوم.</p>
+              <div className='py-4' id='A Journey Through Time: The Enchanting History of Chocolate'>
+                <h2 className='text-xl font-bold pb-2 pt-4 text-[#00563B]'>A Journey Through Time: The Enchanting History of Chocolate</h2>
+                <p className='text-lg py-4'>The story of chocolate unfolds in Central America, where it originated <Link href={'https://en.wikipedia.org/wiki/Cocoa_bean'} className='font-bold hover :underline'>Cocoa beans</Link>, the basis of chocolate. The Olmec civilization (1800-400 BC) is believed to be the first to consume chocolate, using it in ceremonial drinks filled with water and chili pepper. The Maya (2000 BC - 900 AD) improved the use of <Link href={'https://en.wikipedia.org/wiki/Cocoa_bean'}>cocoa beans, </Link>, grinding them into a paste and incorporating them into beverages and ritual offerings. </p>
+                <p className='text-lg py-2'>Let&apos;`s fast forward to the Aztecs (1300-1521 AD), who revered chocolate as a food of the gods. They drank a bitter, foamy drink called “xocolatl,” made from ground cocoa beans, cornmeal, chili peppers, and spices. This powerful drink was believed to have tonic properties and was reserved for nobles and warriors.</p>
+                <p className='text-lg py-2'>The arrival of the Spanish conquistadors in the 16th century marked a turning point in the history of chocolate. They adopted the Aztec drink, adding sugar and changing the recipe to suit their tastes. This sweeter version of chocolate gained popularity in Europe, eventually evolving into the solid chocolate bars we know and love today.</p>
               </div>
-
-              <div className='py-4' id='فن صياغة الشوكولاتة: من الفول إلى البار'>
-                <h2 className='font-bold text-xl text-[#00563B]'>فن صياغة الشوكولاتة: من الفول إلى البار</h2>
+              <div className='py-4' id='The art of chocolate crafting: from bean to bar'>
+                <h2 className='font-bold text-xl text-[#00563B]'>The art of chocolate crafting: from bean to bar</h2>
                 <div className='flex justify-end'>
                   <Image className='w-full h-[400px] object-fill' src={cocoaBean} alt='cocoa bean' />
                 </div>
-                <p className='py-4'>إن تحويل حبة الكاكاو المتواضعة إلى لوح شوكولاتة منحل ينطوي على عملية دقيقة تتطلب الخبرة والاهتمام الدقيق بالتفاصيل. فيما يلي لمحة عن المراحل الرئيسية لصنع الشوكولاتة:</p>
+                <p className='py-4'>Transforming the humble cocoa bean into a decadent chocolate bar involves a delicate process that requires expertise and meticulous attention to detail. Here is an overview of the main stages of chocolate making:</p>
                 <ul className='list-disc'>
-                  <li className='arabic-li'><span className='font-bold'>التوريد والتحميص:</span>تبدأ الرحلة باختيار حبوب الكاكاو عالية الجودة، والتي غالبًا ما تكون من مناطق محددة معروفة بنكهاتها الفريدة. يتم بعد ذلك تحميص هذه الحبوب بعناية لتعزيز رائحتها وتطوير نكهات الشوكولاتة المميزة.</li>
-                  <li className='arabic-li'><span className='font-bold'>التذرية والطحن:</span>بعد التحميص، تتم إزالة القشرة من الحبوب من خلال عملية تسمى التذرية. يتم بعد ذلك طحن حبيبات الكاكاو المتبقية جيدًا للحصول على عجينة سميكة تعرف باسم كتلة الكاكاو.</li>
-                  <li className='arabic-li'><span className='font-bold'>محارة:</span>تتضمن هذه الخطوة الحاسمة تحريك كتلة الكاكاو وتهويتها لفترة طويلة. تعمل هذه العملية على تحسين الملمس وتقليل المرارة وتطوير نكهة الشوكولاتة الفريدة.</li>
-                  <li className='arabic-li'><span className='font-bold'>هدأ:</span>للحصول على لمسة نهائية ناعمة ولامعة وملمس مرضي، تخضع الشوكولاتة لعملية دقيقة يتم التحكم في درجة حرارتها تُعرف باسم التقسية.</li>
-                  <li className='arabic-li'><span className='font-bold'>صب والتعبئة والتغليف:</span>أخيرًا، تُسكب الشوكولاتة المُخففة في قوالب وتُبرد، لتأخذ شكل ألواح أو رقائق أو أي أشكال أخرى مرغوبة. يتم بعد ذلك تعبئة المنتج النهائي وتجهيزه لرحلته إلى محبي الشوكولاتة في جميع أنحاء العالم.</li>
+                  <li><span className='font-bold'>Sourcing and Roasting:</span>The journey begins with selecting high-quality cocoa beans, which are often from specific regions known for their unique flavours. These beans are then carefully roasted to enhance their aroma and develop distinctive chocolate flavours.</li>
+                  <li><span className='font-bold'>Winning and milling:</span>After roasting, the husk is removed from the beans through a process called winnowing. The remaining cocoa nibs are then finely ground to obtain a thick paste known as cocoa mass.</li>
+                  <li><span className='font-bold'>Conching:</span>This crucial step involves stirring and aerating the cocoa mass for a long time. This process improves texture, reduces bitterness and develops a unique chocolate flavour.</li>
+                  <li><span className='font-bold'>Tempering:</span>To achieve a smooth, shiny finish and a satisfying texture, chocolate undergoes a precise, temperature-controlled process known as tempering.</li>
+                  <li><span className='font-bold'>Molding and Packaging:</span>Finally, the tempered chocolate is poured into molds and cooled, taking the form of bars, flakes, or other desired shapes. The finished product is then packaged and prepared for its journey to chocolate lovers around the world.</li>
                 </ul>
               </div>
 
-              <div className='py-4' id='عالم من الاختيارات: استكشاف المناظر الطبيعية المتنوعة لشركات الشوكولاتة'>
-                <h2>عالم من الاختيارات: استكشاف المناظر الطبيعية المتنوعة لشركات الشوكولاتة</h2>
-                <p>تفتخر صناعة الشوكولاتة العالمية بوجود العديد من الشركات، حيث تساهم كل منها بنكهات وابتكارات فريدة في عالم الشوكولاتة. فيما يلي بعض الأمثلة الجديرة بالملاحظة:</p>
+              <div className='py-4' id='A world of choices: exploring the diverse landscape of chocolate businesses'>
+                <h2>A World of Choices: Exploring the Diverse Landscape of Chocolate Companies</h2>
+                <p>The global chocolate industry boasts many companies, each contributing unique flavors and innovations to the world of chocolate. Here are some noteworthy examples:</p>
                 <ul className="list-disc">
-                  <li className='arabic-li'><span className='font-bold'>هيرشي (الولايات المتحدة الأمريكية):</span>اسم مألوف مرادف لشوكولاتة الحليب الكريمية، هيرشي يأسر براعم التذوق الأمريكية منذ عام 1894.</li>
-                  <li className='arabic-li'><span className='font-bold'>ليندت (سويسرا): </span>تشتهر شوكولاتة ليندت بملمسها الناعم الذي يذوب في الفم، وهي مصنوعة من مكونات عالية الجودة وتأتي في مجموعة متنوعة من النكهات اللذيذة.</li>
-                  <li className='arabic-li'><span className='font-bold'>جوديفا (بلجيكا):</span>تشتهر شوكولاتة جوديفا بشوكولاتةها الفاخرة وتغليفها الرائع، وهي رمز للتدليل وغالبًا ما تعتبر خيارًا متميزًا.</li>
-                  <li className='arabic-li'><span className='font-bold'>غيرارديلي (الولايات المتحدة الأمريكية):</span>تقدم تجربة شوكولاتة غنية ومكثفة، شوكولاتة غيرارديللي مصنوعة من محتوى عالي من الكاكاو وتلبي الأذواق التي تبحث عن نكهة أكثر جرأة.</li>
-                  <li className='arabic-li'><span className='font-bold'>توني تشوكولوني (هولندا):</span>تدعم هذه الشركة ذات الوعي الاجتماعي الكاكاو من مصادر أخلاقية وممارسات التجارة العادلة، وتقدم الشوكولاتة اللذيذة بينما تدعو إلى صناعة كاكاو مستدامة وعادلة.</li>
+                  <li><span className='font-bold'>Hershey (USA):</span>A household name synonymous with creamy milk chocolate, Hershey&apos;s has been captivating American taste buds since 1894.</li >
+                  <li><span className='font-bold'>Lindt (Switzerland): </span>Known for its smooth, melt-in-your-mouth texture, Lindt chocolate is made from high-quality ingredients and comes in a variety of flavors. Delicious flavours.</li>
+                  <li><span className='font-bold'>Godiva (Belgium):</span>Known for its luxurious chocolate and exquisite packaging, Godiva chocolate is a symbol of pampering and is often considered a premium choice.</li>
+                  <li><span className='font-bold'>Ghirardelli (USA):</span>Offering a rich and intense chocolate experience, Ghirardelli chocolate is made with a high cocoa content and caters to tastes seeking A bolder flavour.</li>
+                  <li><span className='font-bold'>Tony Chocoloni (Netherlands):</span>This socially conscious company supports ethically sourced cocoa and fair trade practices, serving delicious chocolate while advocating for... A sustainable and fair cocoa industry.</li>
 
                 </ul>
               </div>
 
-              <div className='py-4' id='إزالة الغموض عن المكونات: الكشف عن الأسرار الكامنة وراء جاذبية الشوكولاتة'>
-                <h2 className='font-bold text-xl text-[#00563B]'>إزالة الغموض عن المكونات: الكشف عن الأسرار الكامنة وراء جاذبية الشوكولاتة</h2>
-                <p>يكمن سحر الشوكولاتة في مزيجها الفريد من المكونات، التي يلعب كل منها دورًا حاسمًا في مذاقها وملمسها:</p>
+              <div className='py-4' id='Demystifying ingredients: revealing the secrets behind chocolate&apos;s appeal'>
+                <h2 className='font-bold text-xl text-[#00563B]'>Demystifying ingredients: revealing the secrets behind chocolate&apos;s appeal</h2>
+                <p>The magic of chocolate lies in its unique combination of ingredients, each of which plays a crucial role in its taste and texture:</p>
                 <ul className="list-disc">
-                  <li className='arabic-li'><span className="font-bold">حبوب الكاكاو:</span>أساس جميع أنواع الشوكولاتة، حبوب الكاكاو تأتي في أنواع مختلفة، كل منها يساهم في نكهة ورائحة مميزة. تحدد نسبة المواد الصلبة للكاكاو في الشوكولاتة مرارتها، حيث توفر النسب الأعلى نكهة شوكولاتة أكثر كثافة.</li>
-                  <li className='arabic-li'><span className="font-bold">زبدة الكاكاو:</span>تضفي زبدة الكاكاو المستخرجة من حبوب الكاكاو ملمسًا ناعمًا وكريميًا وملمسًا فاخرًا على الشوكولاتة.</li>
-                  <li className='arabic-li'><span className="font-bold">سكر:</span>يحلي الشوكولاتة ويوازن مرارة الكاكاو.</li>
-                  <li className='arabic-li'><span className="font-bold">الحليب (في شوكولاتة الحليب):</span>يضيف كريمة وحلاوة مميزة إلى شوكولاتة الحليب، مما يخلق نكهة أكثر اعتدالًا ويسهل الوصول إليها مقارنة بالشوكولاتة الداكنة.</li>
-                  <li className='arabic-li'><span className="font-bold">الليسيثين:</span>مستحلب يساعد على مزج زبدة الكاكاو والمكونات الأخرى، مما يضمن الحصول على ملمس ناعم ومتماسك.</li>
-                  <li className='arabic-li'><span className="font-bold">فانيلا:</span>غالبًا ما يستخدم مستخلص الفانيليا بكميات صغيرة، وهو يعزز تعقيد النكهة الطبيعية للشوكولاتة ويضيف حلاوة خفيفة.</li>
-                  <li className='arabic-li'><span className="font-bold">المكونات الإضافية:</span>اعتمادًا على نوع الشوكولاتة المحدد، يمكن دمج مكونات إضافية مثل المكسرات والفواكه والتوابل والمنكهات الأخرى لإنشاء مجموعات نكهات فريدة.</li>
+                  <li><span className="font-bold">Cocoa Beans:</span>The foundation of all chocolate, cocoa beans come in different types, each contributing a distinct flavor and aroma. The percentage of cocoa solids in chocolate determines its bitterness, with higher percentages providing a more intense chocolate flavour.</li>
+                  <li><span className="font-bold">Cocoa Butter:</span>Cocoa butter extracted from cocoa beans gives a smooth, creamy texture and luxurious texture to chocolate.</li>
+                  <li><span className="font-bold">Sugar:</span>Sweets chocolate and balances the bitterness of cocoa.</li>
+                  <li><span className="font-bold">Milk (in milk chocolate):</span>Adds a distinct creaminess and sweetness to milk chocolate, creating a milder and more accessible flavor compared to dark chocolate.</li>
+                  <li><span className="font-bold">Lecithin:</span>An emulsifier that helps blend the cocoa butter and other ingredients, ensuring a smooth, consistent texture.</li>
+                  <li><span className="font-bold">Vanilla:</span>Often used in small amounts, vanilla extract enhances the complexity of the chocolate&apos;s natural flavor and adds a subtle sweetness.</li>
+                  <li><span className="font-bold">Additional ingredients:</span>Depending on the specific type of chocolate, additional ingredients such as nuts, fruits, spices and other flavorings can be combined to create unique flavor combinations.</li>
                 </ul>
               </div>
 
-              <div className='py-4' id='التنقل في ممر الشوكولاتة: دليل لفئات مختلفة'>
-                <h2 className='font-bold text-xl pt-1 pb-2'>التنقل في ممر الشوكولاتة: دليل لفئات مختلفة</h2>
-                <p className='py-2'>يمتد عالم الشوكولاتة إلى ما هو أبعد من ألواح شوكولاتة الحليب الكلاسيكية. فيما يلي تفاصيل الفئات الرئيسية التي ستواجهها عند استكشاف ممر الشوكولاتة:</p>
+              <div className='py-4' id='Navigating the Chocolate Aisle: A Guide to Different Classes'>
+                <h2 className='font-bold text-xl pt-1 pb-2'>Navigating the Chocolate Aisle: A Guide to Different Classes</h2>
+                <p className='py-2'>The world of chocolate extends far beyond classic milk chocolate bars. Here&lsquo;s a breakdown of the main categories you&lsquo;ll encounter when exploring the chocolate aisle:</p>
                 <ul className="list-disc">
-                  <li className='arabic-li'><span className='font-bold'>الشوكولاته الداكنة:</span>تحتوي هذه الفئة على أعلى نسبة من الكاكاو تتراوح من 70% إلى 100%. تقدم الشوكولاتة الداكنة نكهة شوكولاتة أكثر ثراءً وأكثر كثافة مع ملاحظات من المرارة والتعقيد.</li>
-                  <li className='arabic-li'><span className='font-bold'>شوكولاتة الحليب:</span>تتميز هذه الفئة الشائعة بتوازن مواد الكاكاو الصلبة وزبدة الكاكاو والحليب والسكر. ويتميز بمذاق حلو وكريمي، مما يجعله المفضل لدى العديد من محبي الشوكولاتة.</li>
-                  <li className='arabic-li'><span className='font-bold'>شوكولاته بيضاء:</span>خلافًا للاعتقاد الشائع، لا تحتوي الشوكولاتة البيضاء في الواقع على مواد كاكاو صلبة، بل تحتوي على زبدة الكاكاو والسكر والحليب والمنكهات. له طعم حلو كريمي وملمس ناعم.</li>
-                  <li className='arabic-li'><span className='font-bold'>روبي الشوكولاته:</span>تتميز هذه الفئة الجديدة نسبياً بلون وردي فريد وطعم حلو وفاكهي طبيعي دون إضافة نكهات أو ألوان صناعية.</li>
-                  <li className='arabic-li'><span className='font-bold'>الشوكولاتة المخلوطة:</span>تشمل هذه الفئة مجموعة واسعة من الشوكولاتة الممزوجة بمكونات إضافية مثل المكسرات والفواكه والتوابل والكراميل والمزيد. تلبي هذه الخيارات التفضيلات المتنوعة وتقدم مجموعات نكهة مثيرة.</li>
+                  <li><span className='font-bold'>Dark chocolate:</span>This category contains the highest percentage of cocoa, ranging from 70% to 100%. Dark chocolate offers a richer, more intense chocolate flavor with notes of bitterness and complexity.</li>
+                  <li><span className='font-bold'>Milk Chocolate:</span>This popular category is characterized by a balance of cocoa solids, cocoa butter, milk and sugar. It has a sweet and creamy taste, making it a favorite among many chocolate lovers.</li>
+                  <li><span className='font-bold'>White Chocolate:</span>Contrary to popular belief, white chocolate does not actually contain cocoa solids, but rather cocoa butter, sugar, milk, and flavorings. It has a sweet, creamy taste and smooth texture.</li>
+                  <li><span className='font-bold'>Ruby Chocolate:</span>This relatively new category is characterized by a unique pink color and a natural sweet and fruity taste without the addition of artificial flavors or colors.</li>
+                  <li><span className='font-bold'>Infused Chocolate:</span>This category includes a wide range of chocolate mixed with additional ingredients such as nuts, fruits, spices, caramel and more. These options cater to diverse preferences and offer exciting flavor combinations.</li>
                 </ul>
               </div>
 
-              <div className='py-4' id='ما وراء الانغماس: التأثير الشامل للشوكولاتة'>
-                <h2>ما وراء الانغماس: التأثير الشامل للشوكولاتة</h2>
-                <p>يمتد تأثير الشوكولاتة إلى ما هو أبعد من عالم التساهل الخالص. وله دور كبير في مختلف جوانب حياتنا، بما في ذلك:</p>
+              <div className='py-4' id='Beyond Indulgence: The Holistic Impact of Chocolate'>
+                <h2 className='font-bold text-2xl py-4'>Beyond Indulgence: The Holistic Impact of Chocolate</h2>
+                <p className='py-2'>Chocolate&apos;s influence extends far beyond the realm of pure indulgence. It has a major role in various aspects of our lives, including:</p>
                 <ul className="list-disc">
-                  <li className='arabic-li'><span className='font-bold'>أهمية ثقافية:</span>لقد تم نسج الشوكولاتة في النسيج الثقافي للمجتمعات في جميع أنحاء العالم، وغالبًا ما ترتبط بالاحتفالات والطقوس الدينية والتقاليد.</li>
-                  <li className='arabic-li'><span className='font-bold'>الأثر الاقتصادي:</span>توظف صناعة الكاكاو ملايين الأشخاص في جميع أنحاء العالم، وخاصة في الدول النامية. تعد ممارسات التوريد المستدامة والأخلاقية أمرًا بالغ الأهمية لضمان رفاهية مزارعي الكاكاو ومستقبل الصناعة.</li>
-                  <li className='arabic-li'><span className='font-bold'>الفوائد الصحية:</span>على الرغم من أنها تعتبر في كثير من الأحيان علاجًا ممتعًا، إلا أن الشوكولاتة الداكنة باعتدال توفر فوائد صحية معينة، ومن المحتمل أن تساهم في تحسين الوظيفة الإدراكية وصحة القلب (عند تناولها باعتدال وكجزء من نظام غذائي متوازن).</li>
+                  <li><span className='font-bold'>Cultural Significance:</span>Chocolate has been woven into the cultural fabric of societies around the world, and is often associated with celebrations, religious rituals and traditions.</li>
+                  <li><span className='font-bold'>Economic Impact:</span>The cocoa industry employs millions of people around the world, especially in developing countries. Sustainable and ethical sourcing practices are crucial to ensuring the well-being of cocoa farmers and the future of the industry.</li>
+                  <li><span className='font-bold'>Health Benefits:</span>Although it is often considered a pleasurable treat, dark chocolate in moderation provides certain health benefits, potentially contributing to improved cognitive function. And heart health (when consumed in moderation and as part of a balanced diet).</li>
                 </ul>
               </div>
 
-              <div className='font-lg py-4' id='الخلاصة: احتفال بالشوكولاتة بجميع أشكالها'>
-                <h2 className='font-bold text-xl'>الخلاصة: احتفال بالشوكولاتة بجميع أشكالها</h2>
-                <p className='py-2'>إن عالم الشوكولاتة عبارة عن نسيج غني منسوج من التاريخ والتقاليد والابتكارات الطهوية. من عملية التصنيع الدقيقة إلى الأصناف المتنوعة التي تزين أرفف المتاجر، تستمر الشوكولاتة في أسر حواسنا وإثارة فضولنا. سواء كنت من عشاق الشوكولاتة المخضرمين أو بدأت استكشافك للتو، فإن هذا الدليل الشامل يزودك بالمعرفة والتقدير للتنقل في عالم الشوكولاتة وتذوق العديد من المأكولات اللذيذة.</p>
+              <div className='font-lg py-4' id='Bottom line: A celebration of chocolate in all its forms'>
+                <h2 className='font-bold text-xl'>Bottom line: A celebration of chocolate in all its forms</h2>
+                <p className='py-2'>The world of chocolate is a rich tapestry woven of history, tradition and culinary innovation. From the meticulous manufacturing process to the diverse varieties that grace store shelves, chocolate continues to captivate our senses and arouse our curiosity. Whether you&apos;re a seasoned chocolate lover or just beginning your exploration, this comprehensive guide will equip you with the knowledge and appreciation to navigate the world of chocolate and sample its many delicious delights.</p>
               </div>
 
             </article>

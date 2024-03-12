@@ -1,18 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Noto_Naskh_Arabic,Montserrat } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import clsx from "clsx";
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleAnalytics } from '@next/third-parties/google'
 export const metadata: Metadata = {
-  title: "Discover Arabian Delights: Your gateway to rich culture",
-  description: "The vibrant world of Arab culture, cuisine and lifestyle. Immerse yourself in tradition and inspiration.",
+  title: "Unveiling Essential Tools, Tempting Recipes, and Lifestyle Wonders",
+  description: "Join us on a culinary adventure as we delve into essential kitchen tools, share mouthwatering recipes, and offer lifestyle tips to enrich your daily routine.",
 };
 
-const notNaskhArabic = Noto_Naskh_Arabic({
-  weight: ['400'],
-  subsets: ['arabic']
-})
 
 const montserrat=Montserrat({
   weight:['400'],

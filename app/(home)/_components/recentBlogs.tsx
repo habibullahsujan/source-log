@@ -36,14 +36,14 @@ const RecentBlog = () => {
 
                             <div className="flex items-center justify-between">
                                 <h2 className="font-bold text-xl py-3 text-black blog-title">
-                                    كيفية تحضير أفضل المأكولات البحرية في العالم.
+                                How to prepare the best seafood in the world.
                                 </h2>
                                 <button>
                                     <ArrowRightCircle className="h-10 w-8 text-black" />{" "}
                                 </button>
                             </div>
                             <p className="text-slate-500">
-                                تقدم سخاء المحيط كنزًا من المأكولات الشهية، وقد طورت الثقافات حول العالم طرقًا فريدة ولذيذة لعرض أفضل المأكولات البحرية. من المهارة الفنية الدقيقة للسوشي الياباني إلى التوابل الجريئة للطواجن المغربية، تحتل المأكولات البحرية مركز الصدارة في عدد لا يحصى من تقاليد الطهي، مما يثير حاسة التذوق ويثري التجارب الثقافية....
+                            The ocean&apos;s bounty offers a treasure trove of delicacies, and cultures around the world have developed unique and delicious ways to showcase <span className='font-bold'>the best seafood</span>. From the delicate artistry of Japanese sushi to the bold spices of Moroccan tagines, seafood takes center stage in countless culinary traditions, exciting the sense of taste and enriching cultural experiences...
                             </p>
                             <div className="flex items-center gap-x-4 mt-5">
                                 <CategoryButton className="cursor-pointer hover:bg-[#6941C6] hover:text-[#F9F5FF] bg-[#F9F5FF] text-[#6941C6]">
@@ -75,9 +75,9 @@ const RecentBlog = () => {
                                 <span className="font-bold flex gap-x-1 items-center">Author: <BlogTime> Kobir Ali • 8 Jan 2023</BlogTime></span>
 
                                 <h3 className="blog-title font-bold text-xl py-3">
-                                    الكشف عن الأسرار الحلوة لشوكولاتة هيرشي: رحلة عبر عقود من البهجة
-                                </h3>
-                                <p>لأكثر من قرن، <span className="font-bold">شوكولاتة هيرشي</span>لقد كان مرادفًا للحلاوة الكريمية وذكريات الحنين. من ألواح الحلوى الشهيرة إلى مربعات الخبز متعددة الاستخدامات، أثبتت هيرشي نفسها باعتبارها حجر الزاوية في صناعة الحلويات الأمريكية، حيث تُبهج الأجيال بنكهاتها الفريدة....
+                                     Revealing the sweet secrets of Hershey&apos;s chocolate: a journey through decades of delight
+                                 </h3>
+                                 <p>For more than a century, <span className="font-bold">Hershey&apos;s chocolate</span>has been synonymous with creamy sweetness and nostalgic memories. From its iconic candy bars to its versatile baking squares, Hershey&apos;s has established itself as a cornerstone of American confectionery, delighting generations with its unique flavors....
                                 </p>
                                 <div className="flex items-center gap-x-4 mt-5">
                                     <CategoryButton className="bg-[#F9F5FF] text-[#6941C6] transition-all cursor-pointer hover:bg-[#6941C6] hover:text-[#F9F5FF]">
@@ -104,10 +104,10 @@ const RecentBlog = () => {
                                 <span className="font-bold flex gap-x-2 items-center">Author:  <BlogTime> Abu Ahsan • 1 Jan 2023</BlogTime></span>
 
                                 <h3 className="blog-title font-bold text-xl py-3">
-                                    فك رموز اللذة: دليل شامل لعالم الشوكولاتة
+                                    The best chocolate in the world: a comprehensive guide
                                 </h3>
                                 <p>
-                                    الشوكولاتة، الكلمة نفسها تثير سلسلة من الأحاسيس المبهجة - قوام كريمي، وروائح غنية، ووعد بالانغماس الخالص....
+                                    Chocolate, the word itself evokes a series of delightful sensations - creamy textures, rich aromas, and the promise of pure indulgence. But this ubiquitous treat boasts a history as rich and complex as its flavor.....
                                 </p>
                                 <div className="flex items-center gap-x-4 mt-5">
                                     <CategoryButton className="bg-[#F9F5FF] text-[#6941C6] cursor-pointer hover:bg-[#6941C6] hover:text-[#F9F5FF] transition-all">
