@@ -72,7 +72,7 @@ const TouristPlacesRiyadh = () => {
 
 
               <div className='flex justify-end'>
-                <Image className='w-full h-[400px] object-fill' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Masmak_Fort_%2812753717253%29.jpg/450px-Masmak_Fort_%2812753717253%29.jpg'} alt='masmak fort' />
+                <Image className='w-full h-[400px] object-fill' src={'https://images.pexels.com/photos/1885720/pexels-photo-1885720.jpeg?auto=compress&cs=tinysrgb&w=600'} alt='masmak fort' />
               </div>
               <p className='text-lg py-6'>
                 تقف قلعة المصمك، الغارقة في التاريخ، كرمز لصمود الرياض. بُني هذا الحصن من الطين والطوب اللبن في القرن التاسع عشر، وقد لعب دورًا محوريًا في استعادة المدينة، مما يمثل نقطة تحول مهمة في توحيد المملكة العربية السعودية. استكشف الحصن المُعاد ترميمه، وتعمق في تاريخه الرائع، وشاهد المناظر البانورامية الخلابة للمدينة.
@@ -141,7 +141,7 @@ const TouristPlacesRiyadh = () => {
             <div id="4. قصر المربع: لمحة عن التاريخ الملكي (حي المربع)">
               <h2 className='font-bold text-lg py-8 text-[#00563B]'>4. قصر المربع: لمحة عن التاريخ الملكي (حي المربع)</h2>
               <div className='flex justify-end'>
-                <Image className='w-full h-[400px] object-fill' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%D9%82%D8%B5%D8%B1_%D8%A7%D9%84%D9%85%D8%B1%D8%A8%D8%B9.jpg/375px-%D9%82%D8%B5%D8%B1_%D8%A7%D9%84%D9%85%D8%B1%D8%A8%D8%B9.jpg'} alt='Murabba Palace' />
+                <Image className='w-full h-[400px] object-fill' src={'https://images.pexels.com/photos/4388164/pexels-photo-4388164.jpeg?auto=compress&cs=tinysrgb&w=600'} alt='Murabba Palace' />
               </div>
               <p className='pt-4'>
                 عد بالزمن إلى الوراء واستكشف قصر المربع الفخم، وهو المقر الملكي السابق الذي كان بمثابة المقر الرئيسي للملك الأول للمملكة العربية السعودية، الملك عبد العزيز. تعجب من العظمة المعمارية، وتعمق في تاريخ القصر الرائع، وشاهد العروض التي تعرض حياة وتراث العائلة المالكة السعودية.
@@ -163,7 +163,7 @@ const TouristPlacesRiyadh = () => {
             <div id="5. حافة العالم (جرف طويق)">
               <h2 className='font-bold text-xl py-8 text-[#00563B]'>5. حافة العالم (جرف طويق)</h2>
               <div className='flex justify-end'>
-                <Image className='w-full h-[400px] object-cover' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Tuwaiq_Escarpment-14h38m25s-k.jpg/330px-Tuwaiq_Escarpment-14h38m25s-k.jpg'} alt='mediterranean-cuisine' />
+                <Image className='w-full h-[400px] object-cover' src={'https://images.pexels.com/photos/68358/pexels-photo-68358.jpeg?auto=compress&cs=tinysrgb&w=600'} alt='Edge of the World (Tuwaiq Escarpment)' />
               </div>
               <p className='pt-4' >
                 قم بالمغامرة خارج حدود المدينة واستمتع بتجربة الأعجوبة الطبيعية المذهلة المعروفة باسم حافة العالم. يوفر هذا الجرف الدراماتيكي إطلالات بانورامية مذهلة على المناظر الطبيعية الصحراوية الشاسعة، مما يجعله مثاليًا لالتقاط صور مذهلة والاستمتاع بمغامرة فريدة في الهواء الطلق.
