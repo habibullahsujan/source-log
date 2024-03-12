@@ -4,7 +4,7 @@
 import blog5 from "@/public/assets/riyadh-img.jpg";
 import blog6 from "@/public/assets/tea-title-img.jpeg";
 import blog7 from "@/public/assets/featured-blog-car-rental-company.jpeg";
-import blog8 from "@/public/assets/blog-8.jpeg";
+import blog8 from "@/public/assets/featured-best-kitchen-sink.jpeg";
 import blog9 from "@/public/assets/blog-9.jpeg";
 import blog10 from "@/public/assets/blog-10.jpeg";
 
@@ -74,12 +74,12 @@ const AllBlogs = () => {
         },
         {
             image: blog8,
-            authorName: "Alec Whitten",
-            publishedDate: "• 1 Jan 2023",
-            title: "Bill Walsh leadership lessons",
-            href: '/',
+            authorName: "Habib Ullah",
+            publishedDate: "• 1 Jan 2024",
+            title: "Best Kitchen Sinks for Every Need",
+            href: '/best-kitchen-sink',
             description:
-                "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+                "The kitchen sink - the unsung hero of countless meals, dishes, and culinary creations. It's a workhorse, a stage for prep work, and a crucial element in maintaining a clean and functional kitchen. But with a multitude of options available, choosing the best kitchen sink can feel overwhelming. Fear not! This comprehensive guide dives into the top 10 contenders, exploring materials, styles, functionalities, and price points to help you find the perfect fit for your kitchen.",
             tags: [
                 <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
                     Leadership

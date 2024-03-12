@@ -28,9 +28,9 @@ const BestCarRentalCompany = () => {
     ]
     return (
         <>
-            <BlogContainer className='text-right mx-2 md:mx-16 py-32'>
+            <BlogContainer className='text-left mx-2 md:mx-16 py-32'>
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
-                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-car-rental-company'}>Best Chocolate</Link>
+                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-car-rental-company'}>Best-Car-Rental-Company</Link>
                 </div>
                 <div className='grid grid-cols-12 gap-x-5'>
                     <div className="col-span-12  lg:col-span-4">
@@ -51,12 +51,12 @@ const BestCarRentalCompany = () => {
                         </details>
                     </div>
                     <div className='col-span-12 lg:col-span-8'>
-                        <h1 className='font-bold text-2xl text-[#00563B]'>Best Car Rental Companies in Saudi Arabia</h1>
+                        <h1 className='font-bold text-4xl text-[#00563B]'>Best Car Rental Companies in Saudi Arabia</h1>
                         <div className='my-10' id='أفضل شوكولاتة في العالم: دليل شامل'>
                             <div className='flex justify-end'>
                                 <Image className='w-full h-[400px] object-fill' src={featuredImage} alt='best car rental company' />
                             </div>
-                            <span className='cursor-pointer text-sky-400'>source: <Link href={'https://pexels.com/'} >pexels.com</Link></span>
+                            <span className='cursor-pointer text-sky-400'>source: <Link className='text-blue-500 underline' target='_blank' href={'https://pexels.com/'} >pexels.com</Link></span>
                         </div>
                         <article>
                             <div>
@@ -100,7 +100,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>From economy cars to luxurious SUVs, Hanco provides a wide selection, including Toyota, Hyundai, Nissan, and more.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Visit Hanco&apos;s <Link target='_blank' className='text-blue-500' href={'https://www.myhanco.com/'}>official website</Link> or email them at info@hanco.com.sa.
+                                        Visit Hanco&apos;s <Link target='_blank' className='text-blue-500 underline' href={'https://www.myhanco.com/'}>official website</Link> or email them at info@hanco.com.sa.
                                     </li>
                                 </ul>
                             </div>
@@ -116,7 +116,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Compact cars to spacious vans, featuring Chevrolet, Ford, Mitsubishi, and more.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Reach out via email at info@budgetsaudi.com or visit Budget Saudi Arabia&apos;s  <Link target='_blank' className='text-blue-500' href={'https://www.budgetsaudi.com/en/'}>official website</Link>.
+                                        Reach out via email at info@budgetsaudi.com or visit Budget Saudi Arabia&apos;s  <Link target='_blank' className='text-blue-500 underline' href={'https://www.budgetsaudi.com/en/'}>official website</Link>.
                                     </li>
                                 </ul>
                             </div>
@@ -132,7 +132,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Top brands such as BMW, Mercedes-Benz, and Audi in various classes.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Book your rental online or email inquiries to info@avis.com.sa or<Link target='_blank' className='text-blue-500' href={'https://www.avis.com/en/home'}>official website</Link>.
+                                        Book your rental online or email inquiries to info@avis.com.sa or <Link target='_blank' className='text-blue-500 underline' href={'https://www.avis.com/en/home'}> official website</Link>.
                                     </li>
                                 </ul>
                             </div>
@@ -148,7 +148,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Volkswagen, BMW, Audi, spanning from economy cars to premium SUVs.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Explore rental options and make reservations online at Sixt Saudi Arabia&apos;s <Link target='_blank' className='text-blue-500' href={'https://www.sixt.com.sa/'}>official website</Link>.
+                                        Explore rental options and make reservations online at Sixt Saudi Arabia&apos;s <Link target='_blank' className='text-blue-500 underline' href={'https://www.sixt.com.sa/'}> official website</Link>.
                                     </li>
                                 </ul>
                             </div>
@@ -164,7 +164,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Diverse fleet including economy cars, SUVs, luxury vehicles, and trucks.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Visit Enterprise&apos;s <Link target='_blank' className='text-blue-500' href={'https://www.enterprise.com/en/home.html'}>website</Link> for reservations and inquiries.
+                                        Visit Enterprise&apos;s <Link target='_blank' className='text-blue-500 underline' href={'https://www.enterprise.com/en/home.html'}> website</Link> for reservations and inquiries.
                                     </li>
                                 </ul>
                             </div>
@@ -180,7 +180,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>A wide range from compact cars to luxury sedans and specialty vehicles.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Book online via Hertz&apos;s <Link target='_blank' className='text-blue-500' href={'https://www.hertz-saudi.com/rentacar/reservation/'}>website</Link> or contact their customer service for assistance.
+                                        Book online via Hertz&apos;s <Link target='_blank' className='text-blue-500 underline' href={'https://www.hertz-saudi.com/rentacar/reservation/'}> website</Link> or contact their customer service for assistance.
                                     </li>
                                 </ul>
                             </div>
@@ -196,7 +196,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Compact cars, SUVs, trucks, and luxury vehicles.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Reserve your vehicle <Link target='_blank' className='text-blue-500' href={'https://www.nationalcar.com/en/home.html'}>online</Link> or contact National Car Rental&apos;s customer support for assistance.
+                                        Reserve your vehicle <Link target='_blank' className='text-blue-500 underline' href={'https://www.nationalcar.com/en/home.html'}>online </Link> or contact National Car Rental&apos;s customer support for assistance.
                                     </li>
                                 </ul>
                             </div>
@@ -212,7 +212,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Economy cars, SUVs, and specialty vehicles.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Book <Link target='_blank' className='text-blue-500' href={'https://www.dollar.com/'}>online</Link> or contact Dollar Rent A Car&apos;s customer service for inquiries.
+                                        Book <Link target='_blank' className='text-blue-500 underline' href={'https://www.dollar.com/'}>online </Link> or contact Dollar Rent A Car&apos;s customer service for inquiries.
                                     </li>
                                 </ul>
                             </div>
@@ -231,7 +231,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Economy cars, SUVs, trucks, and luxury vehicles.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Make reservations <Link target='_blank' className='text-blue-500' href={'https://www.thrifty.com/'}>online</Link> or contact Thrifty Car Rental&apos;s customer service.
+                                        Make reservations <Link target='_blank' className='text-blue-500 underline' href={'https://www.thrifty.com/'}>online </Link> or contact Thrifty Car Rental&apos;s customer service.
                                     </li>
                                 </ul>
                             </div>
@@ -247,7 +247,7 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Economy cars, SUVs, luxury vehicles, and electric cars.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Book <Link target='_blank' className='text-blue-500' href={'https://www.europcar.com/en/car-rental/locations/saudi-arabia'}>
+                                        Book <Link target='_blank' className='text-blue-500 underline' href={'https://www.europcar.com/en/car-rental/locations/saudi-arabia'}>
                                             online</Link> via Europcar&apos;s website or contact their customer service.
                                     </li>
                                 </ul>

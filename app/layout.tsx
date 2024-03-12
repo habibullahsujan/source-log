@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Noto_Naskh_Arabic } from 'next/font/google'
+import { Noto_Naskh_Arabic,Montserrat } from 'next/font/google'
 import clsx from "clsx";
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleAnalytics } from '@next/third-parties/google'
@@ -14,6 +14,11 @@ const notNaskhArabic = Noto_Naskh_Arabic({
   subsets: ['arabic']
 })
 
+const montserrat=Montserrat({
+  weight:['400'],
+  subsets:['latin']
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx('', notNaskhArabic.className)}>{children}<Toaster /></body>
+      <body className={clsx('', montserrat.className)}>{children}<Toaster /></body>
       <GoogleAnalytics gaId="G-EEQ48444N2" />
     </html>
   );

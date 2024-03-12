@@ -74,11 +74,11 @@ const KitchenHoods = () => {
               </p>
 
               <ul className='list-disc'>
-                <li><span className='font-bold px-2'>اغطية تحت الخزانة:</span>تعتبر أدوات توفير المساحة هذه التي يتم وضعها بشكل خفي أسفل الخزانات مثالية للمطابخ الصغيرة.</li>
-                <li><span className='font-bold px-2'>الشفاطات المثبتة على الحائط:</span>الخيار الكلاسيكي، يوفر تهوية قوية ويأتي في أنماط مختلفة لتناسب ديكورك.</li>
-                <li><span className='font-bold px-2'>أغطية الجزيرة:</span>مثالية للمطابخ المفتوحة أو الجزر، هذه الوحدات الأنيقة تتدلى من السقف، مما يدلي ببيان أثناء تنقية الهواء.</li>
-                <li><span className='font-bold px-2'>اغطية Downdraft:</span>تم دمج هذه الخيارات الأنيقة في الموقد المسطح الخاص بك، وتختفي عند عدم استخدامها، مما يزيد من مساحة المنضدة.</li>
-                <li>
+                <li className='arabic-li'><span className='font-bold px-2'>اغطية تحت الخزانة:</span>تعتبر أدوات توفير المساحة هذه التي يتم وضعها بشكل خفي أسفل الخزانات مثالية للمطابخ الصغيرة.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>الشفاطات المثبتة على الحائط:</span>الخيار الكلاسيكي، يوفر تهوية قوية ويأتي في أنماط مختلفة لتناسب ديكورك.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>أغطية الجزيرة:</span>مثالية للمطابخ المفتوحة أو الجزر، هذه الوحدات الأنيقة تتدلى من السقف، مما يدلي ببيان أثناء تنقية الهواء.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>اغطية Downdraft:</span>تم دمج هذه الخيارات الأنيقة في الموقد المسطح الخاص بك، وتختفي عند عدم استخدامها، مما يزيد من مساحة المنضدة.</li>
+                <li className='arabic-li'>
                   <span className='font-bold px-2'>إعادة تدوير القلنسوات:</span>
                   مثالية للشقق أو المساحات التي لا تحتوي على تهوية خارجية، حيث تقوم بتصفية الهواء وإعادة تدويره داخل مطبخك.
                 </li>
@@ -88,23 +88,23 @@ const KitchenHoods = () => {
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>اختيار بطلك: الاعتبارات الأساسية</h2>
               <p className='text-lg py-3 font-semibold'>الآن بعد أن قابلت المتنافسين، حان الوقت لاختيار بطلك! فيما يلي العوامل الرئيسية التي يجب التفكير فيها:</p>
               <ul className='list-disc'>
-                <li><span className='font-bold px-2'>مقاس:</span>تأكد من أن غطاء محرك السيارة الخاص بك يغطي سطح الطهي بالكامل لالتقاط الملوثات المحمولة جواً بشكل فعال.</li>
-                <li><span className='font-bold px-2'>قوة التهوية:</span>عند قياسه بالقدم المكعب في الدقيقة (CFM)، يشير ارتفاع CFM إلى قوة الشفط. قم بمطابقة CFM مع أسلوب الطبخ الخاص بك وحجم المطبخ.</li>
-                <li><span className='font-bold px-2'>مستوى الضوضاء:</span>اختر شفاطًا ذو تصنيف ديسيبل يناسب مستوى راحتك، خاصة إذا كنت تطبخ بشكل متكرر.</li>
-                <li><span className='font-bold px-2'>المرشحات:</span>اختر المرشحات التي يسهل تنظيفها واستبدالها. فكر في استخدام مرشحات الفحم لإعادة تدوير الأغطية.</li>
-                <li><span className='font-bold px-2'>إضاءة:</span>تضيء مصابيح LED المدمجة سطح الطبخ الخاص بك، مما يعزز الرؤية ويضيف لمسة من الأناقة.</li>
-                <li><span className='font-bold px-2'>جماليات:</span>اختر الشفاط الذي يكمل تصميم مطبخك وتفضيلاتك الشخصية.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>مقاس:</span>تأكد من أن غطاء محرك السيارة الخاص بك يغطي سطح الطهي بالكامل لالتقاط الملوثات المحمولة جواً بشكل فعال.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>قوة التهوية:</span>عند قياسه بالقدم المكعب في الدقيقة (CFM)، يشير ارتفاع CFM إلى قوة الشفط. قم بمطابقة CFM مع أسلوب الطبخ الخاص بك وحجم المطبخ.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>مستوى الضوضاء:</span>اختر شفاطًا ذو تصنيف ديسيبل يناسب مستوى راحتك، خاصة إذا كنت تطبخ بشكل متكرر.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>المرشحات:</span>اختر المرشحات التي يسهل تنظيفها واستبدالها. فكر في استخدام مرشحات الفحم لإعادة تدوير الأغطية.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>إضاءة:</span>تضيء مصابيح LED المدمجة سطح الطبخ الخاص بك، مما يعزز الرؤية ويضيف لمسة من الأناقة.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>جماليات:</span>اختر الشفاط الذي يكمل تصميم مطبخك وتفضيلاتك الشخصية.</li>
               </ul>
             </div>
             <div id='ما وراء الأساسيات: ميزات متقدمة للارتقاء بمطبخك' >
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>ما وراء الأساسيات: ميزات متقدمة للارتقاء بمطبخك</h2>
               <h3 className='font-semibold text-[#00563B]'>توفر الشفاطات الحديثة مجموعة من الميزات لتعزيز تجربة الطهي الخاصة بك:</h3>
               <ul className='list-disc'>
-                <li><span className='font-bold px-2'>التحكم في السرعة المتغيرة:</span>اضبط قوة الشفط لتتناسب مع كثافة الطبخ لديك.</li>
-                <li><span className='font-bold px-2'>مصابيح الحرارة:</span>حافظ على أطباقك دافئة أثناء الانتهاء من طهي العناصر الأخرى.</li>
-                <li><span className='font-bold px-2'>جهاز التحكم:</span>قم بتشغيل غطاء محرك السيارة الخاص بك وأنت مستريح على كرسيك.</li>
-                <li><span className='font-bold px-2'>الاغلاق التلقائي:</span>يضمن إيقاف تشغيل غطاء المحرك بعد فترة زمنية محددة، مما يوفر الطاقة.</li>
-                <li><span className='font-bold px-2'>الاتصال الذكي:</span>تحكم في غطاء محرك السيارة الخاص بك وراقب أدائه من خلال هاتفك الذكي.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>التحكم في السرعة المتغيرة:</span>اضبط قوة الشفط لتتناسب مع كثافة الطبخ لديك.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>مصابيح الحرارة:</span>حافظ على أطباقك دافئة أثناء الانتهاء من طهي العناصر الأخرى.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>جهاز التحكم:</span>قم بتشغيل غطاء محرك السيارة الخاص بك وأنت مستريح على كرسيك.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>الاغلاق التلقائي:</span>يضمن إيقاف تشغيل غطاء المحرك بعد فترة زمنية محددة، مما يوفر الطاقة.</li>
+                <li className='arabic-li'><span className='font-bold px-2'>الاتصال الذكي:</span>تحكم في غطاء محرك السيارة الخاص بك وراقب أدائه من خلال هاتفك الذكي.</li>
               </ul>
             </div>
             <div id='رؤى التثبيت: ضمان الأداء الأمثل'>

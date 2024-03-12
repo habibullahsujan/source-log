@@ -68,7 +68,7 @@ const TeaComponent = () => {
                             </div>
 
                             <div className='py-4' id='فهم أصناف الشاي'>
-                                <h2 className='font-bold text-xl text-[#00563B] text-lg'>فهم أصناف الشاي</h2>
+                                <h2 className='font-bold  text-[#00563B] text-lg'>فهم أصناف الشاي</h2>
                                 {/* <div className='flex justify-end'>
                 <Image className='w-full h-[400px] object-fill' src={cocoaBean} alt='cocoa bean' />
               </div> */}
