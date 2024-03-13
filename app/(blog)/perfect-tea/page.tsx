@@ -22,7 +22,7 @@ const TeaComponent = () => {
     ]
     return (
         <>
-            <BlogContainer className='text-right mx-2 md:mx-16 py-32'>
+            <BlogContainer className='mx-2 md:mx-16 py-32'>
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
                     <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/perfect-tea'}>Perfect Tea</Link>
                 </div>

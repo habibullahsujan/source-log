@@ -28,124 +28,124 @@ const AllBlogs = () => {
             href: '/tourist-place-riyadh',
             title: "Best tourist places in the Kingdom of Saudi Arabia, excellent tourism guide",
             description:
-                 "Travelling to Saudi Arabia offers a captivating journey through some of the world's best tourist attractions, where ancient traditions blend seamlessly with modern marvels. From vast expanses of desert dunes to vibrant, vibrant cities, Saudi Arabia attracts travelers with its rich tapestry of cultural heritage and scenery. The stunning natural landscape and warm hospitality. One of the most compelling reasons to explore Saudi Arabia is its wealth of historical and cultural treasures. The Kingdom is home to some of the best-preserved archaeological sites in the world, offering a glimpse into the ancient civilizations that once flourished in this region. Of antiquities The towering towers of Mada&apos; in Saleh, a UNESCO World Heritage Site, to the ancient rock art of Jubbah, Saudi Arabia&apos;s historical landmarks transport visitors back in time to a bygone era of kings, merchants and Bedouins.For those seeking natural wonders, Saudi Arabia boasts some Top tourist attractions, including the majestic Red Sea coast, where pristine beaches and vibrant coral reefs await exploration. Dive into the crystal-clear waters to discover a kaleidoscope of marine life, from colorful fish to majestic sea turtles, or take a thrilling desert safari to witness the mesmerizing beauty of the sand dunes at sunset. Saudi Arabia&apos;s cities are vibrant centers of culture, commerce and innovation, offering a variety of experiences for travellers. The capital, Riyadh, features iconic landmarks such as the Kingdom Center Tower and the historic Masmak Castle, while Jeddah, the gateway to the Red Sea, enchants visitors with its bustling markets, ancient architecture, and vibrant street art scene. Along with its cultural and natural attractions, Saudi Arabia offers visitors a warm welcome and the opportunity to experience the kingdom&apos;s legendary hospitality first-hand. From traditional Bedouin tents in the desert to luxury resorts along the coast, accommodation options cater to all tastes and budgets, ensuring a comfortable and memorable stay for travelers from all over the world. In conclusion, traveling to Saudi Arabia opens up a world of wonders, where ancient history, natural beauty and modern innovation converge to create an unforgettable trip. Whether exploring ancient ruins, diving in azure waters, or immersing yourself in vibrant city life, the best tourist attractions in Saudi Arabia promise a truly enriching and transformative experience for travelers seeking adventure, discovery, and cultural immersion.",
-    tags: [
-        <CategoryButton key={1} className="bg-[#F9F5FF] text-[#6941C6]">
-            Tourist Places
-        </CategoryButton>,
-        <CategoryButton key={2} className="bg-[#EEF4FF] text-[#3538CD]">
-            Lifestyle
-        </CategoryButton>,
-    ],
+                "Travelling to Saudi Arabia offers a captivating journey through some of the world's best tourist attractions, where ancient traditions blend seamlessly with modern marvels. From vast expanses of desert dunes to vibrant, vibrant cities, Saudi Arabia attracts travelers with its rich tapestry of cultural heritage and scenery. The stunning natural landscape and warm hospitality. One of the most compelling reasons to explore Saudi Arabia is its wealth of historical and cultural treasures. The Kingdom is home to some of the best-preserved archaeological sites in the world, offering a glimpse into the ancient civilizations that once flourished in this region. Of antiquities The towering towers of Mada&apos; in Saleh, a UNESCO World Heritage Site, to the ancient rock art of Jubbah, Saudi Arabia&apos;s historical landmarks transport visitors back in time to a bygone era of kings, merchants and Bedouins.For those seeking natural wonders, Saudi Arabia boasts some Top tourist attractions, including the majestic Red Sea coast, where pristine beaches and vibrant coral reefs await exploration. Dive into the crystal-clear waters to discover a kaleidoscope of marine life, from colorful fish to majestic sea turtles, or take a thrilling desert safari to witness the mesmerizing beauty of the sand dunes at sunset. Saudi Arabia&apos;s cities are vibrant centers of culture, commerce and innovation, offering a variety of experiences for travellers. The capital, Riyadh, features iconic landmarks such as the Kingdom Center Tower and the historic Masmak Castle, while Jeddah, the gateway to the Red Sea, enchants visitors with its bustling markets, ancient architecture, and vibrant street art scene. Along with its cultural and natural attractions, Saudi Arabia offers visitors a warm welcome and the opportunity to experience the kingdom&apos;s legendary hospitality first-hand. From traditional Bedouin tents in the desert to luxury resorts along the coast, accommodation options cater to all tastes and budgets, ensuring a comfortable and memorable stay for travelers from all over the world. In conclusion, traveling to Saudi Arabia opens up a world of wonders, where ancient history, natural beauty and modern innovation converge to create an unforgettable trip. Whether exploring ancient ruins, diving in azure waters, or immersing yourself in vibrant city life, the best tourist attractions in Saudi Arabia promise a truly enriching and transformative experience for travelers seeking adventure, discovery, and cultural immersion.",
+            tags: [
+                <CategoryButton key={1} className="bg-[#F9F5FF] text-[#6941C6]">
+                    Tourist Places
+                </CategoryButton>,
+                <CategoryButton key={2} className="bg-[#EEF4FF] text-[#3538CD]">
+                    Lifestyle
+                </CategoryButton>,
+            ],
         },
-{
-    image: blog6,
-        authorName: "Alec Whitten",
+        {
+            image: blog6,
+            authorName: "Alec Whitten",
             publishedDate: "• 1 Jan 2023",
-                href: '/perfect-tea',
+            href: '/perfect-tea',
 
-                    title: "How to make a perfect cup of tea. A comprehensive guide",
-                        description:
-    "Tea has been appreciated for centuries, celebrated for its comforting warmth, soothing aroma, and countless health benefits. From the elegant Japanese matcha ceremony to the intense flavors of Indian tea, tea culture spreads across the world, capturing hearts and minds with every sip...",
-        tags: [
-            <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                Lifestyle
-            </CategoryButton>,
-            <CategoryButton key={4} className="bg-[#EEF4FF] text-[#3538CD]">
-                Food
-            </CategoryButton>,
-        ],
+            title: "How to make a perfect cup of tea. A comprehensive guide",
+            description:
+                "Tea has been appreciated for centuries, celebrated for its comforting warmth, soothing aroma, and countless health benefits. From the elegant Japanese matcha ceremony to the intense flavors of Indian tea, tea culture spreads across the world, capturing hearts and minds with every sip...",
+            tags: [
+                <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
+                    Lifestyle
+                </CategoryButton>,
+                <CategoryButton key={4} className="bg-[#EEF4FF] text-[#3538CD]">
+                    Food
+                </CategoryButton>,
+            ],
         },
-{
-    image: blog7,
-        authorName: "Alec Whitten",
+        {
+            image: blog7,
+            authorName: "Alec Whitten",
             publishedDate: "• 1 Jan 2024",
-                title: "Best car rental company in Saudi Arabia",
-                    href: '/best-car-rental-company',
-                        description:
-    "Planning a trip to Saudi Arabia and in need of reliable transportation? Look no further! We've curated a list of the top 10 car rental companies across the Kingdom to ensure your journey is smooth and hassle-free.",
-        tags: [
-            <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                LifeStyle                </CategoryButton>,
-            <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
-                Car
-            </CategoryButton>,
-        ],
+            title: "Best car rental company in Saudi Arabia",
+            href: '/best-car-rental-company',
+            description:
+                "Planning a trip to Saudi Arabia and in need of reliable transportation? Look no further! We've curated a list of the top 10 car rental companies across the Kingdom to ensure your journey is smooth and hassle-free.",
+            tags: [
+                <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
+                    LifeStyle                </CategoryButton>,
+                <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
+                    Car
+                </CategoryButton>,
+            ],
         },
-{
-    image: blog8,
-        authorName: "Habib Ullah",
+        {
+            image: blog8,
+            authorName: "Habib Ullah",
             publishedDate: "• 1 Jan 2024",
-                title: "Best Kitchen Sinks for Every Need",
-                    href: '/best-kitchen-sink',
-                        description:
-    "The kitchen sink - the unsung hero of countless meals, dishes, and culinary creations. It's a workhorse, a stage for prep work, and a crucial element in maintaining a clean and functional kitchen. But with a multitude of options available, choosing the best kitchen sink can feel overwhelming. Fear not! This comprehensive guide dives into the top 10 contenders, exploring materials, styles, functionalities, and price points to help you find the perfect fit for your kitchen.",
-        tags: [
-            <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                Leadership
-            </CategoryButton>,
-            <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
-                Management
-            </CategoryButton>,
-        ],
+            title: "Best Kitchen Sinks for Every Need",
+            href: '/best-kitchen-sink',
+            description:
+                "The kitchen sink - the unsung hero of countless meals, dishes, and culinary creations. It's a workhorse, a stage for prep work, and a crucial element in maintaining a clean and functional kitchen. But with a multitude of options available, choosing the best kitchen sink can feel overwhelming. Fear not! This comprehensive guide dives into the top 10 contenders, exploring materials, styles, functionalities, and price points to help you find the perfect fit for your kitchen.",
+            tags: [
+                <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
+                    Leadership
+                </CategoryButton>,
+                <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
+                    Management
+                </CategoryButton>,
+            ],
         },
-{
-    image: blog9,
-        authorName: "Alec Whitten",
+        {
+            image: blog9,
+            authorName: "Alec Whitten",
             publishedDate: "• 1 Jan 2023",
-                title: "Bill Walsh leadership lessons",
-                    href: '/',
-                        description:
-    "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
-        tags: [
-            <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                Leadership
-            </CategoryButton>,
-            <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
-                Management
-            </CategoryButton>,
-        ],
+            title: "Bill Walsh leadership lessons",
+            href: '/',
+            description:
+                "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+            tags: [
+                <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
+                    Leadership
+                </CategoryButton>,
+                <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
+                    Management
+                </CategoryButton>,
+            ],
         },
-{
-    image: blog10,
-        authorName: "Alec Whitten",
+        {
+            image: blog10,
+            authorName: "Alec Whitten",
             publishedDate: "• 1 Jan 2023",
-                href: '/',
-                    title: "Bill Walsh leadership lessons",
-                        description:
-    "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
-        tags: [
-            <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                Leadership
-            </CategoryButton>,
-            <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
-                Management
-            </CategoryButton>,
-        ],
+            href: '/',
+            title: "Bill Walsh leadership lessons",
+            description:
+                "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+            tags: [
+                <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
+                    Leadership
+                </CategoryButton>,
+                <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
+                    Management
+                </CategoryButton>,
+            ],
         },
     ];
-return (
+    return (
 
-    <div>
-        <h2 className="text-2xl font-bold pt-10 pb-6">All blog posts</h2>
-        <motion.div style={style}
-            ref={componentRef} className="grid grid-cols-12 gap-5">
-            {blogData.map((blog, index) => (
-                <BlogCard key={index}
-                    index={index}
-                    image={blog.image}
-                    title={blog.title}
-                    authorDate={blog.publishedDate}
-                    content={blog.description}
-                    category={blog.tags}
-                    href={blog.href}
-                />
-            ))}
-        </motion.div>
+        <div>
+            <h2 className="text-2xl font-bold pt-10 pb-6">All blog posts</h2>
+            <motion.div style={style}
+                ref={componentRef} className="grid grid-cols-12 gap-5">
+                {blogData.map((blog, index) => (
+                    <BlogCard key={index}
+                        index={index}
+                        image={blog.image}
+                        title={blog.title}
+                        authorDate={blog.publishedDate}
+                        content={blog.description}
+                        category={blog.tags}
+                        href={blog.href}
+                    />
+                ))}
+            </motion.div>
 
-    </div>
+        </div>
 
-);
+    );
 };
 
 export default AllBlogs;
