@@ -21,12 +21,6 @@ const Navbar = () => {
                 <ul className="space-x-4 hidden md:block">
                     <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/about"}>About</Link>
 
-                    {/* {/* <Link className='hover-2 text-lg font-bold px-2 py-1' href={'/auth/register'}>
-                        <Button variant={'secondary'}>Register</Button>
-                    </Link> */}
-
-                    <Link href={'write-blog'} className='hover-2 text-lg font-bold px-2 py-1'>Write</Link> 
-
 
                 </ul>
                 <div className="block md:hidden">
