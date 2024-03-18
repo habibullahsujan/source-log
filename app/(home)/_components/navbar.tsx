@@ -7,7 +7,7 @@ import Link from 'next/link';
 import logo from '@/public/assets/logo.png'
 import { cn } from '@/lib/utils';
 import { DropdownMenuRadioGroupDemo } from '@/app/(components)/dropdownMenu';
-import DialogComponent from '@/app/(components)/dialogComponent';
+
 
 
 const Navbar = () => {
@@ -15,20 +15,18 @@ const Navbar = () => {
         <motion.header initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: 1, delay: 0.9 } }} className="py-4 fixed w-full mx-auto z-50 bg-[#00563B] text-white opacity-70 px-4">
             <nav className='flex justify-between items-center'>
                 <Link href={'/'} className={cn("font-semibold md:text-3xl text-lg flex gap-x-2 items-center")}>
-                    <Image src={logo} alt='logo' height={40} width={40} className='' />
+                    <Image src={logo} alt='Blog Souce Logo' height={40} width={40} className='' />
                     <span className=''>Blog Source</span>
                 </Link>
                 <ul className="space-x-4 hidden md:block">
-                   
-
                     <Link className='hover-2 text-lg font-bold px-2 py-1' href={"/about"}>About</Link>
 
-                    {/* <Link className='hover-2 text-lg font-bold px-2 py-1' href={'/login'}>
-                        <Button variant={'outline'}>Login</Button>
+                    {/* {/* <Link className='hover-2 text-lg font-bold px-2 py-1' href={'/auth/register'}>
+                        <Button variant={'secondary'}>Register</Button>
                     </Link> */}
-                    {/* <DialogComponent>
-                        <Button className='hover-2 text-lg font-bold px-2 py-1'>Write</Button>
-                    </DialogComponent> */}
+
+                    <Link href={'write-blog'} className='hover-2 text-lg font-bold px-2 py-1'>Write</Link> 
+
 
                 </ul>
                 <div className="block md:hidden">

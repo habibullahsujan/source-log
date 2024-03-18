@@ -26,7 +26,7 @@ const RecentBlog = () => {
                         <div className="overflow-hidden">
                             <Image
                                 src={featureBlog1}
-                                alt=""
+                                alt="Seafood cuisine arranged on a table"
 
                                 className="h-64 w-full object-cover  rounded-lg group-hover:scale-105 transition-all ease duration-300 "
                             />
@@ -36,14 +36,27 @@ const RecentBlog = () => {
 
                             <div className="flex items-center justify-between">
                                 <h2 className="font-bold text-xl py-3 text-black blog-title">
-                                How to prepare the best seafood in the world.
+                                    How to prepare the best seafood in the world.
                                 </h2>
                                 <button>
                                     <ArrowRightCircle className="h-10 w-8 text-black" />{" "}
                                 </button>
                             </div>
                             <p className="text-slate-500">
-                            The ocean&apos;s bounty offers a treasure trove of delicacies, and cultures around the world have developed unique and delicious ways to showcase <span className='font-bold'>the best seafood</span>. From the delicate artistry of Japanese sushi to the bold spices of Moroccan tagines, seafood takes center stage in countless culinary traditions, exciting the sense of taste and enriching cultural experiences...
+                                The ocean&apos;s bounty offers a treasure trove of delicacies, and cultures around the world have developed unique and delicious ways to showcase <span className='font-bold'>the best seafood</span>. From the delicate artistry of Japanese sushi to the bold spices of Moroccan tagines, seafood takes center stage in countless culinary traditions, exciting the sense of taste and enriching cultural experiences. This comprehensive guide delves deep into the world&apos;s best seafood And reveal its unique characteristics, distinctive dishes, and the wonderful stories behind them. So, get ready to embark on a delicious journey around the world!
+                                <span className="block">1. Japan: Symphony of Freshness. </span> Japanese cuisine is known for its emphasis on freshness, seasonality, and careful presentation. Seafood plays a central role, with dishes like sushi and sashimi showcasing the inherent flavor and beauty of the ocean&apos;s bounty. Delicately sliced raw fish, with vinegared rice and other toppings, create a symphony of textures and tastes in every bite. <span className="block">Featured dishes: </span>
+                                <ul className='list-disc'>
+                                    <li className="">
+                                        <span className='font-bold'>Sushi: </span>
+                                        Thin slices of raw fish served over vinegared rice, garnished with different toppings such as seaweed, wasabi and pickled ginger.
+                                    </li>
+                                    <li className=''><span className='font-bold'>Sashimi: </span>Thin slices of raw fish are often served with soy sauce and wasabi, highlighting the natural sweetness and texture of the seafood.</li>
+                                    <li className=''><span className='font-bold'>Tempura: </span>Seafood and vegetables, stir-fried and deep-fried, offer a delightful contrast in texture.</li>
+                                    <li className=''><span className='font-bold'>Miso Soup: </span>A comforting broth flavored with miso paste, often containing seafood such as tofu or clams.</li>
+                                </ul>
+                                <span className="block font-bold">2. Mediterranean: a mixture of flavours</span>
+                                The vibrant cultures of the Mediterranean have generated a culinary tapestry rich with vibrant flavors and fresh ingredients. <span className='font-bold'>Seafood </span> is a staple, and appears prominently in dishes that combine...
+
                             </p>
                             <div className="flex items-center gap-x-4 mt-5">
                                 <CategoryButton className="cursor-pointer hover:bg-[#6941C6] hover:text-[#F9F5FF] bg-[#F9F5FF] text-[#6941C6]">
@@ -75,9 +88,9 @@ const RecentBlog = () => {
                                 <span className="font-bold flex gap-x-1 items-center">Author: <BlogTime> Kobir Ali • 8 Jan 2023</BlogTime></span>
 
                                 <h3 className="blog-title font-bold text-xl py-3">
-                                     Revealing the sweet secrets of Hershey&apos;s chocolate: a journey through decades of delight
-                                 </h3>
-                                 <p>For more than a century, <span className="font-bold">Hershey&apos;s chocolate</span>has been synonymous with creamy sweetness and nostalgic memories. From its iconic candy bars to its versatile baking squares, Hershey&apos;s has established itself as a cornerstone of American confectionery, delighting generations with its unique flavors....
+                                    Revealing the sweet secrets of Hershey&apos;s chocolate: a journey through decades of delight
+                                </h3>
+                                <p>For more than a century, <span className="font-bold">Hershey&apos;s chocolate</span>has been synonymous with creamy sweetness and nostalgic memories. From its iconic candy bars to its versatile baking squares, Hershey&apos;s has established itself as a cornerstone of American confectionery, delighting generations with its unique flavors....
                                 </p>
                                 <div className="flex items-center gap-x-4 mt-5">
                                     <CategoryButton className="bg-[#F9F5FF] text-[#6941C6] transition-all cursor-pointer hover:bg-[#6941C6] hover:text-[#F9F5FF]">
@@ -96,7 +109,7 @@ const RecentBlog = () => {
                             <div className="overflow-hidden">
                                 <Image
                                     src={featureBlog3}
-                                    alt="best chocolate"
+                                    alt="best dark chocolate"
                                     className="rounded-lg h-[220px] w-full group-hover:scale-105 transition-all ease duration-300 "
                                 />
                             </div>

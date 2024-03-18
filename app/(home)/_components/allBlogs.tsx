@@ -5,8 +5,8 @@ import blog5 from "@/public/assets/riyadh-img.jpg";
 import blog6 from "@/public/assets/tea-title-img.jpeg";
 import blog7 from "@/public/assets/featured-blog-car-rental-company.jpeg";
 import blog8 from "@/public/assets/featured-best-kitchen-sink.jpeg";
-import blog9 from "@/public/assets/blog-9.jpeg";
-import blog10 from "@/public/assets/blog-10.jpeg";
+import blog9 from "@/public/assets/house-rent-blog-banner.jpg";
+import blog10 from "@/public/assets/best-gym.jpeg";
 
 import { motion } from "framer-motion";
 import useScrollGrow from "@/hooks/useScrollGrow";
@@ -37,6 +37,7 @@ const AllBlogs = () => {
                     Lifestyle
                 </CategoryButton>,
             ],
+            alt: 'Best Tourist Places in Riyadh'
         },
         {
             image: blog6,
@@ -55,6 +56,7 @@ const AllBlogs = () => {
                     Food
                 </CategoryButton>,
             ],
+            alt: 'A cup of tea'
         },
         {
             image: blog7,
@@ -71,6 +73,7 @@ const AllBlogs = () => {
                     Car
                 </CategoryButton>,
             ],
+            alt: 'Best car rental company in Saudi Arabia'
         },
         {
             image: blog8,
@@ -82,46 +85,48 @@ const AllBlogs = () => {
                 "The kitchen sink - the unsung hero of countless meals, dishes, and culinary creations. It's a workhorse, a stage for prep work, and a crucial element in maintaining a clean and functional kitchen. But with a multitude of options available, choosing the best kitchen sink can feel overwhelming. Fear not! This comprehensive guide dives into the top 10 contenders, exploring materials, styles, functionalities, and price points to help you find the perfect fit for your kitchen.",
             tags: [
                 <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                    Leadership
+                    Lifestyle
                 </CategoryButton>,
                 <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
-                    Management
+                    Kitchen
                 </CategoryButton>,
             ],
+            alt: 'Best kitchen sink'
         },
         {
             image: blog9,
             authorName: "Alec Whitten",
             publishedDate: "• 1 Jan 2023",
-            title: "Bill Walsh leadership lessons",
-            href: '/',
+            title: "Top House Rent Companies in Saudi Arabia: Finding Your Ideal Rental",
+            href: '/house-rent-company',
             description:
-                "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+                "Are you looking for a house to rent in Saudi Arabia? With its booming real estate market, finding the perfect rental can be overwhelming. To simplify your search, we&apos;ve compiled a list of the top house rent companies in Saudi Arabia, each offering a range of options to suit your needs and preferences.",
             tags: [
                 <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                    Leadership
+                    Lifestyle
                 </CategoryButton>,
                 <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
-                    Management
+                    House Rent
                 </CategoryButton>,
-            ],
+            ], alt: 'House renting company banner'
         },
         {
             image: blog10,
             authorName: "Alec Whitten",
             publishedDate: "• 1 Jan 2023",
-            href: '/',
-            title: "Bill Walsh leadership lessons",
+            href: '/best-gym-riyadh',
+            title: "Best Gym Destinations in Riyadh",
             description:
-                "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+                "Are you on the hunt for the best gym in Riyadh to kickstart your fitness journey? Look no further! We&apos;ve curated a comprehensive guide to the top fitness centers in the city, each offering a unique blend of facilities, expert training, and welcoming environments to help you reach your fitness goals.",
             tags: [
                 <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
-                    Leadership
+                    Fitness
                 </CategoryButton>,
                 <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
-                    Management
+                    Health
                 </CategoryButton>,
             ],
+            alt: 'A man running in treadmill'
         },
     ];
     return (
@@ -139,6 +144,7 @@ const AllBlogs = () => {
                         content={blog.description}
                         category={blog.tags}
                         href={blog.href}
+                        alt={blog.alt}
                     />
                 ))}
             </motion.div>

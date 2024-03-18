@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='col-span-6'>
                         <Image src={logo} height={100} width={100} className="" alt="logo" />
                         <p className="max-w-xs mt-4 text-sm">
-                            We want to spread the Arabic lifestyle and food culture worldwide.
+                        Unveiling Essential Tools, Tempting Recipes, and Lifestyle Wonders
                         </p>
                         {/* <div className="flex mt-8 space-x-6 text-gray-600">
                             <a className="hover:opacity-75" href='/' target="_blank" rel="noreferrer">
