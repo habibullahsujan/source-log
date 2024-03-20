@@ -19,8 +19,6 @@ const BestKitchenSink = () => {
         { title: '8. Moen Align Stainless Steel Double Bowl Sink' },
         { title: '9. Franke Mythos Single Bowl Workstation Stainless Steel Sink' },
         { title: '10. KOHLER Stages Undermount Single Bowl Cast Iron Sink with Self-Trimming Flange' }
-
-
     ]
     return (
         <>

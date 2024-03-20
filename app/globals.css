@@ -52,8 +52,7 @@ body {
   transform: scaleX(1);
 }
 
-/* ul{direction:rtl;} */
-.arabic-li {
+.arabic-ul, .arabic-li {
   direction: rtl;
   margin-right: 20px;
 }

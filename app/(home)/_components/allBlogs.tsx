@@ -7,6 +7,7 @@ import blog7 from "@/public/assets/featured-blog-car-rental-company.jpeg";
 import blog8 from "@/public/assets/featured-best-kitchen-sink.jpeg";
 import blog9 from "@/public/assets/house-rent-blog-banner.jpg";
 import blog10 from "@/public/assets/best-gym.jpeg";
+import blog11 from '@/public/assets/used-farniture-feature.jpeg'
 
 import { motion } from "framer-motion";
 import useScrollGrow from "@/hooks/useScrollGrow";
@@ -127,7 +128,24 @@ const AllBlogs = () => {
                 </CategoryButton>,
             ],
             alt: 'A man running in treadmill'
-        },
+        }, {
+            image: blog11,
+            authorName: "Abu Malik",
+            publishedDate: "• 1 March 2024",
+            href: '/used-furniture',
+            title: "أثاث مستعمل في السعودية. دليل شامل لشراء أثاث مستعمل مرضي عبر الإنترنت.",
+            description:
+                "يبحث الكثير منا عن أثاث أنيق وعصري لتزيين منازلهم، ولكن بأسعار مناسبة. لحسن الحظ، يعتبر الأثاث المستعمل خيارًا رائعًا لتحقيق ذلك!  تتيح لك شراء قطع مميزة بتكلفة أقل بكثير من سعرها الأصلي، مع الحفاظ على البيئة عن طريق إعادة استخدام الأثاث بدلاً من التخلص منه.",
+            tags: [
+                <CategoryButton key={3} className="bg-[#F9F5FF] text-[#6941C6]">
+                    Furniture
+                </CategoryButton>,
+                <CategoryButton key={3} className="bg-[#EEF4FF] text-[#3538CD]">
+                    House
+                </CategoryButton>,
+            ],
+            alt: 'اثاث مستعمل'
+        }
     ];
     return (
 
