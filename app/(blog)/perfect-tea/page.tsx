@@ -6,6 +6,7 @@ import ContentTable from '@/app/(components)/contentTable'
 import Image from 'next/image'
 import { Metadata } from 'next';
 import blogFeature from '@/public/assets/tea-blog-feature.jpeg'
+import SimilarContent from '@/app/(components)/similarContent'
 
 export const metadata: Metadata = {
     title: "How to make a perfect cup of tea. A comprehensive guide",
@@ -24,7 +25,7 @@ const TeaComponent = () => {
         <>
             <BlogContainer className='mx-2 md:mx-16 py-32'>
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
-                    <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/perfect-tea'}>Perfect Tea</Link>
+                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/perfect-tea'}>Perfect Tea</Link>
                 </div>
                 <div className='grid grid-cols-12 gap-x-5'>
                     <div className="col-span-12  lg:col-span-4">
@@ -103,6 +104,9 @@ const TeaComponent = () => {
                         </article>
                     </div>
                 </div>
+                {
+                        <SimilarContent title='/perfect-tea'/>
+                    }
             </BlogContainer>
         </>
     )

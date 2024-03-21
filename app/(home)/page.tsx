@@ -26,9 +26,10 @@ export default function Home() {
           <Header />
           <RecentBlog />
           <AllBlogs />
+          
           {/* <Pagination /> */}
           {/* <ContactForm /> */}
-        </div>: <LoadingPage/>
+        </div> : <LoadingPage />
       }
     </>
   );

@@ -6,6 +6,7 @@ import ContentTable from '@/app/(components)/contentTable'
 import Image from 'next/image'
 import featuredImage from '@/public/assets/featured-best-kitchen-sink.jpeg'
 import { Metadata } from 'next'
+import SimilarContent from '@/app/(components)/similarContent'
 
 
 export const metadata: Metadata = {
@@ -30,7 +31,7 @@ const BestKitchenSink = () => {
         <>
             <BlogContainer className='text-left mx-2 md:mx-16 py-32'>
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
-                    <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/best-kitchen-sink'}>Best-kitchen-sink</Link>
+                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-kitchen-sink'}>Best-kitchen-sink</Link>
                 </div>
                 <div className='grid grid-cols-12 gap-x-5'>
                     <div className="col-span-12  lg:col-span-4">
@@ -180,6 +181,10 @@ const BestKitchenSink = () => {
                             </div>
                         </article>
                     </div>
+                </div>
+
+                <div>
+                <SimilarContent title="/best-kitchen-sink" />
                 </div>
 
             </BlogContainer>

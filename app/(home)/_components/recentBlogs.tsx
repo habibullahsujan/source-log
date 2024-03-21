@@ -20,7 +20,7 @@ const RecentBlog = () => {
                 <motion.div
                     initial={{ x: -100, opacity: 0 }}
                     animate={{ x: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }}
-                    className=" hover:bg-slate-100 cursor-pointer col-span-12 md:col-span-6 rounded-lg pb-14 border-card group"
+                    className=" hover:bg-slate-100 cursor-pointer col-span-12 md:col-span-6 rounded-lg pb-14 group"
                 >
                     <Link href={'/seafood-cuisine'}>
                         <div className="overflow-hidden">
@@ -75,7 +75,7 @@ const RecentBlog = () => {
                 <div className="px-2 md:px-10 col-span-12 md:col-span-6 flex flex-col gap-4 rounded-lg ">
                     <motion.div initial={{ y: -100, opacity: 0 }}
                         animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }}
-                        className=" group  cursor-pointer rounded-lg border-card">
+                        className=" group  cursor-pointer rounded-lg ">
                         <Link href={'/hershey-chocolate'} className="flex flex-col p-2 gap-4">
                             <div className="overflow-hidden w-full h-full">
                                 <Image
@@ -104,7 +104,7 @@ const RecentBlog = () => {
                         </Link>
                     </motion.div>
                     <motion.div initial={{ y: -100, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }} className="group md:flex block rounded-lg border-card gap-x-4  hover:bg-slate-100 hover:text-black cursor-pointer">
+                        animate={{ y: 0, opacity: 1, transition: { duration: 1, ease: 'linear' } }} className="group md:flex block rounded-lg gap-x-4  hover:bg-slate-100 hover:text-black cursor-pointer">
                         <Link href={'/best-chocolate'} className="flex flex-col gap-4 p-2">
                             <div className="overflow-hidden">
                                 <Image

@@ -8,6 +8,7 @@ import ContentTable from '@/app/(components)/contentTable';
 import Image from 'next/image';
 import image1 from '@/public/assets/history-of-chocolate.jpeg';
 import cocoaBean from '@/public/assets/cocoa-bean.jpeg'
+import SimilarContent from '@/app/(components)/similarContent';
 
 
 
@@ -33,7 +34,7 @@ const HistoryOfChocolate = () => {
     <>
       <BlogContainer className=' mx-2 md:mx-16 py-32'>
         <div className='flex items-center gap-x-4 py-7 text-lg'>
-          <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/best-chocolate'}>Best Chocolate</Link>
+          <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-chocolate'}>Best Chocolate</Link>
         </div>
         <div className='grid grid-cols-12 gap-x-5'>
           <div className="col-span-12  lg:col-span-4">
@@ -142,6 +143,11 @@ const HistoryOfChocolate = () => {
             </article>
           </div>
         </div>
+        <div>
+                    {
+                        <SimilarContent title='/best-chocolate'/>
+                    }
+                </div>
       </BlogContainer>
     </>
   )

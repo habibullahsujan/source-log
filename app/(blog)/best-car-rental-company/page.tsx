@@ -1,3 +1,4 @@
+
 import { Metadata } from 'next';
 import React from 'react'
 import BlogContainer from '../blogContainer';
@@ -6,13 +7,16 @@ import Link from 'next/link';
 import ContentTable from '@/app/(components)/contentTable';
 import Image from 'next/image';
 import featuredImage from '@/public/assets/featured-blog-car-rental-company.jpeg'
-
+import SimilarContent from '@/app/(components)/similarContent';
 export const metadata: Metadata = {
     title: 'Best Car Rental Company | Top Picks',
     description: 'Discover the top 10 car rental companies in Saudi Arabia offering diverse vehicle models, competitive pricing, and seamless booking procedures. Find your ideal rental provider today!'
 };
 
+
+
 const BestCarRentalCompany = () => {
+
 
     const tableContents = [
         { title: '1. Hanco Rent a Car' },
@@ -26,11 +30,12 @@ const BestCarRentalCompany = () => {
         { title: '9. Thrifty Car Rental' },
         { title: '10. Europcar Saudi Arabia' },
     ]
+
     return (
         <>
             <BlogContainer className='text-left mx-2 md:mx-16 py-32'>
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
-                    <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/best-car-rental-company'}>Best-Car-Rental-Company</Link>
+                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-car-rental-company'}>Best-Car-Rental-Company</Link>
                 </div>
                 <div className='grid grid-cols-12 gap-x-5'>
                     <div className="col-span-12  lg:col-span-4">
@@ -257,6 +262,14 @@ const BestCarRentalCompany = () => {
                             </div>
                         </article>
                     </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    {
+                        <SimilarContent title='/best-car-rental-company'/>
+                    }
                 </div>
             </BlogContainer>
         </>

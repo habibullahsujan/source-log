@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from '@/public/assets/hershey-chocolate.jpg'
 import BlogContainer from '../blogContainer'
 import { Metadata } from 'next'
+import SimilarContent from '@/app/(components)/similarContent'
 
 export const metadata: Metadata = {
   title: "Hershey's Chocolate: History, Products and Beyond",
@@ -24,7 +25,7 @@ const HersheyChocolate = () => {
 
     <BlogContainer className='mx-2 md:mx-16 py-32'>
       <div className='flex items-center gap-x-4 py-7'>
-        <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/hershey-chocolate'}>Hershey&apos;s Chocolate</Link>
+        <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/hershey-chocolate'}>Hershey&apos;s Chocolate</Link>
       </div>
       <div className='grid grid-cols-12 gap-5'>
         <div className="col-span-12  lg:col-span-4 lg:mr-6 mr-0">
@@ -127,6 +128,11 @@ const HersheyChocolate = () => {
           </article>
         </div>
       </div>
+      <div>
+                    {
+                        <SimilarContent title='/hershey-chocolate'/>
+                    }
+                </div>
     </BlogContainer>
 
   )

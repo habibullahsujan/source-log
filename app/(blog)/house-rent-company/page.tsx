@@ -6,6 +6,7 @@ import { Home } from 'lucide-react'
 import ContentTable from '@/app/(components)/contentTable'
 import Image from 'next/image';
 import featuredImage from '@/public/assets/house-rent-blog-banner.jpg'
+import SimilarContent from '@/app/(components)/similarContent'
 
 
 export const metadata: Metadata = {
@@ -26,7 +27,7 @@ const HouseRentCompany = () => {
         <>
             <BlogContainer className=' mx-2 md:mx-16 py-32'>
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
-                    <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/house-rent-company'}>House-Rental-Companies</Link>
+                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/house-rent-company'}>House-Rental-Companies</Link>
                 </div>
                 <div className='grid grid-cols-12 gap-x-5'>
                     <div className="col-span-12  lg:col-span-4">
@@ -123,6 +124,9 @@ const HouseRentCompany = () => {
                     </div>
 
                 </div>
+                {
+                        <SimilarContent title='/house-rent-company'/>
+                    }
             </BlogContainer>
         </>
     )

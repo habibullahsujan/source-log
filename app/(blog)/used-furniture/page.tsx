@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { Metadata } from 'next'
 import featuredImage from '@/public/assets/used-farniture-feature.jpeg';
 import img1 from '@/public/assets/used-furniture.jpg'
+import SimilarContent from '@/app/(components)/similarContent'
 
 
 export const metadata: Metadata = {
@@ -29,7 +30,7 @@ const UsedFurniture = () => {
     <>
       <BlogContainer className='text-left mx-2 md:mx-16 py-32'>
         <div className='flex items-center gap-x-4 py-7 text-lg'>
-          <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/used-furniture'}>Used Furniture</Link>
+          <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/used-furniture'}>Used Furniture</Link>
         </div>
         <div className='grid grid-cols-12 gap-x-5'>
           <div className="col-span-12  lg:col-span-4">
@@ -53,7 +54,7 @@ const UsedFurniture = () => {
             <h1 className='font-bold text-4xl text-[#00563B]'>أثاث مستعمل في السعودية. دليل شامل لشراء أثاث مستعمل مرضي عبر الإنترنت.</h1>
             <div className='my-10'>
               <div className='flex justify-end'>
-                <Image className='w-full h-[400px] object-fill' src={featuredImage} alt='اثاث مستعمل' />
+                <Image className='w-full h-[400px] object-fill' fill src={featuredImage} alt='اثاث مستعمل' />
               </div>
               <span className='cursor-pointer text-sky-400'>source: <Link href={'https://pexels.com/'}>pexels.com</Link></span>
             </div>
@@ -179,7 +180,9 @@ const UsedFurniture = () => {
             </article>
           </div>
         </div>
-
+        {
+                        <SimilarContent title='/used-furniture'/>
+                    }
       </BlogContainer>
     </>
   )
