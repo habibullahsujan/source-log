@@ -26,7 +26,7 @@ const HouseRentCompany = () => {
         <>
             <BlogContainer className=' mx-2 md:mx-16 py-32'>
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
-                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/house-rental-company'}>House-Rental-Companies</Link>
+                    <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/house-rent-company'}>House-Rental-Companies</Link>
                 </div>
                 <div className='grid grid-cols-12 gap-x-5'>
                     <div className="col-span-12  lg:col-span-4">

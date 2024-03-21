@@ -5,7 +5,13 @@ import { Home } from 'lucide-react'
 import ContentTable from '@/app/(components)/contentTable'
 import Image from 'next/image'
 import featuredImage from '@/public/assets/featured-best-kitchen-sink.jpeg'
+import { Metadata } from 'next'
 
+
+export const metadata: Metadata = {
+    title: 'Top 10 Kitchen Sinks Revealed: Find Your Perfect Fit',
+    description: 'Unveiling the best kitchen sinks! Explore materials, styles, functionalities, & prices to discover your dream sink for any budget.'
+}
 const BestKitchenSink = () => {
 
     const tableContents = [
@@ -24,7 +30,7 @@ const BestKitchenSink = () => {
         <>
             <BlogContainer className='text-left mx-2 md:mx-16 py-32'>
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
-                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-kitchen-sink'}>Best-kitchen-sink</Link>
+                    <Link href={'https://www.theblogsouce.com'}><Home className='h-4 w-4' /></Link> / <Link href={'https://www.theblogsouce.com/best-kitchen-sink'}>Best-kitchen-sink</Link>
                 </div>
                 <div className='grid grid-cols-12 gap-x-5'>
                     <div className="col-span-12  lg:col-span-4">
@@ -99,7 +105,7 @@ const BestKitchenSink = () => {
                                     <p className='py-4'>Ruvati&apos;s Workstation sink offers incredible value for its price. This stainless steel option features a spacious basin with an integrated ledge that accommodates a cutting board and a roll-up drying rack (included). The included grid protects the sink bottom from scratches and provides additional functionality for rinsing dishes.</p>
 
                                 </div>
-                                <span className='font-bold'>Want to buy this? <Link  target={'_blank'} className='text-blue-500 underline' href={'https://www.ruvati.com/products/rvh8222-33-inch-workstation-two-tiered-ledge-kitchen-sink-undermount-16-gauge/'}>official website</Link></span>
+                                <span className='font-bold'>Want to buy this? <Link target={'_blank'} className='text-blue-500 underline' href={'https://www.ruvati.com/products/rvh8222-33-inch-workstation-two-tiered-ledge-kitchen-sink-undermount-16-gauge/'}>official website</Link></span>
                             </div>
 
                             <div className='py-6' id='5. Elkay Crosstown Single Bowl Undermount Stainless Steel Sink'>
