@@ -24,10 +24,11 @@ export const blogCategories = [
   {
     id: "6",
     title: "Home Decor",
-  },{
-    id:'7',
-    title:'Chocolate'
-  }
+  },
+  {
+    id: "7",
+    title: "Chocolate",
+  },
 ];
 
 export const tags = [
@@ -40,11 +41,13 @@ export const tags = [
   { title: "Tips and Guide" },
   { title: "Fitness" },
   { title: "Home Decor" },
-  { title: "Furniture" },{title:'Chocolate'}
+  { title: "Furniture" },
+  { title: "Chocolate" },
 ];
 
-export const featuredBlog = [
+export const blogData = [
   {
+    featuredBlog:true,
     id: "",
     author_id: "",
     image: blogImages.kitchenHoodsFeatureImg,
@@ -61,6 +64,7 @@ export const featuredBlog = [
     user_comments: [],
   },
   {
+    featuredBlog:true,
     id: "",
     author_id: "",
     image: blogImages.seafoodCuisineFeatureImg,
@@ -76,6 +80,7 @@ export const featuredBlog = [
     user_comments: [],
   },
   {
+    featuredBlog:true,
     id: "",
     author_id: "",
     image: blogImages.hersheyChocolateFeatureImg,
@@ -92,6 +97,7 @@ export const featuredBlog = [
     user_comments: [],
   },
   {
+    featuredBlog:true,
     id: "",
     author_id: "",
     image: blogImages.bestChocolateFeatureImg,
@@ -106,9 +112,8 @@ export const featuredBlog = [
     categotry: "Chocolate",
     user_comments: [],
   },
-];
-export const blogData = [
   {
+    featuredBlog:false,
     genre: "normal-blog",
     image: blogImages.touristPlacesRiyadhFeatureImg,
     authorName: "Alec Whitten",
@@ -123,6 +128,7 @@ export const blogData = [
     alt: "Best Tourist Places in Riyadh",
   },
   {
+    featuredBlog:false,
     image: blogImages.teaBlogFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2023",
@@ -136,6 +142,7 @@ export const blogData = [
     alt: "A cup of tea",
   },
   {
+    featuredBlog:false,
     image: blogImages.carReantalCompanyFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2024",
@@ -148,6 +155,7 @@ export const blogData = [
     alt: "Best car rental company in Saudi Arabia",
   },
   {
+    featuredBlog:false,
     image: blogImages.bestKitchenFeatureImg,
     authorName: "Habib Ullah",
     publishedDate: "• 1 Jan 2024",
@@ -160,6 +168,7 @@ export const blogData = [
     alt: "A kitchen sink",
   },
   {
+    featuredBlog:false,
     image: blogImages.bestHouseRentCompanyFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2023",
@@ -173,6 +182,7 @@ export const blogData = [
     alt: "House renting company banner",
   },
   {
+    featuredBlog:false,
     image: blogImages.bestGymFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2023",
@@ -185,6 +195,7 @@ export const blogData = [
     alt: "A man running in treadmill",
   },
   {
+    featuredBlog:false,
     image: blogImages.usedFurnitureFeatureImg,
     authorName: "Abu Malik",
     publishedDate: "• 1 March 2024",

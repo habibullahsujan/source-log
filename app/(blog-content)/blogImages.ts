@@ -1,7 +1,7 @@
 
-import kitchenHoodsFeatureImg from '@/public/assets/feature-blog-1.jpeg'
-import seafoodCuisineFeatureImg from '@/public/assets/feature-blog-2.jpg'
-import hersheyChocolateFeatureImg from '@/public/assets/history-of-chocolate.jpeg'
+import kitchenHoodsFeatureImg from '@/public/assets/kitchen-hood-feature.jpg'
+import seafoodCuisineFeatureImg from '@/public/assets/seafood-cuisine-feature.jpeg'
+import hersheyChocolateFeatureImg from '@/public/assets/hershey-chocolate.jpg'
 import touristPlacesRiyadhFeatureImg from '@/public/assets/riyadh-img.jpg'
 import teaBlogFeatureImg from '@/public/assets/tea-title-img.jpeg'
 import carReantalCompanyFeatureImg from '@/public/assets/featured-blog-car-rental-company.jpeg'

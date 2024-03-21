@@ -3,7 +3,7 @@ import { Home } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import image1 from '@/public/assets/feature-blog-1.jpeg'
+import image1 from '@/public/assets/seafood-cuisine-feature.jpeg'
 import japaneseCuisine from '@/public/assets/japanese-cuisine.jpeg';
 import mediterraneanCuisine from '@/public/assets/mediterranean-cuisine.jpeg'
 import southEastAsianCuisine from '@/public/assets/south-east-asian-cuisine.jpeg';

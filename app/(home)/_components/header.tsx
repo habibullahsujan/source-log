@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import banner1 from '@/public/assets/banner-2.jpg'
+import banner1 from '@/public/assets/kitchen-hood-feature.jpg'
 
 import { Button } from '@/components/ui/button'
 

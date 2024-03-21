@@ -12,7 +12,7 @@ import TagButton from "@/app/(components)/tagButton";
 type TBlogCardProps = {
     image: StaticImageData;
     title: string;
-    authorDate: string;
+    publishedDate: string;
     content: string;
     tags: string[];
     className?: string;
@@ -24,7 +24,7 @@ type TBlogCardProps = {
 const BlogCard = ({
     image,
     title,
-    authorDate,
+    publishedDate,
     content,
     tags,
     className,
@@ -41,7 +41,7 @@ const BlogCard = ({
                         sizes="(max-width: 640px) 100vw,(max-width: 1024px) 50vw, 33vw" />
                 </div>
                 <div className="flex gap-x-1">
-                    <span>Author: </span>{author}<BlogTime className="my-6">{authorDate}</BlogTime>
+                    <span>Author: </span>{author}<BlogTime className="my-6">{publishedDate}</BlogTime>
                 </div>
                 <div className="flex items-center justify-between">
                     <h3 className="font-bold text-xl py-3 blog-title">{title}</h3>

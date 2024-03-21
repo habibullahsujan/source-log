@@ -1,8 +1,8 @@
 
 'use client'
 
-import featureBlog1 from "@/public/assets/feature-blog-1.jpeg";
-import featureBlog2 from "@/public/assets/feature-blog-2.jpg";
+import featureBlog1 from "@/public/assets/seafood-cuisine-feature.jpeg";
+import featureBlog2 from "@/public/assets/hershey-chocolate.jpg";
 import featureBlog3 from "@/public/assets/history-of-chocolate.jpeg";
 import CategoryButton from "../../(components)/categoryButton";
 import BlogTime from "./blogTime";

@@ -1,17 +1,9 @@
 
 'use client'
 
-import blog5 from "@/public/assets/riyadh-img.jpg";
-import blog6 from "@/public/assets/tea-title-img.jpeg";
-import blog7 from "@/public/assets/featured-blog-car-rental-company.jpeg";
-import blog8 from "@/public/assets/featured-best-kitchen-sink.jpeg";
-import blog9 from "@/public/assets/house-rent-blog-banner.jpg";
-import blog10 from "@/public/assets/best-gym.jpeg";
-import blog11 from '@/public/assets/used-farniture-feature.jpeg'
 
 import { motion } from "framer-motion";
 import useScrollGrow from "@/hooks/useScrollGrow";
-import CategoryButton from "../../(components)/categoryButton";
 import dynamic from "next/dynamic";
 import { blogData } from "@/app/(blog-content)/blogContent";
 
@@ -34,12 +26,12 @@ const AllBlogs = () => {
                         index={index}
                         image={blog.image}
                         title={blog.title}
-                        authorDate={blog.publishedDate}
+                        publishedDate={blog.published_date}
                         content={blog.description}
                         tags={blog.tags}
                         href={blog.href}
                         alt={blog.alt}
-                        author={blog.authorName}
+                        author={blog.author_name}
                     />
                 ))}
             </motion.div>
