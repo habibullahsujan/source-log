@@ -1,25 +1,23 @@
 import { cn } from "@/lib/utils";
-import { ReactNode } from "react";
 import { motion } from 'framer-motion'
 import Image, { StaticImageData } from "next/image";
 import BlogTime from "./blogTime";
 import { ArrowRightCircle } from "lucide-react";
 import Link from "next/link";
-import CategoryButton from "@/app/(components)/categoryButton";
 import TagButton from "@/app/(components)/tagButton";
 
 
 type TBlogCardProps = {
     image: StaticImageData;
     title: string;
-    publishedDate: string;
+    publishedDate?: string;
     content: string;
     tags: string[];
     className?: string;
     index: number;
     href: string;
     alt:string;
-    author:string,
+    author?:string,
 };
 const BlogCard = ({
     image,
