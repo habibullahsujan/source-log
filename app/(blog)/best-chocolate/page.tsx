@@ -19,12 +19,11 @@ export const metadata: Metadata = {
 const HistoryOfChocolate = () => {
 
   const tableContents = [
-    { title: 'The best chocolate in the world: a comprehensive guide' },
     { title: "A Journey Through Time: The Enchanting History of Chocolate" },
     { title: "The Art of Chocolate Crafting: From Bean to Bar" },
     { title: "A World of Choices: Exploring the Diverse Landscape of Chocolate Companies" },
     { title: "Demystifying Ingredients: Revealing the Secrets Behind Chocolate's Allure" },
-    { title: "Navigating the Chocolate Aisle: A Guide to Different Categories" },
+    { title: "Navigating the Chocolate Aisle: A Guide to Different Classe" },
     { title: "Beyond Indulgence: The Holistic Effect of Chocolate" },
     { title: "Bottom line: A celebration of chocolate in all its forms" }
 
@@ -86,7 +85,7 @@ const HistoryOfChocolate = () => {
                 </ul>
               </div>
 
-              <div className='py-4' id='A world of choices: exploring the diverse landscape of chocolate businesses'>
+              <div className='py-4' id='A World of Choices: Exploring the Diverse Landscape of Chocolate Companies'>
                 <h2>A World of Choices: Exploring the Diverse Landscape of Chocolate Companies</h2>
                 <p>The global chocolate industry boasts many companies, each contributing unique flavors and innovations to the world of chocolate. Here are some noteworthy examples:</p>
                 <ul className="list-disc">
@@ -99,7 +98,7 @@ const HistoryOfChocolate = () => {
                 </ul>
               </div>
 
-              <div className='py-4' id='Demystifying ingredients: revealing the secrets behind chocolate&apos;s appeal'>
+              <div className='py-4' id="Demystifying Ingredients: Revealing the Secrets Behind Chocolate's Allure">
                 <h2 className='font-bold text-xl text-[#00563B]'>Demystifying ingredients: revealing the secrets behind chocolate&apos;s appeal</h2>
                 <p>The magic of chocolate lies in its unique combination of ingredients, each of which plays a crucial role in its taste and texture:</p>
                 <ul className="list-disc">
@@ -113,8 +112,8 @@ const HistoryOfChocolate = () => {
                 </ul>
               </div>
 
-              <div className='py-4' id='Navigating the Chocolate Aisle: A Guide to Different Classes'>
-                <h2 className='font-bold text-xl pt-1 pb-2'>Navigating the Chocolate Aisle: A Guide to Different Classes</h2>
+              <div className='py-4' id='Navigating the Chocolate Aisle: A Guide to Different Classe'>s
+                <h2 className='font-bold text-xl pt-1 pb-2'>Navigating the Chocolate Aisle: A Guide to Different Classe</h2>
                 <p className='py-2'>The world of chocolate extends far beyond classic milk chocolate bars. Here&lsquo;s a breakdown of the main categories you&lsquo;ll encounter when exploring the chocolate aisle:</p>
                 <ul className="list-disc">
                   <li><span className='font-bold'>Dark chocolate:</span>This category contains the highest percentage of cocoa, ranging from 70% to 100%. Dark chocolate offers a richer, more intense chocolate flavor with notes of bitterness and complexity.</li>
@@ -125,7 +124,7 @@ const HistoryOfChocolate = () => {
                 </ul>
               </div>
 
-              <div className='py-4' id='Beyond Indulgence: The Holistic Impact of Chocolate'>
+              <div className='py-4' id='Beyond Indulgence: The Holistic Effect of Chocolate'>
                 <h2 className='font-bold text-2xl py-4'>Beyond Indulgence: The Holistic Impact of Chocolate</h2>
                 <p className='py-2'>Chocolate&apos;s influence extends far beyond the realm of pure indulgence. It has a major role in various aspects of our lives, including:</p>
                 <ul className="list-disc">

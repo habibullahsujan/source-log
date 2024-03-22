@@ -10,7 +10,7 @@ import SimilarContent from '@/app/(components)/similarContent'
 
 
 export const metadata: Metadata = {
-    title: "Top House Rental Companies in Saudi Arabia | Find Your Ideal Rental Today",
+    title: "KSA House Rentals: Find Your Perfect Place",
     description: 'Discover the best house rental companies in Saudi Arabia offering diverse options at competitive prices. Find your perfect rental with our comprehensive guide.'
 }
 const HouseRentCompany = () => {

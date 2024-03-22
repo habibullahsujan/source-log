@@ -10,7 +10,7 @@ import featuredImage from '@/public/assets/featured-blog-car-rental-company.jpeg
 import SimilarContent from '@/app/(components)/similarContent';
 export const metadata: Metadata = {
     title: 'Best Car Rental Company | Top Picks',
-    description: 'Discover the top 10 car rental companies in Saudi Arabia offering diverse vehicle models, competitive pricing, and seamless booking procedures. Find your ideal rental provider today!'
+    description: 'Top 10 car rental companies in KSA offer diverse vehicle models, and competitive pricing. Find your ideal rental provider today!'
 };
 
 
@@ -57,7 +57,7 @@ const BestCarRentalCompany = () => {
                     </div>
                     <div className='col-span-12 lg:col-span-8'>
                         <h1 className='font-bold text-4xl text-[#00563B]'>Best Car Rental Companies in Saudi Arabia</h1>
-                        <div className='my-10' id='أفضل شوكولاتة في العالم: دليل شامل'>
+                        <div className='my-10'>
                             <div className='flex justify-end'>
                                 <Image className='w-full h-[400px] object-fill' src={featuredImage} alt='best car rental company' />
                             </div>
@@ -96,11 +96,10 @@ const BestCarRentalCompany = () => {
                             <div className='py-4' id='1. Hanco Rent a Car'>
                                 <h2 className='font-bold text-lg text-[#00563B]'>1. Hanco Rent a Car</h2>
                                 <ul className="list-disc">
-                                    <li><span className='font-bold'>Location:</span>Hanco has branches across major cities in Saudi Arabia, including Riyadh, Jeddah, Dammam, and more.</li>
+                                    <li><span className='font-bold'>Location: </span>Hanco has branches across major cities in Saudi Arabia, including Riyadh, Jeddah, Dammam, and more.</li>
                                     <li>
                                         <span className='font-bold'>Price Range: </span>
                                         Competitive rates suitable for various budgets.
-
                                     </li>
                                     <li><span className='font-bold'>Available Vehicle Models: </span>From economy cars to luxurious SUVs, Hanco provides a wide selection, including Toyota, Hyundai, Nissan, and more.</li>
                                     <li>
@@ -112,11 +111,10 @@ const BestCarRentalCompany = () => {
                             <div className='py-4' id='2. Budget Saudi Arabia'>
                                 <h2 className='font-bold text-lg text-[#00563B]'>2. Budget Saudi Arabia</h2>
                                 <ul className="list-disc">
-                                    <li><span className='font-bold'>Location:</span>Budget operates in key cities such as Riyadh, Jeddah, Dammam, and Medina, with multiple convenient locations within each city.</li>
+                                    <li><span className='font-bold'>Location: </span>Budget operates in key cities such as Riyadh, Jeddah, Dammam, and Medina, with multiple convenient locations within each city.</li>
                                     <li>
                                         <span className='font-bold'>Price Range: </span>
                                         Affordable rental options without compromising on quality.
-
                                     </li>
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Compact cars to spacious vans, featuring Chevrolet, Ford, Mitsubishi, and more.</li>
                                     <li>
@@ -268,7 +266,7 @@ const BestCarRentalCompany = () => {
                 </div>
                 <div>
                     {
-                        <SimilarContent title='/best-car-rental-company'/>
+                        <SimilarContent title='/best-car-rental-company' />
                     }
                 </div>
             </BlogContainer>

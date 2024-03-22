@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='px-22 py-36'>
+    <div className='px-20 py-36'>
       <h1 className='font-bold text-2xl'>
         Welcome to The Source Blog, your gateway to exploring the rich tapestry of Arabic food and lifestyles. We are passionate about sharing the vibrant culture, traditions, and culinary secrets of the Arab world with curious minds around the globe.
       </h1>

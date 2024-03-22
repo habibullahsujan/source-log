@@ -57,8 +57,8 @@ const TeaComponent = () => {
                             <p className=''>Tea has been appreciated for centuries, celebrated for its comforting warmth, soothing aroma, and countless health benefits. From the elegant Japanese matcha ceremony to the intense flavors of Indian tea, tea culture spreads across the world, capturing hearts and minds with every sip.</p>
                             <p className='py-4'>In this comprehensive guide, we delve into the art of brewing the perfect cup of tea, exploring techniques, tips and tricks to take your tea-making skills to new heights. Whether you&apos;re a seasoned tea lover or just starting your journey into the world of tea, join us as we reveal the secrets of this beloved beverage.</p>
 
-                            <div className='py-4' id='أهمية جودة المكونات'>
-                                <h2 className='text-xl font-bold pb-2 pt-4 text-[#00563B]'>The importance of component quality</h2>
+                            <div className='py-4' id="The Importance of Ingredient Quality">
+                                <h2 className='text-xl font-bold pb-2 pt-4 text-[#00563B]'>The importance of Ingredient quality</h2>
 
                                 <p className='text-lg py-4'>
                                     The foundation of any great cup of tea lies in the quality of its ingredients. Start with fresh, high-quality tea leaves, sourced from reputable suppliers known for their commitment to excellence. Whether you prefer the subtle flavors of green tea, the bold flavors of black tea, or the subtle complexities of oolong tea, choose teas that match your taste and preferences.
@@ -93,7 +93,7 @@ const TeaComponent = () => {
 
                             </div>
 
-                            <div className='font-lg py-4' id='Embracing the Tea Ritual'>
+                            <div className='font-lg py-4' id='Embrace the tea ritual'>
                                 <h2 className='font-bold text-lg'>Embracing the tea ritual</h2>
 
                                 <p className='py-4'>Tea is more than just a drink - it is a ritual, a moment of mindfulness and connection in a fast-paced world. Enjoy tea rituals from around the world, from the meditative serenity of the Japanese tea ceremony to the joyful gatherings of English afternoon tea.

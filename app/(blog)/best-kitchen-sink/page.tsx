@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const BestKitchenSink = () => {
 
     const tableContents = [
-        { title: '1. Kraus KSF-1002 Kore Workstation Undermount Stainless Steel Sink ' },
+        { title: '1. Kraus KSF-1002 Kore Workstation Undermount Stainless Steel Sink' },
         { title: '2. Blanco Diamond Silva Single Bowl Quartz Composite Sink' },
         { title: '3. Kohler KHF-510-VS Farmhouse Cast Iron Sink' },
         { title: '4. Ruvati 33 Inch Workstation Stainless Steel Sink' },

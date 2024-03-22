@@ -18,7 +18,7 @@ const BestGym = () => {
         { title: '1. Fitness Fusion' },
         { title: '2. Powerhouse Gym' },
         { title: '3. Fit Zone' },
-        { title: '4. Peak Performance Gym' },
+       
         { title: '5. Flex Fitness Center' },
 
 
@@ -91,9 +91,7 @@ const BestGym = () => {
                             </ul>
                         </div>
 
-                        <div className='py-4' id='4. Peak Performance Gym
-
-'>
+                        <div className='py-4' id=''>
                             <h2 className='font-bold text-xl pt-1 pb-2'>4. Peak Performance Gym
                             </h2>
                             <p className='py-2'>Situated in Al Yasmin, Peak Performance Gym is dedicated to helping individuals achieve their fitness goals through personalized training and holistic wellness services. The gym features high-quality equipment tailored to different fitness objectives, ensuring members can maximize their workouts effectively. Additionally, Peak Performance Gym offers personalized training programs led by certified coaches, as well as sports massage therapy to aid in recovery and injury prevention. With nutritional guidance available, members can optimize their diets to complement their training regimen, making Peak Performance Gym a top choice for those serious about their fitness journey.

@@ -15,12 +15,9 @@ export const metadata: Metadata = {
 const KitchenHoods = () => {
   const tableContents = [
     { title: 'Uncovering the cause: The vital role of kitchen hoods' },
-    { title: 'Demystifying the choices: A variety of range hoods' },
     { title: 'Choosing your hero: essential considerations' },
     { title: 'Beyond the basics: advanced features to elevate your kitchen' },
     { title: 'Installation Insights: Ensuring Optimal Performance' },
-    { title: 'Maintain your hero: keeping your hood looking its best' },
-    { title: 'The ultimate blender: Choosing the right kitchen hood for you' },
   ]
   return (
 
@@ -66,7 +63,7 @@ const KitchenHoods = () => {
                 Imagine searing steaks, preparing an aromatic curry, or indulging in a deep-frying feast. While delicious, these culinary adventures unleash a torrent of airborne enemies—smoke, grease, steam, and even harmful pollutants. Inhaling them can irritate your eyes and lungs, trigger allergies, and even damage the interior of your home. Enter the kitchen hood, your stout defender against these unwanted guests.
               </p>
             </div>
-            <div id='Demystifying the choices: A variety of range hoods'>
+            <div>
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>
                 Demystifying the options: A variety of range hoods
               </h2>
@@ -85,7 +82,7 @@ const KitchenHoods = () => {
                 </li>
               </ul>
             </div>
-            <div id='Choosing Your Hero: Key Considerations'>
+            <div id='Choosing your hero: essential considerations'>
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>Choosing Your Hero: Key Considerations</h2>
               <p className='text-lg py-3 font-semibold'>Now that you&apos;ve met the contenders, it&apos;s time to choose your champion! Here are the main factors to think about:</p>
               <ul className='list-disc'>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 interface IContentTableProps{
@@ -12,7 +13,7 @@ const ContentTable = ({heading}:IContentTableProps) => {
 
 
     <li key={`#${heading.title}`} className="py-1">
-    <a
+    <Link
       href={`#${heading.title}`}
       data-level={heading.title}
       className="
@@ -22,7 +23,7 @@ const ContentTable = ({heading}:IContentTableProps) => {
     >
 
       <span className="hover:underline">{heading.title}</span>
-    </a>
+    </Link>
   </li>
 
   )

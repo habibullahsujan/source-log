@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "التعريف بنا: معلومات عنا ورؤيتنا",
-    description: "تعرّف على موقعنا ومهمّتنا في تقديم المحتوى المفيد والإلهام لجمهورنا العربي. استكشف معنا!",
+    description: 'اكتشف ثروة من المحتوى الملهم والغني بالمعلومات باللغة العربية! نحن ملتزمون بالجمهور العربي بمقالات وموارد جذابة لتغذية عواطفهم واهتماماتهم.'
 };
 
 
@@ -18,7 +18,7 @@ interface ILayoutProps {
 const Layout = ({ children }: ILayoutProps) => {
     return (
 
-        <main className={cn("min-h-screen  max-h-[1200px] w-full max-w-[1300px] px-2 md:px-[10px] h-full mx-auto",
+        <main className={cn("min-h-screen  max-h-[1200px] max-w-[1220px]",
         )}>
             <Navbar />
             {children}

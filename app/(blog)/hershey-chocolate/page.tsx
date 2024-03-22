@@ -17,8 +17,7 @@ const HersheyChocolate = () => {
   const tableContents = [
     { title: 'A legacy rooted in innovation' },
     { title: "Beyond the Classics: A World of Hershey's Delights" },
-    { title: 'Choosing your hero: essential considerations' },
-    { title: "The lasting appeal of Hershey's chocolate" },
+    { title: 'The science behind sweetness' },
 
   ]
   return (
@@ -65,7 +64,7 @@ const HersheyChocolate = () => {
               <p className='py-2'>Hershey&apos;s innovative spirit was evident in his quest to improve his chocolate recipe. He experimented with different ratios of milk to cocoa, eventually developing a unique blend that offered a smooth, creamy texture and distinct sweetness. This distinctive flavour, which differs from the darker, more bitter European chocolate, has become Hershey&apos;s hallmark and remains a favorite among generations of consumers.</p>
             </div>
 
-            <div id='Beyond the Classics: A World of Hershey&apos;s Delights'>
+            <div id="Beyond the Classics: A World of Hershey's Delights">
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>Beyond the Classics: A World of Hershey&apos;s Delights
               </h2>
               <p className=' py-3'>
@@ -117,7 +116,7 @@ const HersheyChocolate = () => {
 
 
 
-            <div id='The lasting appeal of Hershey&apos;s chocolate'>
+            <div>
 
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>The lasting appeal of Hershey&apos;s chocolate:</h2>
 

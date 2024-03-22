@@ -161,7 +161,7 @@ const TouristPlacesRiyadh = () => {
             </div>
 
 
-            <div id="5. Edge of the World (Tuwaiq Cliff)">
+            <div id="5. The Edge of the World (Jarf Tuwaiq)">
               <h2 className='font-bold text-xl py-8 text-[#00563B]'>5. Edge of the World (Jarf Tuwaiq)</h2>
               <div className='flex justify-end'>
                 <Image className='w-full h-[400px] object-cover' width={400} height={400} src={'https://images.pexels.com/photos/68358/pexels-photo-68358.jpeg?auto=compress&cs=tinysrgb&w=600 '} alt='Edge of the World (Tuwaiq Escarpment)' />

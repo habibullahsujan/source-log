@@ -51,12 +51,12 @@ const Footer = () => {
                             <p className="font-medium">
                                 Legal
                             </p>
-                            <nav className="flex flex-col mt-4 space-y-2 text-sm">
+                            {/* <nav className="flex flex-col mt-4 space-y-2 text-sm">
                                 <a className="hover:opacity-75" href=""> Privacy Policy </a>
                                 <a className="hover:opacity-75" href=""> Terms &amp; Conditions </a>
 
                                 <a className="hover:opacity-75" href=""> Accessibility</a>
-                            </nav>
+                            </nav> */}
                         </div>
                     </div>
                 </div>
