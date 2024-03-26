@@ -10,7 +10,14 @@ import classicVanillaCupcake from '@/public/assets/classic-vanila-cupcake.jpeg'
 import chocolateCupcake from '@/public/assets/chocolate-cupcake.jpeg'
 import lemonCupcake from '@/public/assets/lemon-cupcake.webp'
 import caramelCupcake from '@/public/assets/caramel-cupcake.jpeg'
+import { Metadata } from 'next'
 
+
+export const metadata: Metadata = {
+    title: 'كيفية صنع الكعك: دليل شامل',
+    description: 'اكتشفي كيفية تحضير أنواع مختلفة من الكب كيك بطرق سهلة ولذيذة. ابدأ بتحضير الحلويات الخاصة بك اليوم!'
+
+}
 const HowToMakeCupcake = () => {
     const tableContents = [
         { title: '1. كب كيك الفانيليا الكلاسيكي' },
