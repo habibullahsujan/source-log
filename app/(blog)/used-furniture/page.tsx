@@ -1,6 +1,6 @@
 import React from 'react'
 import BlogContainer from '../blogContainer'
-import { Home } from 'lucide-react'
+import { ChevronRight, Home } from 'lucide-react'
 import Link from 'next/link'
 import ContentTable from '@/app/(components)/contentTable'
 import Image from 'next/image'
@@ -28,9 +28,9 @@ const UsedFurniture = () => {
   ]
   return (
     <>
-      <BlogContainer className='text-left mx-2 md:mx-16 py-32'>
-        <div className='flex items-center gap-x-4 py-7 text-lg'>
-          <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/used-furniture'}>Used Furniture</Link>
+      <BlogContainer className='mx-2 md:mx-16 py-32 arabic-content-container'>
+        <div className='flex items-center gap-x-1 py-7 text-lg'>
+          <Link href={'/'}><Home className='h-4 w-4' /></Link><ChevronRight /> <Link href={'/used-furniture'}>Used Furniture</Link>
         </div>
         <div className='grid grid-cols-12 gap-x-5'>
           <div className="col-span-12  lg:col-span-4">
@@ -54,7 +54,7 @@ const UsedFurniture = () => {
             <h1 className='font-bold text-4xl text-[#00563B]'>أثاث مستعمل في السعودية. دليل شامل لشراء أثاث مستعمل مرضي عبر الإنترنت.</h1>
             <div className='my-10'>
               <div className='flex justify-end'>
-                <Image className='w-full h-[400px] object-fill' fill src={featuredImage} alt='اثاث مستعمل' />
+                <Image className='w-full h-[400px] object-fill' src={featuredImage} alt='اثاث مستعمل' />
               </div>
               <span className='cursor-pointer text-sky-400'>source: <Link href={'https://pexels.com/'}>pexels.com</Link></span>
             </div>
@@ -76,8 +76,8 @@ const UsedFurniture = () => {
               <div className='py-6' id='قبل أن تبدأ رحلة البحث عن أثاث مستعمل، إليك بعض النصائح المفيدة:'>
                 <h2 className='py-4 font-bold text-lg text-[#00563B]'>قبل أن تبدأ رحلة البحث عن أثاث مستعمل، إليك بعض النصائح المفيدة:</h2>
                 <div>
-                  <ul className='arabic-li'>
-                    <li><span className='font-bold'>حدد ميزانيتك: </span>حدد المبلغ الذي ترغب في إنفاقه على الأثاث مسبقًا، و التزم به أثناء عملية الشراء.</li>
+                  <ul className='list-disc'>
+                    <li><span className='font-bold'>ميزانيتك: </span>حدد المبلغ الذي ترغب في إنفاقه على الأثاث مسبقًا، و التزم به أثناء عملية الشراء.</li>
                     <li><span className='font-bold'>قياسات الأثاث: </span>قم بقياس المساحة المتوفرة لديك، وقياس الأثاث الذي ترغب بشرائه للتأكد من مناسبة الأحجام.</li>
                     <li><span className='font-bold'>فحص حالة الأثاث: </span> تأكد من سلامة ومتانة القطع المستعملة، وتفحص وجود خدوش أو تشققات أو تلف في الأقمشة.</li>
                     <li><span className='font-bold'>طرح الأسئلة: </span> لا تتردد في طرح الأسئلة على البائع حول حالة الأثاث وسبب بيعه.</li>
@@ -90,9 +90,9 @@ const UsedFurniture = () => {
               <div className='py-6' id='1. حراج: موقع شامل لبيع وشراء الأثاث المستعمل'>
 
 
-              <div className='flex justify-end'>
-                <Image className='w-full h-[400px] object-fill' src={img1} alt='اثاث مستعمل' />
-              </div>
+                <div className='flex justify-end'>
+                  <Image className='w-full h-[400px] object-fill' src={img1} alt='اثاث مستعمل' />
+                </div>
                 <h2 className='py-4 font-bold text-lg text-[#00563B]'>1. حراج: موقع شامل لبيع وشراء الأثاث المستعمل
                 </h2>
                 <div>
@@ -145,7 +145,7 @@ const UsedFurniture = () => {
                 <div className='py-6' id='نصائح إضافية لشراء أثاث مستعمل بنجاح:'>
                   <h2 className='py-4 font-bold text-lg text-[#00563B]'>نصائح إضافية لشراء أثاث مستعمل بنجاح:
                   </h2>
-                  <ul className="arabic-li">
+                  <ul className='list-disc'>
                     <li><span className='font-bold'>تأكد من طريقة الدفع:  </span>اتفق على طريقة الدفع مع البائع مسبقًا، سواء نقدًا عند الاستلام أو عن طريق التحويل المصرفي. تجنب الدفع المقدم خاصة عند الشراء من أشخاص غير معروفين.</li>
                     <li><span className='font-bold'>خيارات النقل والتوصيل: </span> إسأل البائع عن إمكانية توصيل الأثاث إلى منزلك، وتحديد التكلفة الإضافية إن وجدت. إذا كنت ستقوم بنقل الأثاث بنفسك، تأكد من توفر وسائل النقل المناسبة لحجم ووزن القطع المشتراة.
                     </li>
@@ -163,7 +163,7 @@ const UsedFurniture = () => {
                   <p className='py-2'>لا تفكر دائمًا بالاستبدال عند الحاجة لتغيير ديكور منزلك.  يمكنك تجديد قطع الأثاث القديمة وإعادة إحيائها بطرق بسيطة وغير مكلفة:
 
                   </p>
-                  <ul className='arabic-li'>
+                  <ul className='list-disc'>
                     <li><span className='font-bold'>أعد طلاء الأثاث: </span>اصبغ قطع الأثاث الخشبية بألوان جديدة لتغيير مظهرها بالكامل.</li>
                     <li><span className='font-bold'>استبدل الأقمشة والمفروشات: </span> قم بتغيير أغطية الوسائد والمفارش القديمة بأخرى جديدة تضيف لمسة عصرية لديكورك.</li>
                     <li><span className='font-bold'>أضف لمسات إبداعية: </span>استخدم ورق الجدران أو الملصقات لتزيين الأسطح الخشبية أو الزجاجية في الأثاث.</li>
@@ -181,8 +181,8 @@ const UsedFurniture = () => {
           </div>
         </div>
         {
-                        <SimilarContent title='/used-furniture'/>
-                    }
+          <SimilarContent title='/used-furniture' />
+        }
       </BlogContainer>
     </>
   )

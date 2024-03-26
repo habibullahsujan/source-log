@@ -208,4 +208,18 @@ export const blogData = [
     categotry: "Home Decor",
     alt: "اثاث مستعمل",
   },
+  {
+    featuredBlog:false,
+    image: blogImages.howToMakeCupcakeFeatureImg,
+    authorName: "Abu Malik Asif",
+    publishedDate: "• 1 March 2024",
+    href: "/how-to-make-cupcake",
+    title:
+      "كيفية صنع كب كيك: دليل شامل لتحضير أشهى أنواع الكب كيك",
+    description:"تُعَد كب كيك من أكثر الحلويات شهرةً وشعبيةً، وتعد وجبة خفيفة شهية تُحبها الجميع. وباستخدام هذا الدليل الشامل، ستتمكن من تحضير مجموعة متنوعة من الكب كيك بسهولة في منزلك. دعونا نكتشف معًا كيفية تحضير أشهى أنواع الكب كيك:",
+
+    tags: ["Food", "Cake"],
+    categotry: "Food",
+    alt: "كاب كيك",
+  },
 ];

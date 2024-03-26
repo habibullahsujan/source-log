@@ -18,7 +18,7 @@ const BestGym = () => {
         { title: '1. Fitness Fusion' },
         { title: '2. Powerhouse Gym' },
         { title: '3. Fit Zone' },
-       
+
         { title: '5. Flex Fitness Center' },
 
 
@@ -124,10 +124,10 @@ const BestGym = () => {
 
             </div>
             <div>
-                    {
-                        <SimilarContent title='/best-gym-riyadh'/>
-                    }
-                </div>
+                {
+                    <SimilarContent title='/best-gym-riyadh' />
+                }
+            </div>
         </BlogContainer>
     )
 }

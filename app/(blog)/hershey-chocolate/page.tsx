@@ -99,25 +99,11 @@ const HersheyChocolate = () => {
               <p className='py-2'>Hershey&apos;s Chocolate has transcended its role as a mere confectionery product to become an integral part of American culture. Distinctive packaging, familiar advertising campaigns and association with childhood memories have cemented Hershey as a symbol of comfort, joy and shared experiences.</p>
               <p className='py-2'>The brand also played an important role in shaping American candy culture. The affordability and accessibility of Hershey&apos;s chocolate has ensured that people from all walks of life enjoy these sweets. In addition, innovative marketing campaigns, featuring memorable characters such as Milton Hershey and Chocolate Quesibles, strengthened the brand&apos;s connection with consumers across generations.</p>
             </div>
-
             <div id='Looking to the future: A sustainable future for Hershey&apos;s chocolate' >
-
-
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>Looking to the Future: A Sustainable Future for Hershey&apos;s Chocolate</h2>
-
-
-
               <p className='text-lg py-2'>As Hershey&apos;s Chocolate begins its next chapter, the company faces the important challenge of ensuring sustainable practices throughout its production chain. From responsibly sourcing cocoa beans to reducing environmental impact, The Hershey Company is implementing effective initiatives to ensure the future of chocolate production and its continued success. </p>
-
-
             </div>
-
-
-
-
-
             <div>
-
               <h2 className='text-xl font-bold pt-14 pb-2 text-[#00563B]'>The lasting appeal of Hershey&apos;s chocolate:</h2>
 
               <p className='text-lg py-2'>Hershey&apos;s chocolate continues to attract consumers around the world due to a combination of factors. Its unique flavours, diverse range of products and rich history all contribute to its enduring popularity. Furthermore, the brand&apos;s cultural significance and commitment to sustainability ensures that Hershey&apos;s will remain an important and cherished part of the confectionery landscape for years to come. For this reason, Hershey&apos;s chocolate is the best <Link className='text-blue-600 hover:underline' href={'https://www.theblogsouce.com/best-chocolate'}>Best Chocolate</Link></ p>
@@ -128,10 +114,10 @@ const HersheyChocolate = () => {
         </div>
       </div>
       <div>
-                    {
-                        <SimilarContent title='/hershey-chocolate'/>
-                    }
-                </div>
+        {
+          <SimilarContent title='/hershey-chocolate' />
+        }
+      </div>
     </BlogContainer>
 
   )
