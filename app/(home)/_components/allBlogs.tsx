@@ -11,10 +11,9 @@ const BlogCard = dynamic(() => import("./blogCard"), {
     ssr: false,
 });
 
-
 const AllBlogs = () => {
     const { style, componentRef } = useScrollGrow();
-    
+
     return (
 
         <div>
@@ -26,12 +25,12 @@ const AllBlogs = () => {
                         index={index}
                         image={blog.image}
                         title={blog.title}
-                        publishedDate={blog.published_date}
+                        publishedDate={blog.publishedDate}
                         content={blog.description}
                         tags={blog.tags}
                         href={blog.href}
                         alt={blog.alt}
-                        author={blog.author_name}
+                        author={blog.authorName}
                     />
                 ))}
             </motion.div>
