@@ -107,7 +107,7 @@ const BestGym = () => {
                             </p>
 
                             <ul className="list-disc">
-                            <li><span className="font-bold">Location:</span>
+                                <li><span className="font-bold">Location:</span>
                                     <span className='block'>Al Khobar - Golden Belt - Men</span><span className='block'>Al Khobar - Al Rakah - Women</span><span className='block'> Dammam - Al Faisaliah - Men</span><span className='block'>Riyadh - Mansoura - men</span>
                                     <span className='block'>Riyadh - Al Yasmeen - Men</span>
 
@@ -131,10 +131,6 @@ const BestGym = () => {
                         </div>
                         <div className='py-4' id="5. Fitness Time KSA">
                             <h2 className='font-bold text-xl pt-1 pb-2'>5. Fitness Time KSA
-
-
-
-
                             </h2>
                             <iframe className='w-full h-[400px] object-cover' src="https://www.instagram.com/fitnesstimesa/embed/"></iframe>
                             <p className='py-2'>Conveniently located in Riyadh but their branches are spread all over the country, Fitness time is a modern gym that caters to individuals of all fitness levels. Equipped with the latest gym technology, Fitness Time offers a diverse range of equipment to target every muscle group effectively. Members can participate in a variety of group fitness classes led by experienced instructors, including yoga, spin, and functional training. What sets Flex Fitness Center apart is its indoor basketball court, providing an additional avenue for members to stay active and engaged. Moreover, the gym offers the services of an on-site nutritionist to help members optimize their diets for optimal performance and results.
@@ -143,7 +139,7 @@ const BestGym = () => {
 
                             <ul className="list-disc">
                                 <li><span className="font-bold">Location:</span>
-They has 174 branches all over the country.
+                                    They has 174 branches all over the country.
 
                                 </li>
                                 <li><span className='font-bold'>Price Range: </span>SAR 115 - SAR 750/month</li>
