@@ -3,16 +3,16 @@ import "./globals.css";
 import { Montserrat } from 'next/font/google'
 import clsx from "clsx";
 import { Toaster } from "@/components/ui/toaster";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import Script from "next/script";
 export const metadata: Metadata = {
-  title: "دليلك لحياة أبسط في المملكة العربية السعودية",
-  description: "اكتشف المعرفة الداخلية والأدلة العملية لتجعل حياتك في المملكة العربية السعودية أسهل وأكثر متعة. اكتشف الحلول الفعالة لكل شيء بدءًا من الأعمال المنزلية وحتى الرعاية الصحية والترفيه.",
+  title: "Your guide to a simpler life in the Kingdom of Saudi Arabia",
+  description: "Discover insider knowledge and practical guides to make your life in Saudi Arabia easier and more enjoyable. Discover effective solutions for everything from household chores to healthcare and entertainment.",
 };
 
 
-const montserrat=Montserrat({
-  weight:['400'],
-  subsets:['latin']
+const montserrat = Montserrat({
+  weight: ['400'],
+  subsets: ['latin']
 })
 
 export default function RootLayout({
@@ -22,8 +22,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
+<head>
+
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-MZSQX9VLV9"/>
+
+<Script id="google-analytics">
+  {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MZSQX9VLV9');
+  `}
+</Script>
+</head>
       <body className={clsx('', montserrat.className)}>{children}<Toaster /></body>
-      <GoogleAnalytics gaId="G-EEQ48444N2" />
     </html>
   );
 }
