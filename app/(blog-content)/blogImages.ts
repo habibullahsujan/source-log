@@ -12,6 +12,7 @@ import usedFurnitureFeatureImg from '@/public/assets/used-farniture-feature.jpeg
 import bestChocolateFeatureImg from '@/public/assets/history-of-chocolate.jpeg'
 import howToMakeCupcakeFeatureImg from '@/public/assets/cup-cake-feature-img.webp';
 import howToGetDrivingLicenseFeatureImg from '@/public/assets/how-to-get-driving-license-feature-img.jpeg'
+import bestCoffeeShopFeatureImg from '@/public/assets/best-coffee-feature.jpg'
 
 
-export const blogImages={howToGetDrivingLicenseFeatureImg,howToMakeCupcakeFeatureImg,kitchenHoodsFeatureImg,seafoodCuisineFeatureImg,hersheyChocolateFeatureImg,touristPlacesRiyadhFeatureImg, teaBlogFeatureImg,carReantalCompanyFeatureImg,bestKitchenFeatureImg,bestHouseRentCompanyFeatureImg,bestGymFeatureImg,usedFurnitureFeatureImg,bestChocolateFeatureImg }
+export const blogImages={howToGetDrivingLicenseFeatureImg,howToMakeCupcakeFeatureImg,kitchenHoodsFeatureImg,seafoodCuisineFeatureImg,hersheyChocolateFeatureImg,touristPlacesRiyadhFeatureImg, teaBlogFeatureImg,carReantalCompanyFeatureImg,bestKitchenFeatureImg,bestHouseRentCompanyFeatureImg,bestGymFeatureImg,usedFurnitureFeatureImg,bestChocolateFeatureImg,bestCoffeeShopFeatureImg }

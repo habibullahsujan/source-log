@@ -47,7 +47,7 @@ export const tags = [
 
 export const blogData = [
   {
-    featuredBlog:true,
+    featuredBlog: true,
     id: "",
     authorId: "",
     image: blogImages.kitchenHoodsFeatureImg,
@@ -64,7 +64,7 @@ export const blogData = [
     userComments: [],
   },
   {
-    featuredBlog:true,
+    featuredBlog: true,
     id: "",
     authorId: "",
     image: blogImages.seafoodCuisineFeatureImg,
@@ -80,7 +80,7 @@ export const blogData = [
     userComments: [],
   },
   {
-    featuredBlog:true,
+    featuredBlog: true,
     id: "",
     authorId: "",
     image: blogImages.hersheyChocolateFeatureImg,
@@ -97,7 +97,7 @@ export const blogData = [
     userComments: [],
   },
   {
-    featuredBlog:true,
+    featuredBlog: true,
     id: "",
     authorId: "",
     image: blogImages.bestChocolateFeatureImg,
@@ -113,7 +113,7 @@ export const blogData = [
     userComments: [],
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     genre: "normal-blog",
     image: blogImages.touristPlacesRiyadhFeatureImg,
     authorName: "Alec Whitten",
@@ -128,7 +128,7 @@ export const blogData = [
     alt: "Best Tourist Places in Riyadh",
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     image: blogImages.teaBlogFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2023",
@@ -142,7 +142,7 @@ export const blogData = [
     alt: "A cup of tea",
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     image: blogImages.carReantalCompanyFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2024",
@@ -155,7 +155,7 @@ export const blogData = [
     alt: "Best car rental company in Saudi Arabia",
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     image: blogImages.bestKitchenFeatureImg,
     authorName: "Habib Ullah",
     publishedDate: "• 1 Jan 2024",
@@ -168,7 +168,7 @@ export const blogData = [
     alt: "A kitchen sink",
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     image: blogImages.bestHouseRentCompanyFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2023",
@@ -182,7 +182,7 @@ export const blogData = [
     alt: "House renting company banner",
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     image: blogImages.bestGymFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2023",
@@ -195,7 +195,7 @@ export const blogData = [
     alt: "A man running in treadmill",
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     image: blogImages.usedFurnitureFeatureImg,
     authorName: "Abu Malik",
     publishedDate: "• 1 March 2024",
@@ -209,41 +209,44 @@ export const blogData = [
     alt: "اثاث مستعمل",
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     image: blogImages.howToMakeCupcakeFeatureImg,
     authorName: "Abu Malik Asif",
     publishedDate: "• 1 March 2024",
     href: "/how-to-make-cupcake",
-    title:
-      "كيفية صنع كب كيك: دليل شامل لتحضير أشهى أنواع الكب كيك",
-    description:"تُعَد كب كيك من أكثر الحلويات شهرةً وشعبيةً، وتعد وجبة خفيفة شهية تُحبها الجميع. وباستخدام هذا الدليل الشامل، ستتمكن من تحضير مجموعة متنوعة من الكب كيك بسهولة في منزلك. دعونا نكتشف معًا كيفية تحضير أشهى أنواع الكب كيك:",
+    title: "كيفية صنع كب كيك: دليل شامل لتحضير أشهى أنواع الكب كيك",
+    description:
+      "تُعَد كب كيك من أكثر الحلويات شهرةً وشعبيةً، وتعد وجبة خفيفة شهية تُحبها الجميع. وباستخدام هذا الدليل الشامل، ستتمكن من تحضير مجموعة متنوعة من الكب كيك بسهولة في منزلك. دعونا نكتشف معًا كيفية تحضير أشهى أنواع الكب كيك:",
 
     tags: ["Food", "Cake"],
     category: "Food",
     alt: "كاب كيك",
   },
   {
-    featuredBlog:false,
+    featuredBlog: false,
     image: blogImages.howToGetDrivingLicenseFeatureImg,
     authorName: "Abu Malik Asif",
     publishedDate: "• 1 April 2024",
     href: "/how-to-get-driving-license-for-women",
-    title:"كيفية حجز موعد للحصول على رخصة قيادة للنساء في المملكة العربية السعودية: القوانين، الرسوم، وإجراءات التقديم",
-description:"تمثل رخصة القيادة حرية واستقلالية مهمة للنساء في المملكة العربية السعودية بعد إلغاء الحظر على قيادة المرأة في عام 2018. ومع ذلك، هناك إجراءات محددة يجب على النساء اتباعها للحصول على رخصة القيادة. دعونا نلقي نظرة على كيفية حجز موعد والحصول على رخصة القيادة للنساء في المملكة العربية السعودية.",
+    title:
+      "كيفية حجز موعد للحصول على رخصة قيادة للنساء في المملكة العربية السعودية: القوانين، الرسوم، وإجراءات التقديم",
+    description:
+      "تمثل رخصة القيادة حرية واستقلالية مهمة للنساء في المملكة العربية السعودية بعد إلغاء الحظر على قيادة المرأة في عام 2018. ومع ذلك، هناك إجراءات محددة يجب على النساء اتباعها للحصول على رخصة القيادة. دعونا نلقي نظرة على كيفية حجز موعد والحصول على رخصة القيادة للنساء في المملكة العربية السعودية.",
     tags: ["Tips and Tricks"],
     category: "Tips and Tricks",
     alt: "رجل يجلس في مقعد السائق",
   },
   {
-    featuredBlog:false,
-    image: blogImages.howToGetDrivingLicenseFeatureImg,
+    featuredBlog: false,
+    image: blogImages.bestCoffeeShopFeatureImg,
     authorName: "Abu Malik Asif",
-    publishedDate: "• 1 April 2024",
+    publishedDate: "• 6 May 2024",
     href: "/best-coffee-shops",
-    title:"كيفية حجز موعد للحصول على رخصة قيادة للنساء في المملكة العربية السعودية: القوانين، الرسوم، وإجراءات التقديم",
-description:"تمثل رخصة القيادة حرية واستقلالية مهمة للنساء في المملكة العربية السعودية بعد إلغاء الحظر على قيادة المرأة في عام 2018. ومع ذلك، هناك إجراءات محددة يجب على النساء اتباعها للحصول على رخصة القيادة. دعونا نلقي نظرة على كيفية حجز موعد والحصول على رخصة القيادة للنساء في المملكة العربية السعودية.",
-    tags: ["Tips and Tricks"],
-    category: "Tips and Tricks",
+    title: "استمتع بأجواء مميزة: اكتشف أفضل 5 مقاهي في الرياض",
+    description:
+      "مع وجود مجموعة متنوعة من المقاهي في الرياض، يمكن أن يكون من الصعب اختيار الأفضل بينها. لذلك، قمنا بتجميع قائمة بأفضل خمسة مقاهي في الرياض التي تقدم تجارب فريدة وأجواء رائعة للزوار:",
+    tags: ["Food"],
+    category: "Food",
     alt: "رجل يجلس في مقعد السائق",
   },
 ];

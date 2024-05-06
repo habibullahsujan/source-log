@@ -6,17 +6,21 @@ import SimilarContent from '@/app/(components)/similarContent'
 import Image from 'next/image'
 import ContentTable from '@/app/(components)/contentTable'
 import featuredImg from '@/public/assets/best-coffee-feature.jpg'
+import { Metadata } from 'next'
 
+
+export const metadata: Metadata = {
+    title: "أفضل 5 مقاهي في الرياض: تجارب لا تُنسى",
+    description: "اكتشف أفضل المقاهي في الرياض التي تقدم تجارب فريدة وأسعار معقولة. استمتع بأجواء رائعة ومشروبات لذيذة!",
+  };
 const BestCoffeeShops = () => {
 
     const tableContents = [
-        { title: "A Journey Through Time: The Enchanting History of Chocolate" },
-        { title: "The Art of Chocolate Crafting: From Bean to Bar" },
-        { title: "A World of Choices: Exploring the Diverse Landscape of Chocolate Companies" },
-        { title: "Demystifying Ingredients: Revealing the Secrets Behind Chocolate's Allure" },
-        { title: "Navigating the Chocolate Aisle: A Guide to Different Classe" },
-        { title: "Beyond Indulgence: The Holistic Effect of Chocolate" },
-        { title: "Bottom line: A celebration of chocolate in all its forms" }
+        { title: "1.مقهى القهوة السوداء" },
+        { title: "2. مقهى الشاي الأخضر" },
+        { title: "3. مقهى الكابتشينو الذهبي" },
+        { title: "4. مقهى القهوة المختصة" },
+        { title: "5. 1/2 million cafe" }
     ]
     return (
         <>
@@ -52,7 +56,7 @@ const BestCoffeeShops = () => {
                         </div>
                         <article>
                             <p className='text-lg'>مع وجود مجموعة متنوعة من المقاهي في الرياض، يمكن أن يكون من الصعب اختيار الأفضل بينها. لذلك، قمنا بتجميع قائمة بأفضل خمسة مقاهي في الرياض التي تقدم تجارب فريدة وأجواء رائعة للزوار:</p>
-                            <div className='py-4' id='The art of chocolate crafting: from bean to bar'>
+                            <div className='py-4' id='1.مقهى القهوة السوداء'>
                                 <h2 className='font-bold text-4xl py-8'>1.مقهى القهوة السوداء
                                 </h2>
                                 <div className=' my-8'>
@@ -68,7 +72,7 @@ const BestCoffeeShops = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='py-4' id='The art of chocolate crafting: from bean to bar'>
+                            <div className='py-4' id=' 2. مقهى الشاي الأخضر'>
                                 <h2 className='font-bold text-4xl py-8'>
                                     2. مقهى الشاي الأخضر
 
@@ -90,7 +94,7 @@ const BestCoffeeShops = () => {
                                 </ul>
                             </div>
 
-                            <div className='py-4' id='The art of chocolate crafting: from bean to bar'>
+                            <div className='py-4' id='3. مقهى الكابتشينو الذهبي'>
                                 <h2 className='font-bold text-4xl py-8'>3. مقهى الكابتشينو الذهبي
 
                                 </h2>
@@ -113,7 +117,7 @@ const BestCoffeeShops = () => {
 
 
 
-                            <div className='py-4' id='The art of chocolate crafting: from bean to bar'>
+                            <div className='py-4' id='4. مقهى القهوة المختصة'>
                                 <h2 className='font-bold text-4xl py-8'>4. مقهى القهوة المختصة
 
                                 </h2>
@@ -134,7 +138,7 @@ const BestCoffeeShops = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='py-4' id='The art of chocolate crafting: from bean to bar'>
+                            <div className='py-4' id='5. 1/2 million cafe'>
                                 <h2 className='font-bold text-4xl py-8'>5. 1/2 million cafe
                                 </h2>
                                 <div className="my-8">
@@ -152,6 +156,9 @@ const BestCoffeeShops = () => {
                                     </li>
                                 </ul>
                             </div>
+                            <p>استمتع بتجربة فريدة في أحد هذه المقاهي الرائعة واستمتع بأجواء مريحة ومشروبات شهية!
+
+</p>
                         </article>
                     </div>
                 </div>
