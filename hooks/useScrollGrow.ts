@@ -9,7 +9,7 @@ const useScrollGrow = () => {
   });
 
   const scaleValues = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
-  const opacityValues = useTransform(scrollYProgress, [0, 1], [0.3, 1]);
+  const opacityValues = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
 
   const style = {
     scale: scaleValues,

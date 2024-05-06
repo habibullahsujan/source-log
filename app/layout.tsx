@@ -5,8 +5,8 @@ import clsx from "clsx";
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleAnalytics } from '@next/third-parties/google'
 export const metadata: Metadata = {
-  title: "Unveiling Essential Tools, Tempting Recipes, and Lifestyle Wonders",
-  description: "Join us on a culinary adventure as we delve into essential kitchen tools, share mouthwatering recipes, and offer lifestyle tips to enrich your daily routine.",
+  title: "دليلك لحياة أبسط في المملكة العربية السعودية",
+  description: "اكتشف المعرفة الداخلية والأدلة العملية لتجعل حياتك في المملكة العربية السعودية أسهل وأكثر متعة. اكتشف الحلول الفعالة لكل شيء بدءًا من الأعمال المنزلية وحتى الرعاية الصحية والترفيه.",
 };
 
 

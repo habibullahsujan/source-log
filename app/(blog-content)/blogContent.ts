@@ -234,4 +234,16 @@ description:"تمثل رخصة القيادة حرية واستقلالية مه
     category: "Tips and Tricks",
     alt: "رجل يجلس في مقعد السائق",
   },
+  {
+    featuredBlog:false,
+    image: blogImages.howToGetDrivingLicenseFeatureImg,
+    authorName: "Abu Malik Asif",
+    publishedDate: "• 1 April 2024",
+    href: "/best-coffee-shops",
+    title:"كيفية حجز موعد للحصول على رخصة قيادة للنساء في المملكة العربية السعودية: القوانين، الرسوم، وإجراءات التقديم",
+description:"تمثل رخصة القيادة حرية واستقلالية مهمة للنساء في المملكة العربية السعودية بعد إلغاء الحظر على قيادة المرأة في عام 2018. ومع ذلك، هناك إجراءات محددة يجب على النساء اتباعها للحصول على رخصة القيادة. دعونا نلقي نظرة على كيفية حجز موعد والحصول على رخصة القيادة للنساء في المملكة العربية السعودية.",
+    tags: ["Tips and Tricks"],
+    category: "Tips and Tricks",
+    alt: "رجل يجلس في مقعد السائق",
+  },
 ];

@@ -1,6 +1,5 @@
-
-import { Metadata } from 'next';
-import React from 'react'
+'use client'
+import React, { useRef } from 'react'
 import BlogContainer from '../blogContainer';
 import { Home } from 'lucide-react';
 import Link from 'next/link';
@@ -8,15 +7,13 @@ import ContentTable from '@/app/(components)/contentTable';
 import Image from 'next/image';
 import featuredImage from '@/public/assets/featured-blog-car-rental-company.jpeg'
 import SimilarContent from '@/app/(components)/similarContent';
-export const metadata: Metadata = {
-    title: 'Best Car Rental Company | Top Picks',
-    description: 'Top 10 car rental companies in KSA offer diverse vehicle models, and competitive pricing. Find your ideal rental provider today!'
-};
+import { motion, useScroll } from 'framer-motion';
+
 
 
 
 const BestCarRentalCompany = () => {
-
+    const { scrollYProgress } = useScroll()
 
     const tableContents = [
         { title: '1. Hanco Rent a Car' },
@@ -33,7 +30,9 @@ const BestCarRentalCompany = () => {
 
     return (
         <>
+            <motion.div className='bg-red-400 h-1 sticky top-16 left-0 z-50' style={{ scaleX: scrollYProgress }} />
             <BlogContainer className='text-left mx-2 md:mx-16 py-32'>
+
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
                     <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-car-rental-company'}>Best-Car-Rental-Company</Link>
                 </div>
