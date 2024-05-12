@@ -1,11 +1,11 @@
 'use client'
-import React, { useRef } from 'react'
+import React from 'react'
 import BlogContainer from '../blogContainer';
 import { Home } from 'lucide-react';
 import Link from 'next/link';
 import ContentTable from '@/app/(components)/contentTable';
 import Image from 'next/image';
-import featuredImage from '@/public/assets/featured-blog-car-rental-company.jpeg'
+import featuredImage from '@/public/assets/standing-car-for-rental-service.jpeg'
 import SimilarContent from '@/app/(components)/similarContent';
 import { motion, useScroll } from 'framer-motion';
 
@@ -34,7 +34,7 @@ const BestCarRentalCompany = () => {
             <BlogContainer className='text-left mx-2 md:mx-16 py-32'>
 
                 <div className='flex items-center gap-x-4 py-7 text-lg'>
-                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-car-rental-company'}>Best-Car-Rental-Company</Link>
+                    <Link href={'/'}><Home className='h-4 w-4' /></Link> / <Link href={'/best-car-rental-companies-in-saudi-arabia'}>best-car-rental-companies-in-saudi-arabia</Link>
                 </div>
                 <div className='grid grid-cols-12 gap-x-5'>
                     <div className="col-span-12  lg:col-span-4">
@@ -58,18 +58,18 @@ const BestCarRentalCompany = () => {
                         <h1 className='font-bold text-4xl text-[#00563B]'>Best Car Rental Companies in Saudi Arabia</h1>
                         <div className='my-10'>
                             <div className='flex justify-end'>
-                                <Image className='w-full h-[400px] object-fill' src={featuredImage} alt='best car rental company' />
+                                <Image className='w-full h-[400px] object-fill' src={featuredImage} alt='many car standing for rental srevice' />
                             </div>
                             <span className='cursor-pointer text-sky-400'>source: <Link className='text-blue-500 underline' target='_blank' href={'https://pexels.com/'} >pexels.com</Link></span>
                         </div>
                         <article>
                             <div>
                                 <p className=' py-4'>
-                                    Planning a trip to Saudi Arabia and in need of reliable transportation? Look no further! We&apos;ve curated a list of the top 10 car rental companies across the Kingdom to ensure your journey is smooth and hassle-free.
+                                    Planning a trip to Saudi Arabia and in need of reliable transportation? Look no further! We&apos;ve curated a list of the top 10 best car rental companies in Saudi Arabia to ensure your journey is smooth and hassle-free.
                                 </p>
 
                                 <div>
-                                    <h2 className='font-bold text-xl text-[#00563B] py-4'>How to Rent a Car in Saudi Arabia</h2>
+                                    <h2 className='font-bold text-xl text-[#00563B] py-4'>How to Rent a Car in Saudi Arabia Here, we suggest the top 10 best car rental companies in Saudi Arabia.</h2>
                                     <ol>
                                         <li>
                                             <span className='font-bold'>Research and Compare:</span>
@@ -92,8 +92,11 @@ const BestCarRentalCompany = () => {
                                     </ol>
                                 </div>
                             </div>
-                            <div className='py-4' id='1. Hanco Rent a Car'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>1. Hanco Rent a Car</h2>
+                            <h2 className='font-bold text-xl pt-16'>This article explores the top 10 best car rental companies in Saudi Arabia.</h2>
+                            <div className='py-16' id='1. Hanco Rent a Car'>
+
+                                <h2 className=' text-[#00563B] font-bold text-lg py-8'>1. Hanco Rent a Car is one of the best car companies in Saudi Arabia.</h2>
+                                <iframe className='w-full h-[400px] object-cover' src="https://www.instagram.com/hanco_easternregion/embed/"></iframe>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location: </span>Hanco has branches across major cities in Saudi Arabia, including Riyadh, Jeddah, Dammam, and more.</li>
                                     <li>
@@ -108,7 +111,9 @@ const BestCarRentalCompany = () => {
                                 </ul>
                             </div>
                             <div className='py-4' id='2. Budget Saudi Arabia'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>2. Budget Saudi Arabia</h2>
+                                <h2 className=' text-[#00563B] font-bold text-lg py-8'>2. The second-best automobile rental company in Saudi Arabia is Budget Saudi Arabia.</h2>
+
+                                <iframe className='w-full h-[400px] object-cover' src="https://www.instagram.com/budgetsaudi/embed/"></iframe>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location: </span>Budget operates in key cities such as Riyadh, Jeddah, Dammam, and Medina, with multiple convenient locations within each city.</li>
                                     <li>
@@ -123,7 +128,8 @@ const BestCarRentalCompany = () => {
                                 </ul>
                             </div>
                             <div className='py-4' id='3. Avis Saudi Arabia'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>3. Avis Saudi Arabia</h2>
+                                <h2 className=' text-[#00563B] font-bold text-lg py-8'>3. The third-best vehicle rental company in Saudi Arabia is Avis Saudi Arabia.</h2>
+                                <iframe className='w-full h-[400px] object-cover' src="https://www.instagram.com/avis_saudi/embed/"></iframe>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location:</span>Avis has a widespread presence in major cities across Saudi Arabia, including Riyadh, Jeddah, and Khobar.</li>
                                     <li>
@@ -134,12 +140,14 @@ const BestCarRentalCompany = () => {
                                     <li><span className='font-bold'>Available Vehicle Models: </span>Top brands such as BMW, Mercedes-Benz, and Audi in various classes.</li>
                                     <li>
                                         <span className='font-bold'>Contact: </span>
-                                        Book your rental online or email inquiries to info@avis.com.sa or <Link target='_blank' className='text-blue-500 underline' href={'https://www.avis.com/en/home'}> official website</Link>.
+                                        Book your rental online or email inquiries to info@avis.com.sa or <Link target='_blank' className='text-blue-500 underline' href={'https://book.avis.com.sa/'}>Book your ride now.</Link>.
                                     </li>
                                 </ul>
                             </div>
                             <div className='py-4' id='4. Sixt Saudi Arabia'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>4. Sixt Saudi Arabia</h2>
+                                <h2 className=' text-[#00563B] font-bold text-lg py-8'>4. The fourth-best vehicle rental firm in Saudi Arabia is Sixt Saudi Arabia.</h2>
+
+                                <iframe className='w-full h-[400px] object-cover' src="https://www.instagram.com/sixt_ksa/embed/"></iframe>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location:</span>Sixt operates in various cities in Saudi Arabia, with branches at major airports and downtown areas.</li>
                                     <li>
@@ -155,7 +163,9 @@ const BestCarRentalCompany = () => {
                                 </ul>
                             </div>
                             <div className='py-4' id='5. Enterprise Rent-A-Car'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>5. Enterprise Rent-A-Car</h2>
+                                <h2 className=' text-[#00563B] font-bold text-lg py-8'>5. Enterprise Rent-A-Car is the fifth-best car rental company in Saudi Arabia.</h2>
+
+                                <iframe className='w-full h-[400px] object-cover' src="https://www.instagram.com/ajarsaudi/embed/"></iframe>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location:</span>Enterprise offers branches in over 85 countries and territories worldwide, including major cities in Saudi Arabia.</li>
                                     <li>
@@ -171,7 +181,9 @@ const BestCarRentalCompany = () => {
                                 </ul>
                             </div>
                             <div className='py-4' id='6. Hertz Saudi Arabia'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>6. Hertz Saudi Arabia</h2>
+                                <h2 className=' text-[#00563B] font-bold text-lg py-8'>6. The sixth-best vehicle rental firm in Saudi Arabia is Hertz Saudi Arabia.</h2>
+
+                                <iframe className='w-full h-[400px] object-cover' src="https://www.instagram.com/ajarsaudi/embed/"></iframe>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location:</span>Hertz operates in over 150 countries, providing extensive coverage in Saudi Arabia.</li>
                                     <li>
@@ -187,7 +199,7 @@ const BestCarRentalCompany = () => {
                                 </ul>
                             </div>
                             <div className='py-4' id='7. National Car Rental'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>7. National Car Rental</h2>
+                                <h2 className='py-8 font-bold text-lg text-[#00563B]'>7. National Car Rental is the seventh-best car rental company in Saudi Arabia.</h2>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location:</span>National Car Rental has a presence in numerous countries, including Saudi Arabia.</li>
                                     <li>
@@ -203,7 +215,7 @@ const BestCarRentalCompany = () => {
                                 </ul>
                             </div>
                             <div className='py-4' id='8. Dollar Rent A Car'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>8. Dollar Rent A Car</h2>
+                                <h2 className='py-8 font-bold text-lg text-[#00563B]'>8. In Saudi Arabia, Dollar Rent-A-Car ranks as the eighth-best car rental company.</h2>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location:</span>Dollar operates in major cities, airports, and travel destinations globally, including Saudi Arabia.</li>
                                     <li>
@@ -221,7 +233,8 @@ const BestCarRentalCompany = () => {
 
                             <div className='py-4' id='9. Thrifty Car Rental
 '>
-                                <h2 className='font-bold text-lg text-[#00563B]'>9. Thrifty Car Rental
+                                <h2 className='py-8 font-bold text-lg text-[#00563B]'>9. In Saudi Arabia, Thrifty Car Rental ranks ninth among car rental companies.
+
                                 </h2>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location:</span>Thrifty Car Rental has a widespread presence in North America, Europe, Asia, and Saudi Arabia.</li>
@@ -238,7 +251,10 @@ const BestCarRentalCompany = () => {
                                 </ul>
                             </div>
                             <div className='py-4' id='10. Europcar Saudi Arabia'>
-                                <h2 className='font-bold text-lg text-[#00563B]'>10. Europcar Saudi Arabia</h2>
+
+
+                                <h2 className='py-8 font-bold text-lg text-[#00563B]'>10. Europcar Saudi Arabia ranks as the ninth most reputable automobile rental company in Saudi Arabia.
+                                </h2>
                                 <ul className="list-disc">
                                     <li><span className='font-bold'>Location:</span>Europcar operates in over 140 countries, including Saudi Arabia.</li>
                                     <li>

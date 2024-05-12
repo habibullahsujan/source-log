@@ -145,14 +145,14 @@ export const blogData = [
     featuredBlog: false,
     image: blogImages.carReantalCompanyFeatureImg,
     authorName: "Alec Whitten",
-    publishedDate: "• 1 Jan 2024",
-    title: "Best car rental company in Saudi Arabia",
-    href: "/best-car-rental-company",
+    publishedDate: "12 Feb 2024",
+    title: "Best Car Rental Companies in Saudi Arabia",
+    href: "/best-car-rental-companies-in-saudi-arabia",
     description:
       "Planning a trip to Saudi Arabia and in need of reliable transportation? Look no further! We've curated a list of the top 10 car rental companies across the Kingdom to ensure your journey is smooth and hassle-free.",
     tags: ["Travel", "Tips and Guide"],
     category: "Tips and guide",
-    alt: "Best car rental company in Saudi Arabia",
+    alt: "Standing car for rental service",
   },
   {
     featuredBlog: false,
