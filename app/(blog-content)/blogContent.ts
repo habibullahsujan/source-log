@@ -186,8 +186,8 @@ export const blogData = [
     image: blogImages.bestGymFeatureImg,
     authorName: "Alec Whitten",
     publishedDate: "• 1 Jan 2023",
-    href: "/best-gym-riyadh",
-    title: "Best Gym Destinations in Riyadh",
+    href: "/top-5-best-gyms-in-riyadh",
+    title: "Top 5 best gyms in Riyadh",
     description:
       "Are you on the hunt for the best gym in Riyadh to kickstart your fitness journey? Look no further! We&apos;ve curated a comprehensive guide to the top fitness centers in the city, each offering a unique blend of facilities, expert training, and welcoming environments to help you reach your fitness goals.",
     tags: ["Fitness", "Tips and Guide", "Gym"],
