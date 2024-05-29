@@ -199,7 +199,7 @@ export const blogData = [
     image: blogImages.usedFurnitureFeatureImg,
     authorName: "Abu Malik",
     publishedDate: "• 1 March 2024",
-    href: "/used-furniture",
+    href: "/buy-used-furniture",
     title:
       "أثاث مستعمل في السعودية. دليل شامل لشراء أثاث مستعمل مرضي عبر الإنترنت.",
     description:
