@@ -30,7 +30,7 @@ const UsedFurniture = () => {
     <>
       <BlogContainer className='mx-2 md:mx-16 py-32 arabic-content-container'>
         <div className='flex items-center gap-x-1 py-7 text-lg'>
-          <Link href={'/'}><Home className='h-4 w-4' /></Link><ChevronRight /> <Link href={'/used-furniture'}>Used Furniture</Link>
+          <Link href={'/'}><Home className='h-4 w-4' /></Link><ChevronRight /> <Link href={'/buy-used-furniture'}>Used Furniture</Link>
         </div>
         <div className='grid grid-cols-12 gap-x-5'>
           <div className="col-span-12  lg:col-span-4">

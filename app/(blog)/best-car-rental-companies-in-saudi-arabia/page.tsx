@@ -281,7 +281,7 @@ const BestCarRentalCompany = () => {
                 </div>
                 <div>
                     {
-                        <SimilarContent title='/best-car-rental-company' />
+                        <SimilarContent title='/best-car-rental-companies-in-saudi-arabia' />
                     }
                 </div>
             </BlogContainer>
